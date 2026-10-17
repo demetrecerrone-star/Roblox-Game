@@ -1,0 +1,107 @@
+name: Build and publish Runewake
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - default.project.json
+      - 'src/**'
+      - .github/workflows/runewake-publish.yml
+  workflow_dispatch:
+
+# The workflow only reads repository source. No Roblox credentials are stored in files.
+permissions:
+  contents: read
+
+concurrency:
+  group: runewake-place-publish
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    name: Build place, validate, publish to existing Roblox place
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      ROBLOX_UNIVERSE_ID: '1831369670'
+      ROBLOX_PLACE_ID: '5233405723'
+    steps:
+      - name: Checkout Runewake source
+        uses: actions/checkout@v4
+
+      - name: Install official Rojo 7.7.1 CLI
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --silent --show-error             'https://github.com/rojo-rbx/rojo/releases/download/v7.7.1/rojo-7.7.1-linux-x86_64.zip'             --output /tmp/rojo.zip
+          mkdir -p /tmp/rojo-bin "$HOME/.local/bin"
+          unzip -q /tmp/rojo.zip -d /tmp/rojo-bin
+          install -m 755 /tmp/rojo-bin/rojo "$HOME/.local/bin/rojo"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/rojo" --version
+
+      - name: Build Runewake place file
+        shell: bash
+        run: |
+          set -euo pipefail
+          rojo build default.project.json -o Runewake.rbxlx
+
+      - name: Validate build before publishing
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import xml.etree.ElementTree as ET
+
+          path = "Runewake.rbxlx"
+          size = os.path.getsize(path)
+          assert 3000 < size <= 10 * 1024 * 1024, f"Unexpected place-file size: {size} bytes"
+          root = ET.parse(path).getroot()
+          assert root.tag.lower() == "roblox", "Rojo did not create a Roblox XML file"
+          classes = [item.get("class") for item in root.iter("Item")]
+          assert "Script" in classes, "Server startup script missing from place"
+          assert "LocalScript" in classes, "Mobile HUD script missing from place"
+          assert classes.count("ModuleScript") >= 3, "Shared catalog and server modules are missing"
+          print(f"Build validated: {size} bytes, {classes.count('Script')} Script, "
+                f"{classes.count('LocalScript')} LocalScript, "
+                f"{classes.count('ModuleScript')} ModuleScripts.")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+              summary.write(f"## Runewake build\n\nValidated XML place: {size:,} bytes.\n\n")
+          PY
+
+      - name: Archive playable place file
+        uses: actions/upload-artifact@v4
+        with:
+          name: Runewake-v0.1-place
+          path: Runewake.rbxlx
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Publish to approved Roblox starter place
+        shell: bash
+        env:
+          ROBLOX_API_KEY: ${{ secrets.ROBLOX_API_KEY }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${ROBLOX_API_KEY:-}" ]]; then
+            echo "::error::ROBLOX_API_KEY is missing. Add it as a GitHub Actions repository secret."
+            exit 1
+          fi
+          URL="https://apis.roblox.com/universes/v1/${ROBLOX_UNIVERSE_ID}/places/${ROBLOX_PLACE_ID}/versions?versionType=Published"
+          STATUS="$(curl --silent --show-error --location --request POST             --header "x-api-key: ${ROBLOX_API_KEY}"             --header "Content-Type: application/xml"             --data-binary @Runewake.rbxlx             --output roblox-response.json             --write-out '%{http_code}'             "$URL")"
+          if [[ "$STATUS" != "200" ]]; then
+            echo "::error::Roblox publishing failed with HTTP $STATUS"
+            cat roblox-response.json
+            exit 1
+          fi
+          python3 - <<'PY'
+          import json
+          import os
+          response = json.load(open("roblox-response.json", encoding="utf-8"))
+          version = response.get("versionNumber")
+          if not isinstance(version, int) or version < 1:
+              raise SystemExit(f"Roblox did not return a valid place version: {response}")
+          print(f"SUCCESS: Published Runewake to Roblox place 5233405723 as version {version}.")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+              summary.write(f"**Roblox confirmed place version {version} was Published.**\n\n")
+          PY
