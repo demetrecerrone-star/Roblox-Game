@@ -70,6 +70,67 @@ questConstraint.MinSize = Vector2.new(225, 52)
 questConstraint.Parent = questBox
 local questLabel = label(questBox, "CurrentQuest", "QUEST: Talk to Mira Threadlight.", UDim2.new(1, -18, 1, -8), UDim2.fromOffset(9, 4), 13)
 
+-- Tap this bar to cycle through the important town locations.
+local navTargets = {
+    { name = "MIRA (QUEST)", point = Vector3.new(-16, 4, -7) },
+    { name = "ORREN (SMITH)", point = Vector3.new(24, 4, -7) },
+    { name = "PIP (TRADER)", point = Vector3.new(25, 4, 17) },
+    { name = "DUNGEON", point = Vector3.new(-58, 7, 0) },
+}
+local navIndex = 1
+local nav = Instance.new("TextButton")
+nav.Name = "NPC Wayfinder"
+nav.Position = UDim2.fromOffset(12, 206)
+nav.Size = UDim2.new(0.78, 0, 0, 36)
+nav.BackgroundColor3 = Color3.fromRGB(35, 61, 72)
+nav.BackgroundTransparency = 0.06
+nav.TextColor3 = Color3.fromRGB(199, 255, 232)
+nav.Font = Enum.Font.GothamBold
+nav.TextSize = 14
+nav.Text = "FIND MIRA - TAP TO CHANGE"
+nav.Parent = gui
+corner(nav, 8)
+local navConstraint = Instance.new("UISizeConstraint")
+navConstraint.MaxSize = Vector2.new(380, 36)
+navConstraint.MinSize = Vector2.new(225, 36)
+navConstraint.Parent = nav
+nav.Activated:Connect(function()
+    navIndex = navIndex % #navTargets + 1
+end)
+task.spawn(function()
+    while nav.Parent do
+        local char = player.Character
+        local root = char and char:FindFirstChild("HumanoidRootPart")
+        if root then
+            if root.Position.X > 345 then
+                local delta = Vector3.new(400, 0, -125) - Vector3.new(root.Position.X, 0, root.Position.Z)
+                nav.Text = string.format("EXIT PORTAL: %d studs away", math.floor(delta.Magnitude))
+            else
+                local target = navTargets[navIndex]
+                local delta = Vector3.new(target.point.X, 0, target.point.Z)
+                    - Vector3.new(root.Position.X, 0, root.Position.Z)
+                local distance = math.floor(delta.Magnitude)
+                local arrow = "•"
+                local camera = workspace.CurrentCamera
+                if camera and delta.Magnitude > 0.5 then
+                    local right = camera.CFrame.RightVector
+                    local forward = camera.CFrame.LookVector
+                    local direction = delta.Unit
+                    local lr = right.X * direction.X + right.Z * direction.Z
+                    local fb = forward.X * direction.X + forward.Z * direction.Z
+                    if math.abs(lr) > math.abs(fb) then
+                        arrow = lr > 0 and "→" or "←"
+                    else
+                        arrow = fb > 0 and "↑" or "↓"
+                    end
+                end
+                nav.Text = string.format("%s  %s  %d studs  [TAP]", target.name, arrow, distance)
+            end
+        end
+        task.wait(0.3)
+    end
+end)
+
 local attack = Instance.new("TextButton")
 attack.Name = "Attack"
 attack.AnchorPoint = Vector2.new(1, 1)
@@ -159,10 +220,52 @@ for _, key in ipairs({"Level", "Gold", "XP", "NextXP", "WeaponLevel", "Shards", 
 end
 refresh()
 
+-- Arm rotation plus a visible slash flash; no externally published animation
+-- asset is needed for this starter swing. Works with R15 or R6 avatar rigs.
+local function showSwing()
+    local char = player.Character
+    local shoulder = char and (char:FindFirstChild("RightShoulder", true)
+        or char:FindFirstChild("Right Shoulder", true))
+    if shoulder and shoulder:IsA("Motor6D") then
+        local originalC0 = shoulder.C0
+        local windup = TweenService:Create(shoulder,
+            TweenInfo.new(0.12, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+            {C0 = originalC0 * CFrame.Angles(math.rad(-55), math.rad(-12), math.rad(40))})
+        windup:Play()
+        windup.Completed:Once(function()
+            if shoulder.Parent then
+                TweenService:Create(shoulder,
+                    TweenInfo.new(0.22, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
+                    {C0 = originalC0}):Play()
+            end
+        end)
+    end
+    local root = char and char:FindFirstChild("HumanoidRootPart")
+    if root then
+        local flash = Instance.new("Part")
+        flash.Name = "Sword slash (local visual)"
+        flash.Shape = Enum.PartType.Block
+        flash.Size = Vector3.new(4.5, 0.14, 0.25)
+        flash.Material = Enum.Material.Neon
+        flash.Color = Color3.fromRGB(100, 255, 225)
+        flash.Transparency = 0.3
+        flash.Anchored = true
+        flash.CanCollide = false
+        flash.CanTouch = false
+        flash.CFrame = root.CFrame * CFrame.new(0, 1, -4)
+            * CFrame.Angles(0, 0, math.rad(-24))
+        flash.Parent = workspace
+        TweenService:Create(flash, TweenInfo.new(0.23),
+            {Transparency = 1, Size = Vector3.new(5.5, 0.05, 0.15)}):Play()
+        task.delay(0.25, function() flash:Destroy() end)
+    end
+end
+
 local nextAttack = 0
 local function swing()
     if os.clock() < nextAttack then return end
     nextAttack = os.clock() + 0.57
+    showSwing()
     signal:FireServer("Attack")
     attack.BackgroundColor3 = Color3.fromRGB(102, 175, 170)
     TweenService:Create(attack, TweenInfo.new(0.38), {BackgroundColor3 = Color3.fromRGB(63, 128, 143)}):Play()
