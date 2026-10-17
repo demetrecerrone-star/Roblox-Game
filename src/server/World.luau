@@ -34,7 +34,7 @@ local function label(adornee, words, width, height, offset)
     gui.Size = UDim2.fromOffset(width or 210, height or 46)
     gui.StudsOffsetWorldSpace = offset or Vector3.new(0, 4, 0)
     gui.AlwaysOnTop = true
-    gui.MaxDistance = 95
+    gui.MaxDistance = 220
     gui.Parent = adornee
     local text = Instance.new("TextLabel")
     text.Size = UDim2.fromScale(1, 1)
