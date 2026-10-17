@@ -5,17 +5,28 @@ A fantasy RPG and dungeon-adventure game for Roblox, developed through a phone-m
 ## Approved direction
 
 - Game title: **Runewake** (pronounced "rune-wake").
-- Genre: a mixture of fantasy RPG and dungeon adventure.
+- Genre: fantasy RPG mixed with dungeon adventure.
+- First playable scope: a small starter town linked to one dungeon, with mobile-friendly combat, loot, upgrades, and a boss.
+- NPCs and monsters should be unique.
 - Development repository: `demetrecerrone-star/Roblox-Game` (repository name unchanged).
-- This is a separate project from Adventure Odyssey and Aetherfall.
+- This is separate from Adventure Odyssey and Aetherfall.
 
-The title and genre are approved. Detailed mechanics, art direction, and scope remain to be decided.
+## Actual implementation status
 
-## First playable milestone — proposal, not implemented
+There is no playable game build yet. Before the character-definition commit, the repository contained only this README and the non-publishing setup-check workflow.
 
-Start with a small starter town connected to one dungeon. Establish mobile controls, basic combat, enemy encounters, treasure, and one boss before expanding the world or adding more progression systems.
+`src/shared/CharacterCatalog.luau` now contains the first data definitions for three NPCs, two regular enemies, and one boss. Each has a distinct silhouette, role or combat-pattern specification, and motion brief. Enemy tuning and rewards are provisional. These individual names and designs are implementation proposals, not separately approved final artwork.
 
-Suggested gameplay loop: prepare in town, explore the dungeon, collect loot, return to improve equipment, and venture farther. This is a planning proposal rather than a claim that these features exist or have been approved individually.
+The catalog is data only. It does not create 3D models, animate characters, run AI, award loot, or wire up quests. It has not been playtested. The starter town, dungeon, character models, behavior handlers, player combat, loot, upgrade services, and game-build workflow still need implementation.
+
+### Initial character proposals
+
+- Mira Threadlight: rune-compass cartographer and first dungeon quest contact.
+- Orren Kilnhand: smith with a glass-forged forearm and equipment upgrade role.
+- Pip Wicks: lantern-pack courier and salvage trader.
+- Shardback: six-legged crystal burrower with a telegraphed straight charge.
+- Bellwisp: cracked floating bell that orbits and warns before a close-range pulse.
+- Rootbound Warden: root-held stone gate guardian with distinct slam and sweep attacks.
 
 ## Publishing target
 
@@ -25,19 +36,17 @@ Suggested gameplay loop: prepare in town, explore the dungeon, collect loot, ret
 - Place ID: `5233405723`
 - GitHub Actions repository secret name: `ROBLOX_API_KEY`
 
-Updating this README does not rename the live Roblox experience or publish game files. The live dashboard title change remains a separate step.
+Repository changes do not rename the live Roblox experience or publish game files. The live dashboard title change is a separate step. No Roblox upload was made during this update.
 
 Keep the generated Roblox key only in GitHub Actions secrets or a password manager. Never commit the key or a Roblox login cookie.
 
-## Current stage
+## Setup check
 
-Repository initialization and non-publishing setup checks, with the game title and genre now selected. No game files have been uploaded to Roblox from this repository. This naming update changes documentation only.
-
-The `Roblox setup check (no publish)` workflow checks that GitHub Actions can access a non-empty secret without printing its value or contacting Roblox. It runs when its workflow file is pushed and can also be started manually from the Actions tab. It does not validate Roblox authentication, publishing permissions, or ownership of the configured IDs.
+The `Roblox setup check (no publish)` workflow checks that GitHub Actions can access a non-empty secret without printing its value or contacting Roblox. It runs when its workflow file is pushed and can also be started manually from the Actions tab. It does not validate Roblox authentication, publishing permissions, or ownership of the configured IDs. A passing setup check is not a successful game build or playtest.
 
 ## Publishing safety
 
-Build validation must be separate from deployment. Do not publish a test baseplate over the existing Roblox place. The first upload requires the owner's explicit approval after the game files and target are reviewed. Adding repository files or running this setup check does not trigger a Roblox upload.
+Build validation must be separate from deployment. Do not publish a test baseplate over the existing Roblox place. The first upload requires the owner's explicit approval after the game files and target are reviewed. Adding these repository files does not trigger a Roblox upload.
 
 ## Documentation
 
