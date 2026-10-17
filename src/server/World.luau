@@ -2,6 +2,8 @@
 -- All content is generated on the server; no external models or asset IDs are required.
 local World = {}
 local Lighting = game:GetService("Lighting")
+local InsertService = game:GetService("InsertService")
+local NPCAssets = require(script.Parent:WaitForChild("NpcAppearance"))
 
 local STONE = Color3.fromRGB(94, 99, 112)
 local DARK = Color3.fromRGB(45, 50, 69)
@@ -122,6 +124,61 @@ local function npc(parent, name, at, tunic, accent, accessory)
     return prompt(body, "Talk", name, 13)
 end
 
+-- Real, Creator-owned NPC models when approved asset IDs are set.
+-- Until uploads are available, keep the current interactive NPC stand-ins.
+local function dressedNpc(assetKey, parent, name, at, tunic, accent, accessory)
+    local assetId = NPCAssets[assetKey]
+    if type(assetId) == "number" and assetId > 0 then
+        local ok, bundle = pcall(function()
+            return InsertService:LoadAsset(assetId)
+        end)
+        if ok and bundle then
+            local model = bundle:FindFirstChildWhichIsA("Model", true) or bundle
+            if model:IsA("Model") then
+                local firstPart = model:FindFirstChildWhichIsA("BasePart", true)
+                if firstPart then
+                    model.Name = name
+                    if model ~= bundle then
+                        model.Parent = parent
+                        bundle:Destroy()
+                    else
+                        model.Parent = parent
+                    end
+                    for _, descendant in ipairs(model:GetDescendants()) do
+                        if descendant:IsA("BasePart") then
+                            descendant.Anchored = true
+                            descendant.CanCollide = false
+                            descendant.CanTouch = false
+                        end
+                    end
+                    local _, bounds = model:GetBoundingBox()
+                    if bounds.Y > 0.01 then
+                        model:ScaleTo(6 / bounds.Y)
+                    end
+                    local _, adjustedBounds = model:GetBoundingBox()
+                    model:PivotTo(CFrame.new(at.X, at.Y + adjustedBounds.Y / 2, at.Z)
+                        * CFrame.Angles(0, math.rad(180), 0))
+                    local anchor = model:FindFirstChild("HumanoidRootPart", true)
+                    if not (anchor and anchor:IsA("BasePart")) then
+                        anchor = model:FindFirstChildWhichIsA("BasePart", true)
+                    end
+                    if anchor then
+                        label(anchor, name, 210, 46,
+                            Vector3.new(0, adjustedBounds.Y / 2 + 1.5, 0))
+                        return prompt(anchor, "Talk", name, 14)
+                    end
+                end
+            end
+            if model and model.Parent then model:Destroy() end
+            if bundle.Parent then bundle:Destroy() end
+        else
+            warn("[Runewake] Cannot load NPC asset " .. tostring(assetId)
+                .. " for " .. name .. ": " .. tostring(bundle))
+        end
+    end
+    return npc(parent, name, at, tunic, accent, accessory)
+end
+
 local function pillar(parent, at)
     part(parent, "Carved stone pillar", Vector3.new(3, 13, 3), at + Vector3.new(0, 6.5, 0), STONE)
     part(parent, "Rune pillar cap", Vector3.new(4, 1.5, 4), at + Vector3.new(0, 13.5, 0), CYAN, Enum.Material.Neon, false)
@@ -226,9 +283,9 @@ function World.Create()
         TownSpawn = Vector3.new(0, 5, 48),
         DungeonSpawn = Vector3.new(X, 5, -111),
         Prompts = {
-            Mira = npc(town, "Mira Threadlight", Vector3.new(-16, 0.5, -7), Color3.fromRGB(57, 125, 145), Color3.fromRGB(41, 56, 89), "compass"),
-            Orren = npc(town, "Orren Kilnhand", Vector3.new(24, 0.5, -7), Color3.fromRGB(123, 75, 53), DARK, "smith"),
-            Pip = npc(town, "Pip Wicks", Vector3.new(25, 0.5, 17), Color3.fromRGB(143, 112, 60), GOLD, "pack"),
+            Mira = dressedNpc("mira_threadlight", town, "Mira Threadlight", Vector3.new(-16, 0.5, -7), Color3.fromRGB(57, 125, 145), Color3.fromRGB(41, 56, 89), "compass"),
+            Orren = dressedNpc("orren_kilnhand", town, "Orren Kilnhand", Vector3.new(24, 0.5, -7), Color3.fromRGB(123, 75, 53), DARK, "smith"),
+            Pip = dressedNpc("pip_wicks", town, "Pip Wicks", Vector3.new(25, 0.5, 17), Color3.fromRGB(143, 112, 60), GOLD, "pack"),
             Enter = prompt(townGate, "Enter Dungeon", "Hollow Rune Depths", 15),
             Return = prompt(entrancePortal, "Return to Village", "Runewake", 15),
         },
