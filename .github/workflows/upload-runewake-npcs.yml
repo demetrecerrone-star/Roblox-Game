@@ -1,0 +1,29 @@
+name: Upload Runewake NPC Models
+
+'on':
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  upload-npcs:
+    name: Upload dressed NPC models to Roblox
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      ROBLOX_ASSET_API_KEY: ${{ secrets.ROBLOX_ASSET_API_KEY }}
+      ROBLOX_CREATOR_USER_ID: ${{ vars.ROBLOX_CREATOR_USER_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Import GLB models through Open Cloud
+        run: python3 scripts/upload_npcs.py
+      - name: Save resulting Roblox asset IDs
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: runewake-npc-model-ids
+          path: npc-upload-results.json
+          if-no-files-found: error
+          retention-days: 30
