@@ -7,6 +7,7 @@ import struct
 import subprocess
 import time
 import zipfile
+from urllib.request import Request, urlopen
 
 KEY = os.getenv("ROBLOX_ASSET_API_KEY", "")
 USER_ID = os.getenv("ROBLOX_CREATOR_USER_ID", "")
@@ -29,8 +30,37 @@ def request(args, *, method_name):
 
 if not KEY:
     raise SystemExit("ROBLOX_ASSET_API_KEY is not set under GitHub Actions repository secrets.")
+if not USER_ID:
+    # The existing Runewake experience has a public, authenticated owner record.
+    # This is read-only metadata; never assume GitHub account ID equals Roblox ID.
+    try:
+        req = Request(
+            "https://games.roblox.com/v1/games?universeIds=1831369670",
+            headers={"User-Agent": "RunewakeAssetImporter/1.0", "Accept": "application/json"},
+        )
+        with urlopen(req, timeout=20) as response:
+            games = json.load(response).get("data", [])
+        record = next(
+            (entry for entry in games
+             if int(entry.get("id", 0)) == 1831369670
+             and int(entry.get("rootPlaceId", 0)) == 5233405723),
+            None,
+        )
+        if not record:
+            raise ValueError("The live game response did not match Runewake's universe and place IDs.")
+        creator = record.get("creator", {})
+        if creator.get("type", "").lower() != "user":
+            raise ValueError("The Roblox experience is not owned by an individual user.")
+        USER_ID = str(creator.get("id", ""))
+        print("Resolved creator ID from the public Roblox game ownership record.")
+    except Exception as error:
+        raise SystemExit(
+            "Couldn't automatically identify the Roblox creator from the public game record. "
+            "Set ROBLOX_CREATOR_USER_ID to the numeric ID in your Roblox profile URL "
+            "under GitHub Actions repository Variables. Details: " + str(error)
+        ) from error
 if not USER_ID.isdecimal() or int(USER_ID) == 0:
-    raise SystemExit("Set ROBLOX_CREATOR_USER_ID to your numeric Roblox user ID in Actions variables.")
+    raise SystemExit("ROBLOX_CREATOR_USER_ID must be a positive Roblox user ID.")
 if not ARCHIVE.exists():
     raise SystemExit(f"Missing {ARCHIVE}; ChatGPT attachments are not automatically available in GitHub Actions.")
 
@@ -58,7 +88,7 @@ for slug, display, name in MODELS:
         "assetType": "Model",
         "displayName": "Runewake " + display,
         "description": "Dressed fantasy NPC model and Quaternius CC0 animations",
-        "creationContext": {"creator": {"userId": int(USER_ID)}},
+        "creationContext": {"creator": {"userId": USER_ID}},
     }
     task = request(
         ["-X", "POST", "https://apis.roblox.com/assets/v1/assets",
