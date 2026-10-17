@@ -1,0 +1,61 @@
+name: Roblox setup check (no publish)
+
+on:
+  push:
+    paths:
+      - .github/workflows/roblox-setup-check.yml
+  workflow_dispatch:
+
+# This job never contacts Roblox and needs no repository token permissions.
+permissions: {}
+
+concurrency:
+  group: roblox-setup-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-setup:
+    name: Check saved secret without publishing
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - name: Check secret availability (not Roblox authentication)
+        shell: bash
+        env:
+          ROBLOX_API_KEY: ${{ secrets.ROBLOX_API_KEY }}
+          ROBLOX_UNIVERSE_ID: '1831369670'
+          ROBLOX_PLACE_ID: '5233405723'
+        run: |
+          python3 - <<'PY'
+          import os
+          import sys
+
+          key = os.environ.get('ROBLOX_API_KEY', '')
+          if not key.strip():
+              print('::error::ROBLOX_API_KEY is missing or empty. Add it under Settings > Secrets and variables > Actions as a repository secret.')
+              sys.exit(1)
+          if key != key.strip():
+              print('::error::The saved key has leading or trailing whitespace. Re-save only the generated key without extra spaces or line breaks.')
+              sys.exit(1)
+
+          universe = os.environ['ROBLOX_UNIVERSE_ID']
+          place = os.environ['ROBLOX_PLACE_ID']
+          if not all(value.isdecimal() and int(value) > 0 for value in (universe, place)):
+              print('::error::Universe ID and Place ID must be positive numeric IDs.')
+              sys.exit(1)
+
+          print('GitHub can access the non-empty ROBLOX_API_KEY secret. Its value has not been displayed or transmitted by this script.')
+          print('No Roblox authentication or publishing request was made.')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+              summary.write(
+                  '# Roblox setup check\n\n'
+                  '- GitHub Actions is running.\n'
+                  '- ROBLOX_API_KEY is available and non-empty; its value is not displayed.\n'
+                  f'- Configured Universe ID: `{universe}`\n'
+                  f'- Configured Place ID: `{place}`\n\n'
+                  '**Nothing was uploaded, saved, or published to Roblox.**\n\n'
+                  'This only checks local setup. It does not verify that Roblox accepts the key, '
+                  'that its permissions are correct, or that the place belongs to this universe. '
+                  'A successful check does not mean a game has been built or deployed.\n'
+              )
+          PY
