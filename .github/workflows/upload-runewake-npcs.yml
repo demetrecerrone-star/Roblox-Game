@@ -2,6 +2,10 @@ name: Upload Runewake NPC Models
 
 'on':
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/upload-runewake-npcs.yml
 
 permissions:
   contents: read
