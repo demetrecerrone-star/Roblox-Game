@@ -35,6 +35,26 @@ The models are original geometry placeholders assembled in-engine, **not finishe
 - Imported NPCs will eventually need a Roblox-compatible rig, materials/textures and idle/talk/walk animations. Asset compatibility does **not** by itself mean a model has been uploaded or is visible in the live game.
 - The supplied source packs remain external inputs and must not be committed wholesale to this public repo.
 
+## Dressed NPC asset preparation (October 2026)
+
+The owner supplied the **Universal Base Characters** and **Modular Character Outfits — Fantasy** packs. Three derived, rig-preserving, fully clothed character models were assembled **outside this public repository**:
+
+| NPC | Prepared model | Source combination | 3D model status |
+| --- | --- | --- | --- |
+| Mira Threadlight | `Mira_Threadlight_Dressed.glb` | Female Ranger + base head and brows/eyes + buns hair | Prepared, not uploaded |
+| Orren Kilnhand | `Orren_Kilnhand_Dressed.glb` | Male Peasant + base head and brows/eyes + parted hair | Prepared, not uploaded |
+| Pip Wicks | `Pip_Wicks_Dressed.glb` | Female Peasant + base head and brows/eyes + long hair | Prepared, not uploaded |
+
+Each prepared GLB keeps the 65-joint skeleton and embedded 512-pixel textures, remains below Roblox's Open Cloud 20 MB model limit, and has **no animation clips yet**. These are modeled NPC appearances, not Roblox-uploaded/animated finished characters. Roblox's importer must still validate the GLBs, and NPC animations must be authored. Source licenses need to permit any intended distribution; do **not** commit these vendor-derived GLBs into this public repository without checking those licenses.
+
+`src/server/NpcAppearance.luau` holds the three asset IDs (zero until upload). The server's `dressedNpc` loader uses the uploaded Model asset in the live town if it can load it, and otherwise keeps the original interactive placeholder, preserving all quest/shop functions.
+
+To use actual GLB meshes in the live experience, upload each file as a private creator-owned Roblox Model through the Roblox Open Cloud Assets API (separate `asset:read`/`asset:write` API permissions required), obtain its asset ID, and update `NpcAppearance.luau`. For creator-owned model accessibility, verify the experience can use the asset. Publishing Roblox place scripts **does not upload meshes**.
+
+### Gameplay update after initial playtest
+
+A visible rune-steel starter sword is provided automatically on spawn, with an initial local arm-swing and slash visual for the ATTACK button. The phone HUD also includes a tappable wayfinder cycling among Mira, Orren, Pip, and the dungeon entrance; NPC labels stay visible farther away. These are prototype gameplay elements and have not yet received on-device animation verification.
+
 ## Gameplay loop
 
 1. Spawn in Threadlight Village and talk to Mira to accept the first quest.
