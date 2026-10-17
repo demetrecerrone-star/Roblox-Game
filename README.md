@@ -27,7 +27,10 @@ The models are original geometry placeholders assembled in-engine, **not finishe
 
 - **Universal Base Characters** is the character-body/rig source for **NPCs**, including replacements for the temporary Mira, Orren, and Pip figures. It is **not** a requirement to change the player's avatar.
 - The separate **Modular Character Outfits — Fantasy** pack is compatible with the base-character skeleton, but putting armor or outfit pieces onto these NPCs is **optional, not required**. Use each NPC's base character directly unless a particular NPC look calls for an outfit later.
-- Do **not** combine every base character with the armor pack by default. Keep player equipment and armor as a separate future decision.
+- Do **not** combine every base character with the armor pack by default. Universal Base Characters are for **NPCs**; Roblox players keep their own avatar appearance and clothing.
+- **Approved armor behavior for players:** armor is **icon-only equipment with gameplay bonuses**. A helmet/chest/boots item can appear in inventory/equipment UI and grant its configured defense, health, resistance, or other boosts while equipped, but must **not** replace, cover, or otherwise alter a player's Roblox outfit or body.
+- Treat the supplied armor/outfit pack as a reference for appropriate item icons and optional NPC appearance, **not** a requirement to put 3D armor on player characters. Icon-only armor does not block later visible weapon models and swing animations.
+- The inventory/equipment slots and passive armor stat modifiers are **planned, not implemented in v0.1**. Calculate buffs on the server and persist equipped item identifiers when those systems are added.
 - Imported NPCs will eventually need a Roblox-compatible rig, materials/textures and idle/talk/walk animations. Asset compatibility does **not** by itself mean a model has been uploaded or is visible in the live game.
 - The supplied source packs remain external inputs and must not be committed wholesale to this public repo.
 
