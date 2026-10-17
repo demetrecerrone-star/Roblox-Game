@@ -1,13 +1,8 @@
 name: Upload Runewake NPC Models
 
-# Retry once with read-only public Roblox creator-ID lookup when the Actions variable is missing.
 
 'on':
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/upload-runewake-npcs.yml
 
 permissions:
   contents: read
