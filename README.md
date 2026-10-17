@@ -23,6 +23,14 @@ The source now includes:
 
 The models are original geometry placeholders assembled in-engine, **not finished mesh artwork or animations**. No professional gameplay playtest or visual screenshot has yet been completed. Build and upload success, if any, must be checked in GitHub Actions; successful upload does not guarantee error-free gameplay.
 
+## Supplied model packs — approved NPC use
+
+- **Universal Base Characters** is the character-body/rig source for **NPCs**, including replacements for the temporary Mira, Orren, and Pip figures. It is **not** a requirement to change the player's avatar.
+- The separate **Modular Character Outfits — Fantasy** pack is compatible with the base-character skeleton, but putting armor or outfit pieces onto these NPCs is **optional, not required**. Use each NPC's base character directly unless a particular NPC look calls for an outfit later.
+- Do **not** combine every base character with the armor pack by default. Keep player equipment and armor as a separate future decision.
+- Imported NPCs will eventually need a Roblox-compatible rig, materials/textures and idle/talk/walk animations. Asset compatibility does **not** by itself mean a model has been uploaded or is visible in the live game.
+- The supplied source packs remain external inputs and must not be committed wholesale to this public repo.
+
 ## Gameplay loop
 
 1. Spawn in Threadlight Village and talk to Mira to accept the first quest.
