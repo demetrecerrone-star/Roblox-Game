@@ -1,54 +1,65 @@
 # Runewake
 
-A fantasy RPG and dungeon-adventure game for Roblox, developed through a phone-managed workflow.
+A fantasy RPG and dungeon-adventure for Roblox, designed for phone-first play and maintained in GitHub.
 
 ## Approved direction
 
-- Game title: **Runewake** (pronounced "rune-wake").
-- Genre: fantasy RPG mixed with dungeon adventure.
-- First playable scope: a small starter town linked to one dungeon, with mobile-friendly combat, loot, upgrades, and a boss.
-- NPCs and monsters should be unique.
-- Development repository: `demetrecerrone-star/Roblox-Game` (repository name unchanged).
-- This is separate from Adventure Odyssey and Aetherfall.
+- **Name:** Runewake (rune-wake).
+- **Genre:** Fantasy RPG mixed with dungeon adventures.
+- **v0.1 playable target:** Threadlight Village, a linked dungeon, original NPCs and enemies, melee attacks, loot, upgrades, quest and a boss.
+- This is a separate project from Adventure Odyssey and Aetherfall.
+- Development repository: `demetrecerrone-star/Roblox-Game`.
 
-## Actual implementation status
+## v0.1 implementation
 
-There is no playable game build yet. Before the character-definition commit, the repository contained only this README and the non-publishing setup-check workflow.
+The source now includes:
 
-`src/shared/CharacterCatalog.luau` now contains the first data definitions for three NPCs, two regular enemies, and one boss. Each has a distinct silhouette, role or combat-pattern specification, and motion brief. Enemy tuning and rewards are provisional. These individual names and designs are implementation proposals, not separately approved final artwork.
+- `default.project.json`: Rojo mapping from source to a Roblox place.
+- `src/server/World.luau`: creates Threadlight Village, four simple buildings, three NPCs, a rune portal and Hollow Rune Depths.
+- `src/server/Enemies.luau`: creates distinctive primitive models for Shardback, Bellwisp and Rootbound Warden, along with server-controlled movement, attack telegraphs, health and respawns.
+- `src/server/Game.server.luau`: quest interactions, portal transport, combat checks, gold, salvage, XP, leveling, weapon upgrades and best-effort Roblox DataStore saves.
+- `src/client/Hud.client.luau`: touch-friendly attack button, health, gold, XP, shard count, quest tracking and NPC notices.
+- `src/shared/CharacterCatalog.luau`: original character identities and combat parameters.
 
-The catalog is data only. It does not create 3D models, animate characters, run AI, award loot, or wire up quests. It has not been playtested. The starter town, dungeon, character models, behavior handlers, player combat, loot, upgrade services, and game-build workflow still need implementation.
+The models are original geometry placeholders assembled in-engine, **not finished mesh artwork or animations**. No professional gameplay playtest or visual screenshot has yet been completed. Build and upload success, if any, must be checked in GitHub Actions; successful upload does not guarantee error-free gameplay.
 
-### Initial character proposals
+## Gameplay loop
 
-- Mira Threadlight: rune-compass cartographer and first dungeon quest contact.
-- Orren Kilnhand: smith with a glass-forged forearm and equipment upgrade role.
-- Pip Wicks: lantern-pack courier and salvage trader.
-- Shardback: six-legged crystal burrower with a telegraphed straight charge.
-- Bellwisp: cracked floating bell that orbits and warns before a close-range pulse.
-- Rootbound Warden: root-held stone gate guardian with distinct slam and sweep attacks.
+1. Spawn in Threadlight Village and talk to Mira to accept the first quest.
+2. Enter the portal marked Hollow Rune Depths.
+3. Tap **ATTACK** near a monster; dodge its glowing red warning area.
+4. Defeat Shardback and Bellwisp for gold, XP and salvage.
+5. Defeat the Rootbound Warden and return to Mira for a quest reward.
+6. Upgrade your weapon with Orren and sell collected salvage to Pip.
 
-## Publishing target
+Combat, progression and rewards are controlled by the Roblox server, not the player's device.
 
-- Existing experience, last observed dashboard name: TeaOfBag's Place
-- Approved new game title: Runewake
+## Connected Roblox target
+
+- Existing dashboard experience: TeaOfBag's Place
+- Approved game title: **Runewake**
 - Universe ID: `1831369670`
 - Place ID: `5233405723`
-- GitHub Actions repository secret name: `ROBLOX_API_KEY`
+- GitHub Actions secret: `ROBLOX_API_KEY`
 
-Repository changes do not rename the live Roblox experience or publish game files. The live dashboard title change is a separate step. No Roblox upload was made during this update.
+The repo has permission from the owner to replace the empty existing place with the first playable build. Publishing the place does **not** automatically rename TeaOfBag's Place in the Creator Dashboard.
 
-Keep the generated Roblox key only in GitHub Actions secrets or a password manager. Never commit the key or a Roblox login cookie.
+## Automated build and release
 
-## Setup check
+The workflow at `.github/workflows/runewake-publish.yml` is intended to:
 
-The `Roblox setup check (no publish)` workflow checks that GitHub Actions can access a non-empty secret without printing its value or contacting Roblox. It runs when its workflow file is pushed and can also be started manually from the Actions tab. It does not validate Roblox authentication, publishing permissions, or ownership of the configured IDs. A passing setup check is not a successful game build or playtest.
+1. Install Rojo 7.7.1 and build `Runewake.rbxlx` from this source.
+2. Validate the XML place and archive a build artifact.
+3. Publish that place file to the IDs above through Roblox Open Cloud with `versionType=Published`, using the GitHub Actions secret.
 
-## Publishing safety
+The existing `roblox-setup-check.yml` only confirms GitHub can see a nonempty secret; it **does not** verify that Roblox accepts the key. Build and publish outcomes must be confirmed in the workflow run log. If Roblox rejects the key or permissions, nothing should be reported as published.
 
-Build validation must be separate from deployment. Do not publish a test baseplate over the existing Roblox place. The first upload requires the owner's explicit approval after the game files and target are reviewed. Adding these repository files does not trigger a Roblox upload.
+### Key safety
 
-## Documentation
+Store the generated Roblox API key only in GitHub **Settings → Secrets and variables → Actions**, as a repository secret named `ROBLOX_API_KEY`. Never commit the key, screenshots of the key, or a Roblox login cookie.
 
-- [Roblox place publishing](https://create.roblox.com/docs/cloud/guides/usage-place-publishing)
-- [GitHub Actions secrets](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets)
+### Documentation
+
+- [Roblox Open Cloud place publishing](https://create.roblox.com/docs/cloud/guides/usage-place-publishing)
+- [Rojo build](https://rojo.space/docs/v7/getting-started/new-game/)
+- [GitHub Actions secrets](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions)
