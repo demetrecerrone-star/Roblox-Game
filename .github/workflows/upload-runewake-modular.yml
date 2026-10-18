@@ -1,0 +1,30 @@
+name: Import Runewake modular assets only
+on:
+  push:
+    branches: [runewake-assets-import-20261018]
+    paths: [assets/runewake-bulk/request.json]
+permissions:
+  contents: read
+concurrency:
+  group: runewake-modular-asset-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source models
+        run: python3 scripts/upload_modular_models.py --manifest assets/runewake-bulk/request.json --validate-only
+      - name: Upload creator models only, no place publication
+        env:
+          ROBLOX_ASSET_API_KEY: ${{ secrets.ROBLOX_ASSET_API_KEY }}
+        run: python3 scripts/upload_modular_models.py --manifest assets/runewake-bulk/request.json
+      - name: Preserve results and pending operation IDs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: runewake-modular-model-ids
+          path: upload-results.json
+          if-no-files-found: warn
+          retention-days: 90
