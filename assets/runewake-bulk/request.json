@@ -7,5 +7,11 @@
       "file": "assets/runewake-bulk/canary.glb",
       "sha256": "026119e039206be8bb65c2fcd5d15a85495a9a86242d5f3281cacc800f786885"
     }
-  ]
+  ],
+  "attemptContext": {
+    "requestedAt": "2026-10-18T04:54:00Z",
+    "reason": "Owner reported adding Assets read/write permission; controlled single-model canary",
+    "priorRunId": 39096604900,
+    "priorOutcome": "Definite HTTP 403 authentication rejection; no operation or asset ID returned"
+  }
 }
