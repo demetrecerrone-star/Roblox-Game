@@ -1,12 +1,13 @@
 {
   "placeId": 5233405723,
   "universeId": 1831369670,
-  "placeSha256": "3b9a5f0796d4dc78f8cb3ce8bfb5ca869980bd6d77b72d527032991423811cf7",
-  "placeBytes": 3039958,
-  "approvedBackupSha256": "f7a1c4a349aeb84de09245b39d38575bb56eee3559d31d1292896f6d9b11bef7",
-  "scope": "Playable test checkpoint;100staticcreator models/110aliases;NPC stations and enemy proxies;no character imports;progress resets onleave;not Studio-playtested",
+  "placeSha256": "69b19de495df778c2473430495c2e723b9672e7269eed12b1f6c9fcc56fa2f91",
+  "placeBytes": 3043312,
+  "approvedBackupSha256": "3b9a5f0796d4dc78f8cb3ce8bfb5ca869980bd6d77b72d527032991423811cf7",
+  "scope": "UI fix: compact collapsed HUD, nearby occluded physical world signs; same reviewed art/gameplay; native validation unavailable",
   "modelDownloadRun": 39132302614,
   "backupDownloadRun": 39131308462,
   "placeFormat": "binary",
-  "serialization": "Rojo7.7.1 canonical binary;19352 semantic property comparisons pass"
+  "serialization": "Rojo7.7.1 binary;19354 semantic property comparisons pass",
+  "previousVersion": 8
 }

@@ -3,7 +3,7 @@ import gzip,hashlib,io,json,os,pathlib,urllib.request,urllib.error,urllib.parse,
 ROOT=pathlib.Path('.');OUT=ROOT/'publication-results';OUT.mkdir(exist_ok=True)
 request=json.loads((ROOT/'release/request.json').read_text())
 assert request['placeId']==5233405723 and request['universeId']==1831369670
-assert request['approvedBackupSha256']=='f7a1c4a349aeb84de09245b39d38575bb56eee3559d31d1292896f6d9b11bef7'
+assert request['approvedBackupSha256']=='3b9a5f0796d4dc78f8cb3ce8bfb5ca869980bd6d77b72d527032991423811cf7'
 place=ROOT/'release/Runewake-World-Checkpoint.rbxl';content=place.read_bytes()
 assert hashlib.sha256(content).hexdigest()==request['placeSha256'],'Release file changed after review'
 assert 100_000<len(content)<32*1024*1024
@@ -27,7 +27,7 @@ if data.lstrip().startswith(b'{'):
  u=urllib.parse.urlparse(location);assert u.scheme=='https' and (u.hostname.endswith('.rbxcdn.com') or u.hostname.endswith('.roblox.com'))
  with urllib.request.urlopen(location,timeout=30) as r:data=unpack(r.read(32*1024*1024+1))
 assert data.startswith(b'<roblox') or b'<roblox' in data[:100]
-(OUT/'before-publication-place.rbxlx').write_bytes(data)
+(OUT/'before-publication-place.rbxl').write_bytes(data)
 receipt['backupSha256']=hashlib.sha256(data).hexdigest();save()
 assert receipt['backupSha256']==request['approvedBackupSha256'],'Live source changed since review: refusing replacement'
 # This script is split by mode so backup is archived successfully BEFORE the write step.
