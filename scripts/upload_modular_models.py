@@ -22,7 +22,7 @@ def validate(path,expected):
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--manifest',required=True);ap.add_argument('--resume');ap.add_argument('--validate-only',action='store_true');a=ap.parse_args()
  manifest=json.loads(P(a.manifest).read_text());assets=manifest['assets'];assert assets and len({x['key'] for x in assets})==len(assets)
- for row in assets:validate(P(row['file']),row['sha256']);assert row['pack'] in ['village','props','outfits','stylized-nature-megakit','ultimate-stylized-nature','universal-base-characters','textured-stylized-trees','nature-crops','ultimate-nature'],'Pack not approved'
+ for row in assets:validate(P(row['file']),row['sha256']);assert row['pack'] in ['village','props','outfits','stylized-nature-megakit','ultimate-stylized-nature','universal-base-characters','textured-stylized-trees','nature-crops','ultimate-nature','npcs'],'Pack not approved'
  if a.validate_only:print('Validated',len(assets));return
  assert os.environ.get('GITHUB_RUN_ATTEMPT','1')=='1','Do not rerun jobs; create a new reviewed request with merged ledger to avoid duplicate uploads'
  key=os.environ.get('ROBLOX_ASSET_API_KEY','');assert key,'ROBLOX_ASSET_API_KEY is missing; no uploads attempted.'

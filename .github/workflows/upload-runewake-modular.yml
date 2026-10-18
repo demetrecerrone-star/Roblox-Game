@@ -17,13 +17,13 @@ jobs:
       fail-fast: true
       max-parallel: 1
       matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+        batch: [0]
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
       - name: Reconstruct and verify this batch
-        run: python3 scripts/unpack_modular_bundle.py ${{ matrix.batch }}
+        run: python3 scripts/unpack_npc_bundle.py ${{ matrix.batch }}
       - name: Validate source models
         run: python3 scripts/upload_modular_models.py --manifest batch-request.json --validate-only
       - name: Upload creator models only, no place publication
