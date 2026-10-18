@@ -1,0 +1,17 @@
+{
+  "creatorUserId": 1718096156,
+  "assets": {
+    "village/Corner_Exterior_Wood": {
+      "key": "village/Corner_Exterior_Wood",
+      "pack": "village",
+      "name": "Village Corner Exterior Wood",
+      "sha256": "026119e039206be8bb65c2fcd5d15a85495a9a86242d5f3281cacc800f786885",
+      "state": "uploaded",
+      "operation": "operations/10a86b30-e08d-47f1-9952-8fad7f3fa19a",
+      "assetId": 136661424163101,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    }
+  }
+}

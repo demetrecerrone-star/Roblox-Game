@@ -24,7 +24,7 @@ def main():
  manifest=json.loads(P(a.manifest).read_text());assets=manifest['assets'];assert assets and len({x['key'] for x in assets})==len(assets)
  for row in assets:validate(P(row['file']),row['sha256']);assert row['pack'] in ['village','props','outfits'],'Pack not approved'
  if a.validate_only:print('Validated',len(assets));return
- assert os.environ.get('GITHUB_RUN_ATTEMPT','1')=='1' or a.resume,'Automatic reruns are blocked without an inspected resume ledger'
+ assert os.environ.get('GITHUB_RUN_ATTEMPT','1')=='1','Do not rerun jobs; create a new reviewed request with merged ledger to avoid duplicate uploads'
  key=os.environ.get('ROBLOX_ASSET_API_KEY','');assert key,'ROBLOX_ASSET_API_KEY is missing; no uploads attempted.'
  # Secret is used only in the existing API header, never printed or persisted.
  owner=get('https://economy.roblox.com/v2/assets/5233405723/details')

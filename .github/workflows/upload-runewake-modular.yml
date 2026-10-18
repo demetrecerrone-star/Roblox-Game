@@ -10,21 +10,31 @@ concurrency:
   cancel-in-progress: false
 jobs:
   import:
+    name: Import batch ${{ matrix.batch }}
     runs-on: ubuntu-24.04
     timeout-minutes: 45
+    strategy:
+      fail-fast: true
+      max-parallel: 1
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Reconstruct and verify this batch
+        run: python3 scripts/unpack_modular_bundle.py ${{ matrix.batch }}
       - name: Validate source models
-        run: python3 scripts/upload_modular_models.py --manifest assets/runewake-bulk/request.json --validate-only
+        run: python3 scripts/upload_modular_models.py --manifest batch-request.json --validate-only
       - name: Upload creator models only, no place publication
         env:
           ROBLOX_ASSET_API_KEY: ${{ secrets.ROBLOX_ASSET_API_KEY }}
-        run: python3 scripts/upload_modular_models.py --manifest assets/runewake-bulk/request.json
+        run: python3 scripts/upload_modular_models.py --manifest batch-request.json --resume assets/runewake-bulk/resume.json
       - name: Preserve results and pending operation IDs
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: runewake-modular-model-ids
+          name: runewake-modular-model-ids-${{ matrix.batch }}
           path: upload-results.json
           if-no-files-found: warn
           retention-days: 90
