@@ -36,8 +36,8 @@ def read_asset(asset_id,label):
     (out/(label+'.asset')).write_bytes(data)
     report['reads'].append({'assetId':asset_id,'label':label,'status':200,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'result':'Downloaded; not executed or Studio validated'});save()
 
-# Read only approved foliage image dependencies and one uploaded non-character sword.
-textures=[71388329248609, 80021284995267, 104500748699887, 113611662895812, 124837769817565, 125019278020663, 125312972356788, 134124988014761, 137433640783145]
-for asset_id in textures: read_asset(asset_id,"foliage-texture-"+str(asset_id))
-read_asset(83500138085888,"starter-sword-model")
-print("Read-only material and sword inspection complete; no publication or upload.")
+
+# Read only existing chosen sword mesh dependencies and source-matched tree bark images.
+for asset_id in [119471366465464,131327522677633,82224605101815,115950676601909,78959270110105,92546677330620,80443195617078,95820347159188,102812021971052,88110653440223,93769073102503,109553280275221,128044706287378,127453954557037,94801828093295]:
+    read_asset(asset_id,"dependency-"+str(asset_id))
+print("Read-only verified dependency inspection complete.")
