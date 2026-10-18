@@ -1,0 +1,10 @@
+{
+  "placeId": 5233405723,
+  "universeId": 1831369670,
+  "placeSha256": "73cc878e19b4ec71835461cb02dcca5c7279dfc98824b0900d376ae0a19290ad",
+  "placeBytes": 9485580,
+  "approvedBackupSha256": "f7a1c4a349aeb84de09245b39d38575bb56eee3559d31d1292896f6d9b11bef7",
+  "scope": "Playable test checkpoint;100staticcreator models/110aliases;NPC stations and enemy proxies;no character imports;progress resets onleave;not Studio-playtested",
+  "modelDownloadRun": 39132302614,
+  "backupDownloadRun": 39131308462
+}

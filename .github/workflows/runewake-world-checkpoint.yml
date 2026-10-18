@@ -1,0 +1,58 @@
+name: Publish reviewed Runewake world checkpoint
+on:
+  push:
+    branches: [runewake-world-checkpoint-20261018]
+    paths: [release/request.json]
+permissions:
+  contents: read
+concurrency:
+  group: runewake-place-publish
+  cancel-in-progress: false
+jobs:
+  publish-reviewed-checkpoint:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Reconstruct exact reviewed place and verify digest
+        run: |
+          python3 - <<'PY'
+          import base64,hashlib,json,pathlib,zlib
+          p=pathlib.Path('release');r=json.loads((p/'request.json').read_text())
+          data=zlib.decompress(base64.b64decode((p/'checkpoint.rbxlx.zlib.b64').read_bytes(),validate=True))
+          assert hashlib.sha256(data).hexdigest()==r['placeSha256']
+          assert len(data)==r['placeBytes']
+          (p/'Runewake-World-Checkpoint.rbxlx').write_bytes(data)
+          print('Reviewed release digest and size match.')
+          PY
+      - name: Preserve matching current place before replacement
+        env:
+          ROBLOX_ASSET_API_KEY: ${{ secrets.ROBLOX_ASSET_API_KEY }}
+        run: python3 scripts/publish_checkpoint.py
+      - name: Archive recoverable pre-publication place
+        uses: actions/upload-artifact@v4
+        with:
+          name: Runewake-current-place-rollback
+          path: publication-results/
+          if-no-files-found: error
+          retention-days: 90
+      - name: Publish exact reviewed checkpoint to existing place only
+        env:
+          ROBLOX_ASSET_API_KEY: ${{ secrets.ROBLOX_ASSET_API_KEY }}
+          ROBLOX_API_KEY: ${{ secrets.ROBLOX_API_KEY }}
+          BACKUP_ARTIFACT_SAVED: 'true'
+          PUBLISH_MODE: publish
+        run: python3 scripts/publish_checkpoint.py
+      - name: Preserve publication receipt and reviewed place
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Runewake-world-checkpoint-receipt
+          path: |
+            publication-results/
+            release/Runewake-World-Checkpoint.rbxlx
+            release/request.json
+          if-no-files-found: error
+          retention-days: 90
