@@ -6,5 +6,7 @@
   "approvedBackupSha256": "f7a1c4a349aeb84de09245b39d38575bb56eee3559d31d1292896f6d9b11bef7",
   "scope": "Playable test checkpoint;100staticcreator models/110aliases;NPC stations and enemy proxies;no character imports;progress resets onleave;not Studio-playtested",
   "modelDownloadRun": 39132302614,
-  "backupDownloadRun": 39131308462
+  "backupDownloadRun": 39131308462,
+  "diagnosticAttempt": 1,
+  "diagnosticPurpose": "Capture sanitized HTTP400 response; exact artifact unchanged; abort if live backup differs"
 }

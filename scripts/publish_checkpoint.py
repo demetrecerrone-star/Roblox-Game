@@ -41,7 +41,13 @@ req=urllib.request.Request(url,data=content,headers={'x-api-key':publish_key,'Co
 try:
  with urllib.request.urlopen(req,timeout=90) as r:response=json.load(r);status=r.status
 except urllib.error.HTTPError as e:
- receipt['publishHttpStatus']=e.code;receipt['publicationOutcome']='rejected' if 400<=e.code<500 else 'uncertain';save();raise SystemExit(f'Publication HTTP {e.code}; not retried')
+ receipt['publishHttpStatus']=e.code;receipt['publicationOutcome']='rejected' if 400<=e.code<500 else 'uncertain'
+ try:
+  error_body=e.read(8192).decode('utf-8','replace')
+  for secret in (key,publish_key): error_body=error_body.replace(secret,'[REDACTED]')
+  receipt['publishErrorBody']=error_body
+ except Exception: receipt['publishErrorBody']='Unavailable'
+ save();raise SystemExit(f'Publication HTTP {e.code}; see sanitized receipt; not automatically retried')
 except Exception as e:
  receipt['publicationOutcome']='uncertain';receipt['errorClass']=type(e).__name__;save();raise
 (OUT/'publish-response.json').write_text(json.dumps(response,indent=2)+'\n')
