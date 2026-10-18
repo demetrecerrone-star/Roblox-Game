@@ -240,6 +240,3294 @@
       "moderation": {
         "moderationState": "Approved"
       }
+    },
+    "village/Door_4_Flat": {
+      "key": "village/Door_4_Flat",
+      "pack": "village",
+      "name": "Door_4_Flat",
+      "sha256": "d68706535d1554346594ddb3a1317aca471e4788fc4aa929f50be7266f792574",
+      "state": "uploaded",
+      "operation": "operations/210af082-44ad-4fd3-8162-8d394c27619b",
+      "assetId": 106419949885237,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Door_4_Round": {
+      "key": "village/Door_4_Round",
+      "pack": "village",
+      "name": "Door_4_Round",
+      "sha256": "850bc39846fafac8c47a97c2c23ce0f0702074c0ea2744b87e5ea140caac84e7",
+      "state": "uploaded",
+      "operation": "operations/0f7dddb9-08d9-491b-afbc-ecbbd262674f",
+      "assetId": 128131102368044,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Door_8_Flat": {
+      "key": "village/Door_8_Flat",
+      "pack": "village",
+      "name": "Door_8_Flat",
+      "sha256": "fb9a12e9edac046e2f1a1668384a6bd34f5bd4a84ac37c273cc715f070ec9dc8",
+      "state": "uploaded",
+      "operation": "operations/701f0654-73f9-4900-992f-0a5b0849a9e1",
+      "assetId": 94890641550274,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Door_8_Round": {
+      "key": "village/Door_8_Round",
+      "pack": "village",
+      "name": "Door_8_Round",
+      "sha256": "42a20ad559ec9b357b42f5403c2286cc1e15a317d3723e34c54c5a679c305798",
+      "state": "uploaded",
+      "operation": "operations/ae967fef-b054-4228-99df-decfc941bfc9",
+      "assetId": 130054342723665,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_Brick": {
+      "key": "village/Floor_Brick",
+      "pack": "village",
+      "name": "Floor_Brick",
+      "sha256": "8743e3cf8689931b79f78144287619729c93535682d38f963c9ee4197b54c5c9",
+      "state": "uploaded",
+      "operation": "operations/f40bdfe9-6771-449d-b714-74863b53f4b1",
+      "assetId": 84632879651977,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_RedBrick": {
+      "key": "village/Floor_RedBrick",
+      "pack": "village",
+      "name": "Floor_RedBrick",
+      "sha256": "116a398ff1f831024609641e7067d208ead992ff26bb386b543ec9da41ce3346",
+      "state": "uploaded",
+      "operation": "operations/652a9883-66b9-4712-871e-16ed11d1486f",
+      "assetId": 99978986904998,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_UnevenBrick": {
+      "key": "village/Floor_UnevenBrick",
+      "pack": "village",
+      "name": "Floor_UnevenBrick",
+      "sha256": "05a578aa5c42987343f306d64bc3016fbdec573f3bb25ee44b06ae10bf39a362",
+      "state": "uploaded",
+      "operation": "operations/38449424-4839-46cb-a1d9-fd1530465019",
+      "assetId": 90932832224171,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_WoodDark": {
+      "key": "village/Floor_WoodDark",
+      "pack": "village",
+      "name": "Floor_WoodDark",
+      "sha256": "17d99ad4850f01c1699b49b7cad11e2f8076cdad3c70fdfcf4b770909463fbbc",
+      "state": "uploaded",
+      "operation": "operations/e5980d4a-ec64-4f21-b839-6bfb6a8f8620",
+      "assetId": 120992716660327,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_WoodDark_Half1": {
+      "key": "village/Floor_WoodDark_Half1",
+      "pack": "village",
+      "name": "Floor_WoodDark_Half1",
+      "sha256": "2da196b80fa6a5afeaf28b97fcec2c628131a179fcaf075e98cb38169daa894b",
+      "state": "uploaded",
+      "operation": "operations/ebd53dd8-f6ee-47e6-8813-890a363ed5bd",
+      "assetId": 94218361345033,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_WoodDark_Half2": {
+      "key": "village/Floor_WoodDark_Half2",
+      "pack": "village",
+      "name": "Floor_WoodDark_Half2",
+      "sha256": "662b3cc696224085d0da276d1ddf73cfc9e17aac88d0bd2177cd3bb681582d9e",
+      "state": "uploaded",
+      "operation": "operations/9cf128cf-3aea-4b13-84fd-50dfada97dc2",
+      "assetId": 134039139317392,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_WoodDark_Half3": {
+      "key": "village/Floor_WoodDark_Half3",
+      "pack": "village",
+      "name": "Floor_WoodDark_Half3",
+      "sha256": "ae58ccc9219b9e26d922f9cc547a75172799d80976f1c07b1091c42a4f22cfc7",
+      "state": "uploaded",
+      "operation": "operations/5558afb6-ba62-4039-ae98-68869bb1fde5",
+      "assetId": 117947048051600,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_WoodDark_OverhangCorner": {
+      "key": "village/Floor_WoodDark_OverhangCorner",
+      "pack": "village",
+      "name": "Floor_WoodDark_OverhangCorner",
+      "sha256": "ad581a345cc38187d198efef32af43cfe371534c4d1d931fea8ef6dd87970fd1",
+      "state": "uploaded",
+      "operation": "operations/98cb8b6e-e97a-4395-b812-09ad79a7775f",
+      "assetId": 139915864380982,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_WoodDark_OverhangCorner2": {
+      "key": "village/Floor_WoodDark_OverhangCorner2",
+      "pack": "village",
+      "name": "Floor_WoodDark_OverhangCorner2",
+      "sha256": "45499a98d5a7dab7d8140179784a58f8a898476ec17a787b1b5acf6541ec3b84",
+      "state": "uploaded",
+      "operation": "operations/d28cb77c-a700-44e9-8013-253636f4d207",
+      "assetId": 93377823568219,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_WoodLight": {
+      "key": "village/Floor_WoodLight",
+      "pack": "village",
+      "name": "Floor_WoodLight",
+      "sha256": "7b56fb656e84da46a3864ed7ae45556c634438bd5b69641e6ac416c474dba99e",
+      "state": "uploaded",
+      "operation": "operations/f653514f-f638-4c81-9dc7-ba04c2a0bae4",
+      "assetId": 70691455576780,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_WoodLight_OverhangCorner": {
+      "key": "village/Floor_WoodLight_OverhangCorner",
+      "pack": "village",
+      "name": "Floor_WoodLight_OverhangCorner",
+      "sha256": "91a6fd75f72e56ed52734acf9fad08927f2dc90e99ea1817d0828244d3cd07e3",
+      "state": "uploaded",
+      "operation": "operations/7e718188-f9d6-49fc-aa3c-99f346dc1e83",
+      "assetId": 115505677808516,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Floor_WoodLight_OverhangCorner2": {
+      "key": "village/Floor_WoodLight_OverhangCorner2",
+      "pack": "village",
+      "name": "Floor_WoodLight_OverhangCorner2",
+      "sha256": "16115698dc10fb325dae1785e281d2fc9944b0266c6d1e4bb54e702ff62db6b3",
+      "state": "uploaded",
+      "operation": "operations/78c5a1ba-6456-47a4-95cc-ee4ea61b14a9",
+      "assetId": 71544341873774,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/HoleCover_90Angle": {
+      "key": "village/HoleCover_90Angle",
+      "pack": "village",
+      "name": "HoleCover_90Angle",
+      "sha256": "6f020d5151da8e80ffd3ce43b1e4e3da1bc41bffb21960a99814b9c7b5d1d88a",
+      "state": "uploaded",
+      "operation": "operations/d9a9d73e-8550-4a31-9799-62017ee70769",
+      "assetId": 86923263261490,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/HoleCover_90Half": {
+      "key": "village/HoleCover_90Half",
+      "pack": "village",
+      "name": "HoleCover_90Half",
+      "sha256": "4c6c9277c96efa050cf6e037794bb7716b049e026a13fdce24154e5f105d1d99",
+      "state": "uploaded",
+      "operation": "operations/d4edd190-0498-49e3-b322-20a4b730ff6a",
+      "assetId": 128225562860265,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/HoleCover_90Stairs": {
+      "key": "village/HoleCover_90Stairs",
+      "pack": "village",
+      "name": "HoleCover_90Stairs",
+      "sha256": "cbc96e6854b3dc32a479d8efb2ab9ff59258e4a8001f5ccc37b90db1a2f6245b",
+      "state": "uploaded",
+      "operation": "operations/0baee55c-c736-4906-913f-927c42207602",
+      "assetId": 139292576921095,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/HoleCover_Straight": {
+      "key": "village/HoleCover_Straight",
+      "pack": "village",
+      "name": "HoleCover_Straight",
+      "sha256": "22d269fe0c3f8e6b0a91f2493dbd4505d6cd25e9492d2a6be73fb93258060c63",
+      "state": "uploaded",
+      "operation": "operations/b2744870-7a48-4ef5-aaac-ab3b5145855d",
+      "assetId": 100081241565368,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/HoleCover_StraightHalf": {
+      "key": "village/HoleCover_StraightHalf",
+      "pack": "village",
+      "name": "HoleCover_StraightHalf",
+      "sha256": "9f178422aec069f92581b111ac26c1bef75a3e5e0112016f20e6139358d0872f",
+      "state": "uploaded",
+      "operation": "operations/42a7d2b1-f05f-4271-9f0b-035bc36fa67d",
+      "assetId": 132855532295605,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Plaster_Corner": {
+      "key": "village/Overhang_Plaster_Corner",
+      "pack": "village",
+      "name": "Overhang_Plaster_Corner",
+      "sha256": "4abcab4f95a7654798fce3a21247d23058c5543ed2db22d705c11faf2eb48865",
+      "state": "uploaded",
+      "operation": "operations/02b27820-4298-4c8a-8d15-60f15e555af0",
+      "assetId": 135776755809002,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Plaster_Corner_Front": {
+      "key": "village/Overhang_Plaster_Corner_Front",
+      "pack": "village",
+      "name": "Overhang_Plaster_Corner_Front",
+      "sha256": "0f2da89675ce9d7df6d1dce40cf490397e45cbe9e5bb524c5c9d5985449b1165",
+      "state": "uploaded",
+      "operation": "operations/e8887ac1-f674-4179-8821-54a594e4e998",
+      "assetId": 126938512062035,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Plaster_Long": {
+      "key": "village/Overhang_Plaster_Long",
+      "pack": "village",
+      "name": "Overhang_Plaster_Long",
+      "sha256": "e35093b1c03eb9963849d77fdf92a623e57ae5bfce405d9424c87e4ff7009459",
+      "state": "uploaded",
+      "operation": "operations/c097281d-d39d-48c1-8561-30384b46149d",
+      "assetId": 119703162680496,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Plaster_Short": {
+      "key": "village/Overhang_Plaster_Short",
+      "pack": "village",
+      "name": "Overhang_Plaster_Short",
+      "sha256": "ae3d5d299f8eef6caddd6716a106e93fa23426387d99c0f8dbb2e402681a81fe",
+      "state": "uploaded",
+      "operation": "operations/163414ad-27a2-48f3-90d3-55ad2d6d439e",
+      "assetId": 71493552263101,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_RoofIncline_Plaster": {
+      "key": "village/Overhang_RoofIncline_Plaster",
+      "pack": "village",
+      "name": "Overhang_RoofIncline_Plaster",
+      "sha256": "0e118611cbb26f01aae3db9f24c04ae08c92f3bc6471672d224a3e62fea6a842",
+      "state": "uploaded",
+      "operation": "operations/bc0f7986-df29-4a64-9b35-8423a4f11d17",
+      "assetId": 110438715556766,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_RoofIncline_UnevenBricks": {
+      "key": "village/Overhang_RoofIncline_UnevenBricks",
+      "pack": "village",
+      "name": "Overhang_RoofIncline_UnevenBricks",
+      "sha256": "29521f3358acf1e674746f9f510e9900a29713dd9c4e87728d0b6ac04df342a5",
+      "state": "uploaded",
+      "operation": "operations/7b49f752-dead-4b99-893f-5c9aebe6937c",
+      "assetId": 84202318880777,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Roof_Plaster": {
+      "key": "village/Overhang_Roof_Plaster",
+      "pack": "village",
+      "name": "Overhang_Roof_Plaster",
+      "sha256": "2cca814020312a2e100e3fb10136bc22e76ecaa29caa80ee819081e4c74f50f5",
+      "state": "uploaded",
+      "operation": "operations/5239f72d-797b-4b1d-98b2-93a1e9d8e18c",
+      "assetId": 130298308654574,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Roof_UnevenBricks": {
+      "key": "village/Overhang_Roof_UnevenBricks",
+      "pack": "village",
+      "name": "Overhang_Roof_UnevenBricks",
+      "sha256": "dcd9ff2b45f0893f5d211e6e346cf1503e4ea359f5204f0ad717fae1b337f691",
+      "state": "uploaded",
+      "operation": "operations/71609c7e-12bf-4cb1-a094-fd9a2271c830",
+      "assetId": 130537504726105,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Side_Plaster_Long_L": {
+      "key": "village/Overhang_Side_Plaster_Long_L",
+      "pack": "village",
+      "name": "Overhang_Side_Plaster_Long_L",
+      "sha256": "4ac095f2f535fd2333fb49f2c448ccd7a68cd74637b31a86ef1205546f38313b",
+      "state": "uploaded",
+      "operation": "operations/6adc3164-47d6-4806-a20f-1711843a3baa",
+      "assetId": 121166461871667,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Side_Plaster_Long_R": {
+      "key": "village/Overhang_Side_Plaster_Long_R",
+      "pack": "village",
+      "name": "Overhang_Side_Plaster_Long_R",
+      "sha256": "013208e7b0e82ffd389467f6314ac726453ef2388239b06d103d24aeddf3677d",
+      "state": "uploaded",
+      "operation": "operations/5ea1c696-4737-4668-b965-37401128fa86",
+      "assetId": 120312607119406,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Side_Plaster_Short_L": {
+      "key": "village/Overhang_Side_Plaster_Short_L",
+      "pack": "village",
+      "name": "Overhang_Side_Plaster_Short_L",
+      "sha256": "b1aa1875db136d73b9c51deb7d2ad37c401c988afae4d39cb20ce9a2a05456a6",
+      "state": "uploaded",
+      "operation": "operations/7da3cd82-0fec-4476-a008-1e8f0590b79f",
+      "assetId": 128886330699510,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Side_Plaster_Short_R": {
+      "key": "village/Overhang_Side_Plaster_Short_R",
+      "pack": "village",
+      "name": "Overhang_Side_Plaster_Short_R",
+      "sha256": "3d1cd503272763e364e24c2b346a26e1d8685503c696a9b6040b907e3828d0d8",
+      "state": "uploaded",
+      "operation": "operations/9cd45ae7-b8cf-43fc-b2db-ac4a7b931f02",
+      "assetId": 76077962822991,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Side_UnevenBrick_Long_L": {
+      "key": "village/Overhang_Side_UnevenBrick_Long_L",
+      "pack": "village",
+      "name": "Overhang_Side_UnevenBrick_Long_L",
+      "sha256": "84c0768f0d0da9b0d591378e8314e26b147eca65c76ce9aba5adb07f884f395e",
+      "state": "uploaded",
+      "operation": "operations/c0fe5794-f3ef-48e8-8561-d10a69d36b64",
+      "assetId": 126921616803514,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Side_UnevenBrick_Long_R": {
+      "key": "village/Overhang_Side_UnevenBrick_Long_R",
+      "pack": "village",
+      "name": "Overhang_Side_UnevenBrick_Long_R",
+      "sha256": "8dc4b85c73fdaf118ae8988ba72d4115254ac4e7ed2491081388ec78d125f6a2",
+      "state": "uploaded",
+      "operation": "operations/dd9de437-f3e4-40ca-8996-ab6286613e0f",
+      "assetId": 86581086727501,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Side_UnevenBrick_Short_L": {
+      "key": "village/Overhang_Side_UnevenBrick_Short_L",
+      "pack": "village",
+      "name": "Overhang_Side_UnevenBrick_Short_L",
+      "sha256": "b24d8ee255d18b15a7f8396579477435ea33a14c26a0fd13359fee5fbd6d7372",
+      "state": "uploaded",
+      "operation": "operations/bf5b299c-1a51-48a7-a668-5adb821dc1b2",
+      "assetId": 115223945533909,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_Side_UnevenBrick_Short_R": {
+      "key": "village/Overhang_Side_UnevenBrick_Short_R",
+      "pack": "village",
+      "name": "Overhang_Side_UnevenBrick_Short_R",
+      "sha256": "8cb68fab3e2a5e83af33db61b7a5f1ba926916c66178196bd7c54d1445812f49",
+      "state": "uploaded",
+      "operation": "operations/cf28a676-b831-46bc-84cd-44708169e797",
+      "assetId": 100454206230582,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_UnevenBrick_Corner": {
+      "key": "village/Overhang_UnevenBrick_Corner",
+      "pack": "village",
+      "name": "Overhang_UnevenBrick_Corner",
+      "sha256": "d90a980df5118ad65862cd3b1b938e030afd8af0bd695f96f2ab92226be69942",
+      "state": "uploaded",
+      "operation": "operations/03b60a2e-a5be-4eba-b23d-c3abc4df328b",
+      "assetId": 131994396309033,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_UnevenBrick_Corner_Front": {
+      "key": "village/Overhang_UnevenBrick_Corner_Front",
+      "pack": "village",
+      "name": "Overhang_UnevenBrick_Corner_Front",
+      "sha256": "8fcf1a201a6daf515361a3207bf6a70fd825dcbfcf5b3ecb6d358802004d5abe",
+      "state": "uploaded",
+      "operation": "operations/0f1630c2-2fbe-466d-8721-0408c131c761",
+      "assetId": 136541586431326,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_UnevenBrick_Long": {
+      "key": "village/Overhang_UnevenBrick_Long",
+      "pack": "village",
+      "name": "Overhang_UnevenBrick_Long",
+      "sha256": "ed52ca3dfc3dac8fe13985ae93955934e152538c06a0f443c6f010ef86113bc6",
+      "state": "uploaded",
+      "operation": "operations/8929de34-2137-44a2-9823-fe74f388b4c7",
+      "assetId": 116997271820775,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Overhang_UnevenBrick_Short": {
+      "key": "village/Overhang_UnevenBrick_Short",
+      "pack": "village",
+      "name": "Overhang_UnevenBrick_Short",
+      "sha256": "e80006032d2a9e4f78d67a1737f4cf1c5db8fc2da27b525f50e0150647e08c74",
+      "state": "uploaded",
+      "operation": "operations/80988cd1-6e12-4a8a-87d7-660b316d9f18",
+      "assetId": 108047190903754,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Brick1": {
+      "key": "village/Prop_Brick1",
+      "pack": "village",
+      "name": "Prop_Brick1",
+      "sha256": "dcf892780668b6dab92cb07f02e65bb4b297196cdad722c72dd3eb7768ba202c",
+      "state": "uploaded",
+      "operation": "operations/65c02825-500a-46db-ad29-b597acd3f836",
+      "assetId": 136656954447362,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Brick2": {
+      "key": "village/Prop_Brick2",
+      "pack": "village",
+      "name": "Prop_Brick2",
+      "sha256": "d282b3e04126d7497f5c41f8d92de42169f20a8c9fad535f02e66f0444386b0c",
+      "state": "uploaded",
+      "operation": "operations/74b61d9e-3ff0-4760-a7b0-aa5776b295bd",
+      "assetId": 94399517349220,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Brick3": {
+      "key": "village/Prop_Brick3",
+      "pack": "village",
+      "name": "Prop_Brick3",
+      "sha256": "a52dbd081de68712947b8d6c1a2c8ed62d7157507e3eadefc47152efa6fefbd3",
+      "state": "uploaded",
+      "operation": "operations/2e86a55c-9891-4d76-a484-3aaa18fc38ab",
+      "assetId": 86821603495114,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Brick4": {
+      "key": "village/Prop_Brick4",
+      "pack": "village",
+      "name": "Prop_Brick4",
+      "sha256": "1315db98e8ef76922b705b0fe38e89f03a7db496cecea5cb2caeb4b312ad9b16",
+      "state": "uploaded",
+      "operation": "operations/ddca544e-334c-4ca3-89e2-f0fd39581c40",
+      "assetId": 84308781536727,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Chimney": {
+      "key": "village/Prop_Chimney",
+      "pack": "village",
+      "name": "Prop_Chimney",
+      "sha256": "2425b14d39c1d5e6aae92cd4eab280c992e91abdb5d8aeb351a902d047efa1a6",
+      "state": "uploaded",
+      "operation": "operations/f0e0a00e-97e9-48fe-a7eb-fcd75593b3fb",
+      "assetId": 95540176696474,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Chimney2": {
+      "key": "village/Prop_Chimney2",
+      "pack": "village",
+      "name": "Prop_Chimney2",
+      "sha256": "54b1f3f2ce0656d8c782be7b65f93f84f001a83c06ee8096cd803e555f58fe7a",
+      "state": "uploaded",
+      "operation": "operations/2e9fc88f-f2b8-4ccf-9ec9-4af7de951347",
+      "assetId": 76604667354470,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Crate": {
+      "key": "village/Prop_Crate",
+      "pack": "village",
+      "name": "Prop_Crate",
+      "sha256": "64973cf18c21b251322cc46ec27858d2ad99819b6b7b911c7dea20bfafa80e98",
+      "state": "uploaded",
+      "operation": "operations/9125ac4d-a8e4-4907-a9f9-a7629866d24d",
+      "assetId": 122797564701234,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_ExteriorBorder_Corner": {
+      "key": "village/Prop_ExteriorBorder_Corner",
+      "pack": "village",
+      "name": "Prop_ExteriorBorder_Corner",
+      "sha256": "2fa75b875afa8accc57be864e90a15c43250ac04a36c2873f017ac06835deb1b",
+      "state": "uploaded",
+      "operation": "operations/55c74937-cff5-4e0e-ba44-9600d654e858",
+      "assetId": 124041223760815,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_ExteriorBorder_Straight1": {
+      "key": "village/Prop_ExteriorBorder_Straight1",
+      "pack": "village",
+      "name": "Prop_ExteriorBorder_Straight1",
+      "sha256": "bcbdaab30ee8f8d1ea7e23a5c155ce9504dc999feb85b99869aab59a9d2e2797",
+      "state": "uploaded",
+      "operation": "operations/8786d6cb-7781-4021-a518-e71e03654cce",
+      "assetId": 72717662370306,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_ExteriorBorder_Straight2": {
+      "key": "village/Prop_ExteriorBorder_Straight2",
+      "pack": "village",
+      "name": "Prop_ExteriorBorder_Straight2",
+      "sha256": "33ea7a42dc273e63a212b64668e025fbfd08d6640b321d7cbec72d30febd8a87",
+      "state": "uploaded",
+      "operation": "operations/82cd0873-094a-48c9-a46d-7ee55154f573",
+      "assetId": 137032034687636,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_MetalFence_Ornament": {
+      "key": "village/Prop_MetalFence_Ornament",
+      "pack": "village",
+      "name": "Prop_MetalFence_Ornament",
+      "sha256": "fbebe3c3e1274c7574f557f591a38d3c344583a8f906598f94f91ac721958393",
+      "state": "uploaded",
+      "operation": "operations/c41c3462-c3ad-496a-aa31-c6b0133e6bd4",
+      "assetId": 78426497551666,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_MetalFence_Simple": {
+      "key": "village/Prop_MetalFence_Simple",
+      "pack": "village",
+      "name": "Prop_MetalFence_Simple",
+      "sha256": "e65841369f4bbd24ebaa22877b9dab3f4d7e8dbc404c50a766f1c5caf85d4e76",
+      "state": "uploaded",
+      "operation": "operations/97994c95-6e9b-471b-9a6e-e901b066bb32",
+      "assetId": 82844846673234,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Support": {
+      "key": "village/Prop_Support",
+      "pack": "village",
+      "name": "Prop_Support",
+      "sha256": "1db14bdf59299ee950b7958df9da82eba9198604d893f99ddad053af7d097c6e",
+      "state": "uploaded",
+      "operation": "operations/ed1576d1-b7c8-4582-b4ea-fea7578ed432",
+      "assetId": 110005606668547,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Vine1": {
+      "key": "village/Prop_Vine1",
+      "pack": "village",
+      "name": "Prop_Vine1",
+      "sha256": "47731c378c86038efbfa8c2fab55f77f2c24dd34c5607bd172af7aceec21c93c",
+      "state": "uploaded",
+      "operation": "operations/9453bcc1-d446-4af5-8442-b90a6d826c6a",
+      "assetId": 130623576429104,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Vine2": {
+      "key": "village/Prop_Vine2",
+      "pack": "village",
+      "name": "Prop_Vine2",
+      "sha256": "4857365bf22561cfb3637fdbc8c1fce86362daef95ca15618d752e2d95a1eec3",
+      "state": "uploaded",
+      "operation": "operations/15dddef3-826d-4cd3-a6ca-b1289edf3f7e",
+      "assetId": 133085766661212,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Vine4": {
+      "key": "village/Prop_Vine4",
+      "pack": "village",
+      "name": "Prop_Vine4",
+      "sha256": "7dc46536fa99d14e0eb146f3199a361d7183bc8d89092e2754dc04d8266905cc",
+      "state": "uploaded",
+      "operation": "operations/1ed339a5-cf26-411c-857c-4572a45538b2",
+      "assetId": 89534722258443,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Vine5": {
+      "key": "village/Prop_Vine5",
+      "pack": "village",
+      "name": "Prop_Vine5",
+      "sha256": "c81e50556d126520e7626894570fe8d9a9100fa34986db2ebb3e91eac769b5bb",
+      "state": "uploaded",
+      "operation": "operations/29a65cf1-9c31-4eb4-88b3-3f48ec86a825",
+      "assetId": 102875508527306,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Vine6": {
+      "key": "village/Prop_Vine6",
+      "pack": "village",
+      "name": "Prop_Vine6",
+      "sha256": "d448b9702bfe72811e2b59e554c60a69f864a80c76844bfed86ff1950f3a3290",
+      "state": "uploaded",
+      "operation": "operations/b659e84e-6b06-4e6c-8130-7d22366ee366",
+      "assetId": 82804120177171,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Vine9": {
+      "key": "village/Prop_Vine9",
+      "pack": "village",
+      "name": "Prop_Vine9",
+      "sha256": "9cd6f2cfa407c45a68c7319962fb2e2c84bb10227256026f7ebe4fcc2f55c6d0",
+      "state": "uploaded",
+      "operation": "operations/79fc5e1c-c5d9-46de-a34d-8fa5cbfe0313",
+      "assetId": 85572971859205,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_Wagon": {
+      "key": "village/Prop_Wagon",
+      "pack": "village",
+      "name": "Prop_Wagon",
+      "sha256": "6722aad9e1f75dc234dbd535d21aa09f7c1ea8b6e36199894aa17b4b28b9596a",
+      "state": "uploaded",
+      "operation": "operations/edbcfce1-b536-4fe9-af97-635bfcbcccc4",
+      "assetId": 98149097240319,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_WoodenFence_Extension1": {
+      "key": "village/Prop_WoodenFence_Extension1",
+      "pack": "village",
+      "name": "Prop_WoodenFence_Extension1",
+      "sha256": "2bb786984b2831dbf3cd5edea7f1dff80f582b452bfe90ce4361878f168997a6",
+      "state": "uploaded",
+      "operation": "operations/ea07398b-944f-4207-850b-6311cdc36182",
+      "assetId": 83672418912048,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_WoodenFence_Extension2": {
+      "key": "village/Prop_WoodenFence_Extension2",
+      "pack": "village",
+      "name": "Prop_WoodenFence_Extension2",
+      "sha256": "805177e9bd03628a06e06f7fafafbe58a7bca86254e1e60cdd40334792471241",
+      "state": "uploaded",
+      "operation": "operations/65cf7165-5296-47de-b744-b3f3e07df0aa",
+      "assetId": 114639463081227,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Prop_WoodenFence_Single": {
+      "key": "village/Prop_WoodenFence_Single",
+      "pack": "village",
+      "name": "Prop_WoodenFence_Single",
+      "sha256": "c4788f890db43ba34c7ab931a9e60341786865fb0d14c9a22116aa97c2a9de8c",
+      "state": "uploaded",
+      "operation": "operations/264e7848-b0c7-43ed-95ba-5aafd4f664ce",
+      "assetId": 100780661573727,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_2x4_RoundTile": {
+      "key": "village/Roof_2x4_RoundTile",
+      "pack": "village",
+      "name": "Roof_2x4_RoundTile",
+      "sha256": "013b8fb1f558074dd7dcfc1a0f5eb6a10a875aeb56a896133fe082b2bd30624c",
+      "state": "uploaded",
+      "operation": "operations/1052c010-5d47-4032-914a-b288d83c0786",
+      "assetId": 128117541111183,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Dormer_RoundTile": {
+      "key": "village/Roof_Dormer_RoundTile",
+      "pack": "village",
+      "name": "Roof_Dormer_RoundTile",
+      "sha256": "79655ab10fde1fd0c9449115437034ebe903839c62b42573757163e3226d98b5",
+      "state": "uploaded",
+      "operation": "operations/aede11cb-f859-4789-93c5-a8aa85c5fbc6",
+      "assetId": 96506425167135,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_FrontSupports": {
+      "key": "village/Roof_FrontSupports",
+      "pack": "village",
+      "name": "Roof_FrontSupports",
+      "sha256": "dd773c720e0cceb99779fe992f58954a1810cf299868b0105498b80ba0f1afbd",
+      "state": "uploaded",
+      "operation": "operations/109b3c19-0534-44bb-9368-a50e0d63d086",
+      "assetId": 98416818595086,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick2": {
+      "key": "village/Roof_Front_Brick2",
+      "pack": "village",
+      "name": "Roof_Front_Brick2",
+      "sha256": "fc13cba919beb84fc07c15e167ef7f00669e98de8735ef357e39cb20f68f6779",
+      "state": "uploaded",
+      "operation": "operations/037da5b4-907f-4e2e-af3d-ea2ef059c403",
+      "assetId": 116852769123470,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick4": {
+      "key": "village/Roof_Front_Brick4",
+      "pack": "village",
+      "name": "Roof_Front_Brick4",
+      "sha256": "d4fafc2370841973f221ad697542b91d588649e762df23271670905d82ec89d4",
+      "state": "uploaded",
+      "operation": "operations/f277dca6-4627-422a-9ea5-7314df4ad661",
+      "assetId": 96443741769157,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick4_Half_L": {
+      "key": "village/Roof_Front_Brick4_Half_L",
+      "pack": "village",
+      "name": "Roof_Front_Brick4_Half_L",
+      "sha256": "f47b5f291460bbe66d866daafafc05e47b7151cbfd7c1742960a2b809ead39a1",
+      "state": "uploaded",
+      "operation": "operations/9c009ca5-965e-4170-95f1-2e734146eab9",
+      "assetId": 79874272080147,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick4_Half_R": {
+      "key": "village/Roof_Front_Brick4_Half_R",
+      "pack": "village",
+      "name": "Roof_Front_Brick4_Half_R",
+      "sha256": "f64aa760bc22988274ec213ce929d05c66f0cb334e66472b7541adc8c79c87f6",
+      "state": "uploaded",
+      "operation": "operations/30498c8c-e834-46dd-9b2b-ce874e8ae893",
+      "assetId": 102927197294389,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick6": {
+      "key": "village/Roof_Front_Brick6",
+      "pack": "village",
+      "name": "Roof_Front_Brick6",
+      "sha256": "c16148a2180b976546bcfe401851e15a8499809d387fddc0e57ff61c34ab7412",
+      "state": "uploaded",
+      "operation": "operations/6f2529ef-4fcd-475f-bb00-923a6799da1b",
+      "assetId": 94231680415279,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick6_Half_L": {
+      "key": "village/Roof_Front_Brick6_Half_L",
+      "pack": "village",
+      "name": "Roof_Front_Brick6_Half_L",
+      "sha256": "4cdc1de99ce899566132c5de26252886b01a10f2706f0862111f1740a906aad4",
+      "state": "uploaded",
+      "operation": "operations/a2218571-59b9-498c-bfd7-1651c2573f65",
+      "assetId": 75143385602838,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick6_Half_R": {
+      "key": "village/Roof_Front_Brick6_Half_R",
+      "pack": "village",
+      "name": "Roof_Front_Brick6_Half_R",
+      "sha256": "1877cdcb4cc3ec7f650abfaa206f7f8dfbee8db536ce48ba34bea8534dbc3a1b",
+      "state": "uploaded",
+      "operation": "operations/7a0dff83-ed34-41bb-a229-a493a6293065",
+      "assetId": 132204211061974,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick8": {
+      "key": "village/Roof_Front_Brick8",
+      "pack": "village",
+      "name": "Roof_Front_Brick8",
+      "sha256": "90d2dd9e185aee0477b45edb3387a4ed90b091bc6fa9d28594722e2e3cbcd416",
+      "state": "uploaded",
+      "operation": "operations/820741d0-7274-4e95-a542-575ab9e8a2b6",
+      "assetId": 121587446515669,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick8_Half_L": {
+      "key": "village/Roof_Front_Brick8_Half_L",
+      "pack": "village",
+      "name": "Roof_Front_Brick8_Half_L",
+      "sha256": "0faafbce8ab42928ff584cc88fbae83bf4f9a8f5a9ed98b35599751f06114447",
+      "state": "uploaded",
+      "operation": "operations/c8c1c049-5e56-4aa9-a42d-1bcf17c7fda9",
+      "assetId": 122140265326586,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Front_Brick8_Half_R": {
+      "key": "village/Roof_Front_Brick8_Half_R",
+      "pack": "village",
+      "name": "Roof_Front_Brick8_Half_R",
+      "sha256": "b482b1f9083b170798e35288d102e2c753d968b05621b22c62c588800a182b44",
+      "state": "uploaded",
+      "operation": "operations/80c01c74-fef9-46d0-b7ee-f358a5746a22",
+      "assetId": 89804266097431,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Log": {
+      "key": "village/Roof_Log",
+      "pack": "village",
+      "name": "Roof_Log",
+      "sha256": "8a33aad1759d6bbcb52d3c7d5eb000e00f04b72634989e9a758a10b8971c2307",
+      "state": "uploaded",
+      "operation": "operations/322ecca1-8c27-438e-a9ad-f3632bda8a7b",
+      "assetId": 115779312085924,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Modular_RoundTiles": {
+      "key": "village/Roof_Modular_RoundTiles",
+      "pack": "village",
+      "name": "Roof_Modular_RoundTiles",
+      "sha256": "787b289d9928acd68eb1fff2e7e93d6daef22add5677c2eed0bf0d2a2b518665",
+      "state": "uploaded",
+      "operation": "operations/3e818645-2d09-47ab-9fbb-f05be7324883",
+      "assetId": 108240596983078,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTile_2x1": {
+      "key": "village/Roof_RoundTile_2x1",
+      "pack": "village",
+      "name": "Roof_RoundTile_2x1",
+      "sha256": "154229bed1ed6fa80c51caf896a8ccc113b50d06fd00e31d9f3887208d4f3fbb",
+      "state": "uploaded",
+      "operation": "operations/f6638fdc-271d-4af1-9617-02f7817c5ebc",
+      "assetId": 94726114111759,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTile_2x1_Long": {
+      "key": "village/Roof_RoundTile_2x1_Long",
+      "pack": "village",
+      "name": "Roof_RoundTile_2x1_Long",
+      "sha256": "87ba06165209d3ddab36b280aae7049b612ecd15a4f3df68868ee62bc746d441",
+      "state": "uploaded",
+      "operation": "operations/f1cd7a35-9086-4359-9a6f-45b39a860404",
+      "assetId": 84089070885370,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_4x4": {
+      "key": "village/Roof_RoundTiles_4x4",
+      "pack": "village",
+      "name": "Roof_RoundTiles_4x4",
+      "sha256": "859f13f432daa515fc7d0f2f3fd064b016bb1958fd4a1f026483d1e34f460413",
+      "state": "uploaded",
+      "operation": "operations/77147ee0-3c2d-4968-a368-c64598d28623",
+      "assetId": 137698442600592,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_4x6": {
+      "key": "village/Roof_RoundTiles_4x6",
+      "pack": "village",
+      "name": "Roof_RoundTiles_4x6",
+      "sha256": "654e11e105c834c2e4aed2d1a305170c6059eb7534df3f89ab6f4cdba549b842",
+      "state": "uploaded",
+      "operation": "operations/69fad336-558c-4283-9580-6fab952c94b2",
+      "assetId": 91833968814004,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_4x8": {
+      "key": "village/Roof_RoundTiles_4x8",
+      "pack": "village",
+      "name": "Roof_RoundTiles_4x8",
+      "sha256": "59be613f90871c27c2d8169820ebe460ee3ec4faf92ed913c5f2155063dd9699",
+      "state": "uploaded",
+      "operation": "operations/792f31fe-5707-4bed-86b2-bca57bff1bc3",
+      "assetId": 76619489567205,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_6x10": {
+      "key": "village/Roof_RoundTiles_6x10",
+      "pack": "village",
+      "name": "Roof_RoundTiles_6x10",
+      "sha256": "e5d4fae342e3eec51fda3abd8e8ea21e51ced014236b2cdf0ef455c0dca56eec",
+      "state": "uploaded",
+      "operation": "operations/4f35f14b-d861-40a6-8de3-9f9d051349ba",
+      "assetId": 124780398540269,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_6x12": {
+      "key": "village/Roof_RoundTiles_6x12",
+      "pack": "village",
+      "name": "Roof_RoundTiles_6x12",
+      "sha256": "5e799e1e7664ddc868e6b27f031d953d63f728df69a7eb7551dc04ddf5d79931",
+      "state": "uploaded",
+      "operation": "operations/478a5781-e156-4e54-a0ca-b461980ca1de",
+      "assetId": 108941673869979,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_6x14": {
+      "key": "village/Roof_RoundTiles_6x14",
+      "pack": "village",
+      "name": "Roof_RoundTiles_6x14",
+      "sha256": "12a552180d2ed737ca2d8970f8cf9580f97dcfc7ae722f05b600c3accc092076",
+      "state": "uploaded",
+      "operation": "operations/c235d7b5-90f5-4065-9a53-ac673490e53d",
+      "assetId": 105375362675332,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_6x4": {
+      "key": "village/Roof_RoundTiles_6x4",
+      "pack": "village",
+      "name": "Roof_RoundTiles_6x4",
+      "sha256": "d8ffeca97254d14da2ad41ef7cd6b08dbd9dc6fb5ea9e1688a2c8973bea58225",
+      "state": "uploaded",
+      "operation": "operations/c8d6131b-e3b3-42b4-8064-48eda214b01f",
+      "assetId": 77632486678872,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_6x6": {
+      "key": "village/Roof_RoundTiles_6x6",
+      "pack": "village",
+      "name": "Roof_RoundTiles_6x6",
+      "sha256": "ad0654a88666f51474ae16e7a98f8c645d150d6c1e2c406f6fe596b24276d213",
+      "state": "uploaded",
+      "operation": "operations/9a55d74b-3b47-4ca2-bf44-b086c511e359",
+      "assetId": 102229126303170,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_6x8": {
+      "key": "village/Roof_RoundTiles_6x8",
+      "pack": "village",
+      "name": "Roof_RoundTiles_6x8",
+      "sha256": "1c005305d192cfd5fdfda658a15b7f8f2624d4c4713b6073de40fc003aa49f45",
+      "state": "uploaded",
+      "operation": "operations/2d8377fa-5af8-47cd-bd15-eaf76c9f44a2",
+      "assetId": 78370458296246,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_8x10": {
+      "key": "village/Roof_RoundTiles_8x10",
+      "pack": "village",
+      "name": "Roof_RoundTiles_8x10",
+      "sha256": "8adaa6e2402e185c9ad5b52732cc8b65287c517b2031eed20334aafec94fc8ab",
+      "state": "uploaded",
+      "operation": "operations/a12f9e7a-c6ed-4b4a-b093-ccd46215b2b7",
+      "assetId": 84395616295221,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_8x12": {
+      "key": "village/Roof_RoundTiles_8x12",
+      "pack": "village",
+      "name": "Roof_RoundTiles_8x12",
+      "sha256": "e6d30e3c519ec5c4bceab2696ee0bdf591906435a708edcefb4eff31bb4063db",
+      "state": "uploaded",
+      "operation": "operations/fdb938a8-4b3f-419a-9f63-8562ca0ae5bd",
+      "assetId": 121907326265182,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_8x14": {
+      "key": "village/Roof_RoundTiles_8x14",
+      "pack": "village",
+      "name": "Roof_RoundTiles_8x14",
+      "sha256": "9e6006d141e9e6ec2e03029a0fab8bb40b8d46a54db2b86387f8402fc953cfe4",
+      "state": "uploaded",
+      "operation": "operations/60079fd5-b352-46ee-aaad-3e5bd1bff430",
+      "assetId": 122011084189862,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_RoundTiles_8x8": {
+      "key": "village/Roof_RoundTiles_8x8",
+      "pack": "village",
+      "name": "Roof_RoundTiles_8x8",
+      "sha256": "4394d96f0f063a83a4982d9ed180909092d03d9ae764bc34061fdcc54578f47a",
+      "state": "uploaded",
+      "operation": "operations/49b3cc5d-70bd-4c4c-b694-e12b9b9c1e2d",
+      "assetId": 139114503989122,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Support2": {
+      "key": "village/Roof_Support2",
+      "pack": "village",
+      "name": "Roof_Support2",
+      "sha256": "3f324c106fba37e6e67a501d6621011dae1afdc5ee03564e47068951e3604272",
+      "state": "uploaded",
+      "operation": "operations/f4d131dc-1988-4612-9bc7-7a24dad2cc99",
+      "assetId": 103767752889153,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Tower_RoundTiles": {
+      "key": "village/Roof_Tower_RoundTiles",
+      "pack": "village",
+      "name": "Roof_Tower_RoundTiles",
+      "sha256": "e128961cf28923a456221e62500fab8e17e262201d2117f5caed86af178ae730",
+      "state": "uploaded",
+      "operation": "operations/1970e402-1fc2-437a-ba1c-3852229c791e",
+      "assetId": 130675690610737,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Wooden_2x1": {
+      "key": "village/Roof_Wooden_2x1",
+      "pack": "village",
+      "name": "Roof_Wooden_2x1",
+      "sha256": "143bd696296bb18a53c07498653aaeab16bc20ed6c3067a4847d5bacfe7ed43f",
+      "state": "uploaded",
+      "operation": "operations/bd3d7818-8a61-4e97-84b2-50f92d311196",
+      "assetId": 115593901880502,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Wooden_2x1_Center": {
+      "key": "village/Roof_Wooden_2x1_Center",
+      "pack": "village",
+      "name": "Roof_Wooden_2x1_Center",
+      "sha256": "249ca15c9d98223f28450653b01f71b6fe32c47cdc472a3c06919490a2018b9c",
+      "state": "uploaded",
+      "operation": "operations/835f6319-17bf-46fe-b357-483ec5119e77",
+      "assetId": 127163602393683,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Wooden_2x1_Center_Mirror": {
+      "key": "village/Roof_Wooden_2x1_Center_Mirror",
+      "pack": "village",
+      "name": "Roof_Wooden_2x1_Center_Mirror",
+      "sha256": "85a6a2425fd9e529bea0ceaebb4b361caf62e89f91d7d2dbcc86ca03c113ba04",
+      "state": "uploaded",
+      "operation": "operations/b3077969-8e8c-445e-93de-d878543a8230",
+      "assetId": 137570014630527,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Wooden_2x1_Corner": {
+      "key": "village/Roof_Wooden_2x1_Corner",
+      "pack": "village",
+      "name": "Roof_Wooden_2x1_Corner",
+      "sha256": "dc02eed142edd7bb8b1785c3c0888071004afaa8d8a8114a5a1c135946ee3a06",
+      "state": "uploaded",
+      "operation": "operations/c23a3d5c-bcaf-47e4-80a5-d922dc5f8475",
+      "assetId": 139533014207830,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Wooden_2x1_L": {
+      "key": "village/Roof_Wooden_2x1_L",
+      "pack": "village",
+      "name": "Roof_Wooden_2x1_L",
+      "sha256": "09fc422e04133f09d1fa1cac68c13a6e1a33b141f7d9098e285f1679ad4502a2",
+      "state": "uploaded",
+      "operation": "operations/06c3ec38-e9ac-4edf-a907-e46f871e37f0",
+      "assetId": 93230635890489,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Wooden_2x1_Middle": {
+      "key": "village/Roof_Wooden_2x1_Middle",
+      "pack": "village",
+      "name": "Roof_Wooden_2x1_Middle",
+      "sha256": "850360a6a738c9b9b3083dc25088f017c794169d98dfeb2029f46c864e1e1d71",
+      "state": "uploaded",
+      "operation": "operations/856eeb1f-ed8a-4f89-baef-4e6bf53739ab",
+      "assetId": 86127027917044,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Roof_Wooden_2x1_R": {
+      "key": "village/Roof_Wooden_2x1_R",
+      "pack": "village",
+      "name": "Roof_Wooden_2x1_R",
+      "sha256": "c5b8cd1ed17e4cfeeee4d1c3da5fe9b91d6a2066789ccf658629ed68379ff339",
+      "state": "uploaded",
+      "operation": "operations/d09860dd-7936-4b6f-b73a-fffec530c7b0",
+      "assetId": 91125218459234,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stair_Interior_Rails": {
+      "key": "village/Stair_Interior_Rails",
+      "pack": "village",
+      "name": "Stair_Interior_Rails",
+      "sha256": "4ea59769a633658932324b07dfc331fcf536d259c4e3f831ae5686057a0bc1e2",
+      "state": "uploaded",
+      "operation": "operations/7acd06bb-f5be-4e78-9e3f-9e366ad7082b",
+      "assetId": 128405164243367,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stair_Interior_Simple": {
+      "key": "village/Stair_Interior_Simple",
+      "pack": "village",
+      "name": "Stair_Interior_Simple",
+      "sha256": "b5ec4c5fdf49a4efe4c16c7e1f180e8120a5af529f337d77e9fa0a0f4a8ca02a",
+      "state": "uploaded",
+      "operation": "operations/a3d4f828-1d29-4e18-98f3-93617e7572dd",
+      "assetId": 113048448726116,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stair_Interior_Solid": {
+      "key": "village/Stair_Interior_Solid",
+      "pack": "village",
+      "name": "Stair_Interior_Solid",
+      "sha256": "166fd2a3f0f09b5b39057e2b0d5637a0fb09e54e6944b3ac2d062f9a24e3989b",
+      "state": "uploaded",
+      "operation": "operations/c01621eb-1f29-4800-84f3-0b564117b67d",
+      "assetId": 88964761676730,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stair_Interior_SolidExtended": {
+      "key": "village/Stair_Interior_SolidExtended",
+      "pack": "village",
+      "name": "Stair_Interior_SolidExtended",
+      "sha256": "2fd6402f86bd202e4e733e8ab7e8dd880a244aba237556884fdf786d83651ae9",
+      "state": "uploaded",
+      "operation": "operations/3bff75e9-196e-4183-9d07-7bb0cf6b9113",
+      "assetId": 80595154292857,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_NoFirstStep": {
+      "key": "village/Stairs_Exterior_NoFirstStep",
+      "pack": "village",
+      "name": "Stairs_Exterior_NoFirstStep",
+      "sha256": "dfaf278191c6d770d636521138a26e67178de2500bd816c2f486966b61cafd7a",
+      "state": "uploaded",
+      "operation": "operations/75391c18-dc88-4b55-b1e7-794b0c8cca5b",
+      "assetId": 120032815249143,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_Platform": {
+      "key": "village/Stairs_Exterior_Platform",
+      "pack": "village",
+      "name": "Stairs_Exterior_Platform",
+      "sha256": "af846d925dfa2e5ae25853e7d428a88df256411e812f0912d63e64493d2ab8bb",
+      "state": "uploaded",
+      "operation": "operations/24409398-4547-4fbd-9868-90a2d3d6b3e8",
+      "assetId": 129185890986802,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_Platform45": {
+      "key": "village/Stairs_Exterior_Platform45",
+      "pack": "village",
+      "name": "Stairs_Exterior_Platform45",
+      "sha256": "2e0d5779403651d6d1f58a827002fac491aec4d3c19a18bec9906ab36cc52827",
+      "state": "uploaded",
+      "operation": "operations/49051295-dff5-4ad5-80ef-0d4b31b46672",
+      "assetId": 133094973772251,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_Platform45Clean": {
+      "key": "village/Stairs_Exterior_Platform45Clean",
+      "pack": "village",
+      "name": "Stairs_Exterior_Platform45Clean",
+      "sha256": "ee5096f2ea2a0e98a521d34dd6ef835668fd6a3700e7367e10e09af7ceb60bac",
+      "state": "uploaded",
+      "operation": "operations/e231c6d1-1df3-41af-9bcc-d687201952e1",
+      "assetId": 100287305484264,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_PlatformU": {
+      "key": "village/Stairs_Exterior_PlatformU",
+      "pack": "village",
+      "name": "Stairs_Exterior_PlatformU",
+      "sha256": "c7bcee68c2b49f812cf21291207d95a038b2e47469fd46d4fac74c780c283ffc",
+      "state": "uploaded",
+      "operation": "operations/3382c313-ee22-420f-b12d-0baaf3da483f",
+      "assetId": 126687825649427,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_SidePlatform": {
+      "key": "village/Stairs_Exterior_SidePlatform",
+      "pack": "village",
+      "name": "Stairs_Exterior_SidePlatform",
+      "sha256": "3e4c5236df91bd4e9475e74ad6f892f7aba68a812d7e19d8fb7f1e4e6402cd28",
+      "state": "uploaded",
+      "operation": "operations/d5465404-0158-4db2-85b0-f3337be7a154",
+      "assetId": 84438548056691,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_Sides": {
+      "key": "village/Stairs_Exterior_Sides",
+      "pack": "village",
+      "name": "Stairs_Exterior_Sides",
+      "sha256": "01a71c08fcb5cee733a00eebe0c6f2b2a3231faeaffd4ac8cbe7e62c4d61178b",
+      "state": "uploaded",
+      "operation": "operations/e1d392ad-75cc-48ee-9ac7-b5274de2d943",
+      "assetId": 90965539394394,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_Sides45": {
+      "key": "village/Stairs_Exterior_Sides45",
+      "pack": "village",
+      "name": "Stairs_Exterior_Sides45",
+      "sha256": "5b3383158581fa651a562de87da4077004e2ccc6a3093f3e18abf40d6bdf0da4",
+      "state": "uploaded",
+      "operation": "operations/76a435e9-5242-4e80-991a-1452ba34b3fc",
+      "assetId": 113831751629997,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_SidesU": {
+      "key": "village/Stairs_Exterior_SidesU",
+      "pack": "village",
+      "name": "Stairs_Exterior_SidesU",
+      "sha256": "525f616d75b98bfc4fe3c4dc8714f27935f49faf26bba82312cf95f4f09631de",
+      "state": "uploaded",
+      "operation": "operations/0a264347-d4b2-4d94-b956-b25931a0f88b",
+      "assetId": 119009348613106,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_SingleSide": {
+      "key": "village/Stairs_Exterior_SingleSide",
+      "pack": "village",
+      "name": "Stairs_Exterior_SingleSide",
+      "sha256": "8ad4bfc37433ce0b79b8ebca210a51c661234a402e337fb4c4148fd036746ddb",
+      "state": "uploaded",
+      "operation": "operations/eeb8ed85-4269-440d-9df6-3a482b7c7320",
+      "assetId": 89921928683496,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_SingleSideThick": {
+      "key": "village/Stairs_Exterior_SingleSideThick",
+      "pack": "village",
+      "name": "Stairs_Exterior_SingleSideThick",
+      "sha256": "cecfc618b09d6c1a31000473a0d1a453547e7d7da8081e684a16b29708df0b02",
+      "state": "uploaded",
+      "operation": "operations/bc130b39-014b-4897-aa0b-eb13fe5abf80",
+      "assetId": 115657063509647,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_Straight": {
+      "key": "village/Stairs_Exterior_Straight",
+      "pack": "village",
+      "name": "Stairs_Exterior_Straight",
+      "sha256": "a0db618bb062e934e7a103071edefd9e2927bfc6abb45b335757c82e0c222283",
+      "state": "uploaded",
+      "operation": "operations/eafaddab-2a58-45ee-9158-f325b4653447",
+      "assetId": 123361834461574,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_Straight_Center": {
+      "key": "village/Stairs_Exterior_Straight_Center",
+      "pack": "village",
+      "name": "Stairs_Exterior_Straight_Center",
+      "sha256": "ff626399e91f2f46937374c740fa927f7695be9ed9f781503dcd3e88e0bc1a01",
+      "state": "uploaded",
+      "operation": "operations/23666540-80fc-4e06-8446-d35b86ad6887",
+      "assetId": 91503977576362,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_Straight_L": {
+      "key": "village/Stairs_Exterior_Straight_L",
+      "pack": "village",
+      "name": "Stairs_Exterior_Straight_L",
+      "sha256": "0cb390dc1fca8b067573f6ea44c4a56c8bbd655e88706ab414f506127712baa2",
+      "state": "uploaded",
+      "operation": "operations/a875880c-07c2-4b6b-995d-2305be4b0832",
+      "assetId": 82152242669215,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Stairs_Exterior_Straight_R": {
+      "key": "village/Stairs_Exterior_Straight_R",
+      "pack": "village",
+      "name": "Stairs_Exterior_Straight_R",
+      "sha256": "6dabad27f68f10514dd8ee477b0d977736fa48b7fd42a0d98668624b5c390af7",
+      "state": "uploaded",
+      "operation": "operations/aa11d0b3-4598-415d-ac2f-cc018696c397",
+      "assetId": 119726674768739,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Arch": {
+      "key": "village/Wall_Arch",
+      "pack": "village",
+      "name": "Wall_Arch",
+      "sha256": "ba8eadb44bdd9f87e06885deca8a3f1c47bbd95fd1e004feab90516bb1bad776",
+      "state": "uploaded",
+      "operation": "operations/b92f1436-7816-4974-879a-33a14760ffbe",
+      "assetId": 140532376551740,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_BottomCover": {
+      "key": "village/Wall_BottomCover",
+      "pack": "village",
+      "name": "Wall_BottomCover",
+      "sha256": "52959e81fdc44ad607bb96247e7e1409153a1293d05f90a6c347e82fe0c3baff",
+      "state": "uploaded",
+      "operation": "operations/92ae4efe-6474-47ea-8820-b321561e9784",
+      "assetId": 114573840497762,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Door_Flat": {
+      "key": "village/Wall_Plaster_Door_Flat",
+      "pack": "village",
+      "name": "Wall_Plaster_Door_Flat",
+      "sha256": "81e16ad71bdf4283cdee32500b37eee3f80e3b9922a6876351a0475bc0007ff6",
+      "state": "uploaded",
+      "operation": "operations/9a1c925a-7153-47da-9965-532d6019fa51",
+      "assetId": 102895336638227,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Door_Round": {
+      "key": "village/Wall_Plaster_Door_Round",
+      "pack": "village",
+      "name": "Wall_Plaster_Door_Round",
+      "sha256": "25def4959fb122fd6425d2967152e2a7d37d6470d2d5681fd561b68ec70a7c99",
+      "state": "uploaded",
+      "operation": "operations/8e31046e-9251-4847-8b2d-c8e97effd400",
+      "assetId": 93751759117399,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Door_RoundInset": {
+      "key": "village/Wall_Plaster_Door_RoundInset",
+      "pack": "village",
+      "name": "Wall_Plaster_Door_RoundInset",
+      "sha256": "df3a5986665a01ed71b4b6c0bf753a98668131ae6f66f8f7be956a9f300cc2c3",
+      "state": "uploaded",
+      "operation": "operations/6e0792d0-b890-4d6c-8f9e-8dfa7e358797",
+      "assetId": 93421320414494,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Straight": {
+      "key": "village/Wall_Plaster_Straight",
+      "pack": "village",
+      "name": "Wall_Plaster_Straight",
+      "sha256": "cb4f4ea168bbba51328e3d8406945065c19a7b01b6ed42f0de376e06dfd2c5e3",
+      "state": "uploaded",
+      "operation": "operations/a6683a52-a02b-42ae-b6c2-dd70a54455c9",
+      "assetId": 124554532321310,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Straight_Base": {
+      "key": "village/Wall_Plaster_Straight_Base",
+      "pack": "village",
+      "name": "Wall_Plaster_Straight_Base",
+      "sha256": "71f655cb13a5ca178cc0a46acf795bc4027d4cf67d20095ef2791ea898f7b71a",
+      "state": "uploaded",
+      "operation": "operations/4456943c-1b3e-4b17-ac05-461ce0b81b2e",
+      "assetId": 126524997118489,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Straight_L": {
+      "key": "village/Wall_Plaster_Straight_L",
+      "pack": "village",
+      "name": "Wall_Plaster_Straight_L",
+      "sha256": "810567dbc252e17d107ffe932d980acb610fb9e99b74bcfcc2958ecb35f3c6e4",
+      "state": "uploaded",
+      "operation": "operations/731f12f4-3fae-4b61-ba4f-ed6d80a78fa1",
+      "assetId": 93344813059155,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Straight_R": {
+      "key": "village/Wall_Plaster_Straight_R",
+      "pack": "village",
+      "name": "Wall_Plaster_Straight_R",
+      "sha256": "298e61af04876139c938191c66a0587318b9d52f8ca6d9de7c90b931950ae6d3",
+      "state": "uploaded",
+      "operation": "operations/6f3d8c02-5c54-48b9-a0e4-80b0ce3d0c92",
+      "assetId": 136585536109482,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Window_Thin_Round": {
+      "key": "village/Wall_Plaster_Window_Thin_Round",
+      "pack": "village",
+      "name": "Wall_Plaster_Window_Thin_Round",
+      "sha256": "2cedb8d8d60250a4de366163f9b4e3fbfec302d710d514f800d6723c09c80987",
+      "state": "uploaded",
+      "operation": "operations/fa3a0528-a92f-4ce3-8346-29c43f0b5a4c",
+      "assetId": 80140950292659,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Window_Wide_Flat": {
+      "key": "village/Wall_Plaster_Window_Wide_Flat",
+      "pack": "village",
+      "name": "Wall_Plaster_Window_Wide_Flat",
+      "sha256": "b691b5f56c6b756647677db75057084e176097eae0cd9909cf887cd0801a5971",
+      "state": "uploaded",
+      "operation": "operations/012d56eb-083c-4e0a-9251-20b13a19cbc9",
+      "assetId": 105424512190761,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Window_Wide_Flat2": {
+      "key": "village/Wall_Plaster_Window_Wide_Flat2",
+      "pack": "village",
+      "name": "Wall_Plaster_Window_Wide_Flat2",
+      "sha256": "a7196c159d198bc75b3b09084cb732d85ebe6be96c9aa0d482a7122fc08ff4d9",
+      "state": "uploaded",
+      "operation": "operations/b3fb08fc-9c76-4b7c-9ce9-ebbc44ac1f7d",
+      "assetId": 99059591000559,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_Window_Wide_Round": {
+      "key": "village/Wall_Plaster_Window_Wide_Round",
+      "pack": "village",
+      "name": "Wall_Plaster_Window_Wide_Round",
+      "sha256": "e25f38082e4a6d82c0a1ea05d22a61ed21e53d2286f14e2c8a17b166c629b862",
+      "state": "uploaded",
+      "operation": "operations/c1f88898-4839-47d1-8930-25738005ffea",
+      "assetId": 127054814228368,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_Plaster_WoodGrid": {
+      "key": "village/Wall_Plaster_WoodGrid",
+      "pack": "village",
+      "name": "Wall_Plaster_WoodGrid",
+      "sha256": "728e9a3a4bb41f5886d21625eeb0d43891eec5c1c9162c559f0fc6b1200a1e07",
+      "state": "uploaded",
+      "operation": "operations/4f53c9e0-21ae-4d1d-b00b-a7b3a525b8de",
+      "assetId": 127730010657419,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_UnevenBrick_Door_Flat": {
+      "key": "village/Wall_UnevenBrick_Door_Flat",
+      "pack": "village",
+      "name": "Wall_UnevenBrick_Door_Flat",
+      "sha256": "685d7b6bf906497821d1d72b9fcfceb6881017bbb5b9cd81fbc738a8b3a317e9",
+      "state": "uploaded",
+      "operation": "operations/07527cde-07fa-436c-beb6-a83a7d64510c",
+      "assetId": 124815155213507,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_UnevenBrick_Door_Round": {
+      "key": "village/Wall_UnevenBrick_Door_Round",
+      "pack": "village",
+      "name": "Wall_UnevenBrick_Door_Round",
+      "sha256": "1ad28082deb7759a559ca58225a78b3a2445cbfc18da17775d7479113caf5266",
+      "state": "uploaded",
+      "operation": "operations/eed457e1-7329-4be1-8bf6-b892d8a98b8c",
+      "assetId": 96357502462584,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_UnevenBrick_Straight": {
+      "key": "village/Wall_UnevenBrick_Straight",
+      "pack": "village",
+      "name": "Wall_UnevenBrick_Straight",
+      "sha256": "bce364270b9e21c8b84aa30a904181352764da9c15b5cd38857d16c71829770b",
+      "state": "uploaded",
+      "operation": "operations/9beb7de9-15cd-4795-aa61-29cbd78d2d47",
+      "assetId": 105884781965643,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_UnevenBrick_Window_Thin_Round": {
+      "key": "village/Wall_UnevenBrick_Window_Thin_Round",
+      "pack": "village",
+      "name": "Wall_UnevenBrick_Window_Thin_Round",
+      "sha256": "a02e6df3778250a735dd7b0c7a06e934c1777eca7f052eac0d24f09dc69b56e9",
+      "state": "uploaded",
+      "operation": "operations/a5405e1c-ef8c-45b0-b911-433dcb967974",
+      "assetId": 86412153530241,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Banner_1": {
+      "key": "props/Banner_1",
+      "pack": "props",
+      "name": "Banner_1",
+      "sha256": "3345e6e964bb4f9fa814ec4be84bcff9e870a9df7e9df5246854484c98982e6f",
+      "state": "uploaded",
+      "operation": "operations/3d34f882-e51a-4f1c-a364-20b0719d6857",
+      "assetId": 140264275267474,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Banner_1_Cloth": {
+      "key": "props/Banner_1_Cloth",
+      "pack": "props",
+      "name": "Banner_1_Cloth",
+      "sha256": "5a35d17bfc20e470b38a946a5cfb9aaa7170e7a6e1f721cb98785a9da90d451b",
+      "state": "uploaded",
+      "operation": "operations/1b96f590-c6ea-4353-8280-b458be28971d",
+      "assetId": 70471239347906,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Banner_2": {
+      "key": "props/Banner_2",
+      "pack": "props",
+      "name": "Banner_2",
+      "sha256": "e1443cfb4e5a206d24bc992d9dc062e8183c7f50b8cc6ca3cf6ed275b049bec0",
+      "state": "uploaded",
+      "operation": "operations/f4e78d2d-6a3f-417f-bfa5-abcd93ae8a19",
+      "assetId": 137159485653611,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Banner_2_Cloth": {
+      "key": "props/Banner_2_Cloth",
+      "pack": "props",
+      "name": "Banner_2_Cloth",
+      "sha256": "a09d9c24e6c573b22c302679c8cb7d11a3b57486cfbb10cf4ca79efb1a2b0d6b",
+      "state": "uploaded",
+      "operation": "operations/4d47b8e0-880f-4775-ab4e-eb54457ccea7",
+      "assetId": 134052444671344,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Barrel": {
+      "key": "props/Barrel",
+      "pack": "props",
+      "name": "Barrel",
+      "sha256": "baf9df8567c1ead78156e13d39b476406238526cddcf8bd8f7d7575cf438750e",
+      "state": "uploaded",
+      "operation": "operations/954a85dd-576f-4fda-af39-9b1e511df3cd",
+      "assetId": 90191242862374,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Barrel_Apples": {
+      "key": "props/Barrel_Apples",
+      "pack": "props",
+      "name": "Barrel_Apples",
+      "sha256": "c7d40825690b8a9db4e84eaf5ceb805f4a3587ddefb35a201ea203dade77348d",
+      "state": "uploaded",
+      "operation": "operations/485b5b0f-ca25-4ea6-a149-26ae7275820e",
+      "assetId": 74254470761726,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Barrel_Holder": {
+      "key": "props/Barrel_Holder",
+      "pack": "props",
+      "name": "Barrel_Holder",
+      "sha256": "202b82f339ccd6695b0f03dcfbb5cfbb55294beb46eed736eb897fb51170579f",
+      "state": "uploaded",
+      "operation": "operations/3827667a-4cbb-45a8-bc0c-f069b08ef0b0",
+      "assetId": 132053635947156,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Bed_Twin1": {
+      "key": "props/Bed_Twin1",
+      "pack": "props",
+      "name": "Bed_Twin1",
+      "sha256": "19430492302ef1c51227f5153842fa3adf83da2b2c971d3bdab481aa9b9d36a5",
+      "state": "uploaded",
+      "operation": "operations/897120d4-e9bf-4b20-8ce0-5256ad2e8f4f",
+      "assetId": 75889800578798,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Bed_Twin2": {
+      "key": "props/Bed_Twin2",
+      "pack": "props",
+      "name": "Bed_Twin2",
+      "sha256": "b9aa372b212b13ccf4ae5d3e07e1dd3c0ff3ac9b312283f4c0c439bfc6964b65",
+      "state": "uploaded",
+      "operation": "operations/10a0feea-fe08-4c13-847f-0cbcc0053dc2",
+      "assetId": 90845619882371,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Bench": {
+      "key": "props/Bench",
+      "pack": "props",
+      "name": "Bench",
+      "sha256": "9cc2943e8b0807111bd5688d281883ef136454981dd9a3ec929f4044098077a7",
+      "state": "uploaded",
+      "operation": "operations/95aa1808-80ca-423a-9fb9-47c611f70265",
+      "assetId": 126763135876896,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/BookGroup_Medium_1": {
+      "key": "props/BookGroup_Medium_1",
+      "pack": "props",
+      "name": "BookGroup_Medium_1",
+      "sha256": "dcf729ab2788782e8a01243f93c6bcb34b91cf6965a01a6f79d83cccf5ee17dc",
+      "state": "uploaded",
+      "operation": "operations/fcb4b27b-2391-420d-a75a-4174ed0a5dce",
+      "assetId": 70958232715733,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/BookGroup_Medium_2": {
+      "key": "props/BookGroup_Medium_2",
+      "pack": "props",
+      "name": "BookGroup_Medium_2",
+      "sha256": "ce440d01d347a55c095e1c0ad1b23f8673e04f5dba64a6628c936d4e155c9aa1",
+      "state": "uploaded",
+      "operation": "operations/76099101-2fe1-4566-9f19-7c13c62de714",
+      "assetId": 124235924573012,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/BookGroup_Medium_3": {
+      "key": "props/BookGroup_Medium_3",
+      "pack": "props",
+      "name": "BookGroup_Medium_3",
+      "sha256": "67b2027fe1b7f21b9649fe542f98ae32ea151f5567d2c5555a090ee4f50e741f",
+      "state": "uploaded",
+      "operation": "operations/adc84435-d4bb-488a-8ed8-2c3ad0b61e03",
+      "assetId": 99312096762480,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/BookGroup_Small_1": {
+      "key": "props/BookGroup_Small_1",
+      "pack": "props",
+      "name": "BookGroup_Small_1",
+      "sha256": "eadf7695e810c891b61f1bc3043ae02a02d1d7bc87d360c4a9d7c435d072af53",
+      "state": "uploaded",
+      "operation": "operations/46ce330e-70e2-4645-86ed-3e5bfca5c5d4",
+      "assetId": 126049170053076,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/BookGroup_Small_2": {
+      "key": "props/BookGroup_Small_2",
+      "pack": "props",
+      "name": "BookGroup_Small_2",
+      "sha256": "3a8934725c670edd52ec683a3f0ac40927e00eb670600b8a7e1096e73b1298d3",
+      "state": "uploaded",
+      "operation": "operations/5300c5a6-6594-4726-9c31-cc22ba87722a",
+      "assetId": 109005462819252,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/BookGroup_Small_3": {
+      "key": "props/BookGroup_Small_3",
+      "pack": "props",
+      "name": "BookGroup_Small_3",
+      "sha256": "be2de46e68be76fa7132f2e7dc8caa2fe4666149ebc8d676d6a31d41e03bb018",
+      "state": "uploaded",
+      "operation": "operations/a9270754-4bd1-4a94-9174-16860cdc291a",
+      "assetId": 73744918249485,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/BookStand": {
+      "key": "props/BookStand",
+      "pack": "props",
+      "name": "BookStand",
+      "sha256": "c6670b46ffc31f480d8454212c88b04368252dd19c45a40a393a86ad79bf0667",
+      "state": "uploaded",
+      "operation": "operations/5490b1ba-ddba-47b4-9d4e-82e24104847d",
+      "assetId": 125581477030659,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Book_5": {
+      "key": "props/Book_5",
+      "pack": "props",
+      "name": "Book_5",
+      "sha256": "da71cf1ee24cafef9d8c8f27ba1cf416d28a9c2478e1293247a2fa6d3df27a24",
+      "state": "uploaded",
+      "operation": "operations/a0bbe1f0-388a-4d52-bad4-d418395785cb",
+      "assetId": 129679797993530,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Book_7": {
+      "key": "props/Book_7",
+      "pack": "props",
+      "name": "Book_7",
+      "sha256": "b97b85e8745d218f89d2fef91f6f61e54498d76c7630136118e8209d493c1f16",
+      "state": "uploaded",
+      "operation": "operations/01f9ce5a-0142-4aca-8d8e-900e924088a0",
+      "assetId": 80177938066792,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Book_Simplified_Single": {
+      "key": "props/Book_Simplified_Single",
+      "pack": "props",
+      "name": "Book_Simplified_Single",
+      "sha256": "d32dc9a432c8275192e9e67f32479079f3e68d49bf1e86811d7c1ed63b5c41a9",
+      "state": "uploaded",
+      "operation": "operations/a7eee70f-44d6-4764-8f49-0089de751cef",
+      "assetId": 131113652113252,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_UnevenBrick_Window_Wide_Flat": {
+      "key": "village/Wall_UnevenBrick_Window_Wide_Flat",
+      "pack": "village",
+      "name": "Wall_UnevenBrick_Window_Wide_Flat",
+      "sha256": "9fd23c3f46ebf8e21a5f9882d0a8e558672b4974d131281e0e6e766aedf19660",
+      "state": "uploaded",
+      "operation": "operations/de0a022a-2674-4b49-94dd-f4350a29f210",
+      "assetId": 139857666200002,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Wall_UnevenBrick_Window_Wide_Round": {
+      "key": "village/Wall_UnevenBrick_Window_Wide_Round",
+      "pack": "village",
+      "name": "Wall_UnevenBrick_Window_Wide_Round",
+      "sha256": "8f83b1e985b17473fe02b1a97c077c27e466e065039e70b21067f0a5bf60a424",
+      "state": "uploaded",
+      "operation": "operations/9b53a112-eb9e-412a-805d-41f7fe5cb624",
+      "assetId": 106135197205168,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/WindowShutters_Thin_Flat_Closed": {
+      "key": "village/WindowShutters_Thin_Flat_Closed",
+      "pack": "village",
+      "name": "WindowShutters_Thin_Flat_Closed",
+      "sha256": "5d2398c1125d5c6caf390f2984be3eea7186462726f0e94e2c8e1b6f975d4f2a",
+      "state": "uploaded",
+      "operation": "operations/35175342-1a35-4e6c-bc3d-c1d0bb229f93",
+      "assetId": 139227151089545,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/WindowShutters_Thin_Flat_Open": {
+      "key": "village/WindowShutters_Thin_Flat_Open",
+      "pack": "village",
+      "name": "WindowShutters_Thin_Flat_Open",
+      "sha256": "4851748de447b522ea17c137f3bdbab50f8d9a0e7808952a8d69ba3097d7a681",
+      "state": "uploaded",
+      "operation": "operations/c8933888-1d32-4f3d-86d4-03b4180e931e",
+      "assetId": 81635814672942,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/WindowShutters_Thin_Round_Closed": {
+      "key": "village/WindowShutters_Thin_Round_Closed",
+      "pack": "village",
+      "name": "WindowShutters_Thin_Round_Closed",
+      "sha256": "be897fcb70571c18bb4809a4e92461d8be90d4c8c99fe8e9913c13f2a293e468",
+      "state": "uploaded",
+      "operation": "operations/ef3f49e0-d89e-42ab-b0f2-2c68c5cb38f5",
+      "assetId": 110478551924298,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/WindowShutters_Thin_Round_Open": {
+      "key": "village/WindowShutters_Thin_Round_Open",
+      "pack": "village",
+      "name": "WindowShutters_Thin_Round_Open",
+      "sha256": "2ec31924dad4e0dd193aaa6b3a279475f9d0f9cdc5ee644f31f1f41310a1ba5a",
+      "state": "uploaded",
+      "operation": "operations/4f231d00-107e-4dc8-8a26-8197d4bb9b2b",
+      "assetId": 91659079065136,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/WindowShutters_Wide_Flat_Closed": {
+      "key": "village/WindowShutters_Wide_Flat_Closed",
+      "pack": "village",
+      "name": "WindowShutters_Wide_Flat_Closed",
+      "sha256": "9dfd7d778daa4e4f47a489babedd25295aae75b6f81354aebe03e88d1c1ded7f",
+      "state": "uploaded",
+      "operation": "operations/ffc2dd7b-4dd3-4b72-9bba-a96c4673bd90",
+      "assetId": 106098260932198,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/WindowShutters_Wide_Flat_Open": {
+      "key": "village/WindowShutters_Wide_Flat_Open",
+      "pack": "village",
+      "name": "WindowShutters_Wide_Flat_Open",
+      "sha256": "2bec59e4b01d4436e1344cb164ffac76e28e67aaae6e74050005f6caf88de6ed",
+      "state": "uploaded",
+      "operation": "operations/1ccb0484-44a9-4cec-9b3b-e273946a5db4",
+      "assetId": 139201207691635,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/WindowShutters_Wide_Round_Closed": {
+      "key": "village/WindowShutters_Wide_Round_Closed",
+      "pack": "village",
+      "name": "WindowShutters_Wide_Round_Closed",
+      "sha256": "f38230ef317868e50a7ddb00c9c7ce5d22efb44a9b07f698cbbb318c9492bec4",
+      "state": "uploaded",
+      "operation": "operations/edeb5de2-eec1-4b48-a5db-718dd37f7a66",
+      "assetId": 108806858787061,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/WindowShutters_Wide_Round_Open": {
+      "key": "village/WindowShutters_Wide_Round_Open",
+      "pack": "village",
+      "name": "WindowShutters_Wide_Round_Open",
+      "sha256": "bc603694bff7b4bc146c290d468d45900b9ec37126680ec141d264539ff49f76",
+      "state": "uploaded",
+      "operation": "operations/7443db68-1e29-4127-88d8-72415381faee",
+      "assetId": 133355137781279,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Window_Roof_Thin": {
+      "key": "village/Window_Roof_Thin",
+      "pack": "village",
+      "name": "Window_Roof_Thin",
+      "sha256": "0387beebf38314b4b14d9a5a277464f9467c092c3cdd79fe57871fe3b3c55142",
+      "state": "uploaded",
+      "operation": "operations/c199167b-8350-4dc6-995e-758e656070b7",
+      "assetId": 76113984195712,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Window_Roof_Wide": {
+      "key": "village/Window_Roof_Wide",
+      "pack": "village",
+      "name": "Window_Roof_Wide",
+      "sha256": "77b7aff588d93d7d19ffc399c419ffeb1310563447e19ba8adb00303e5019f80",
+      "state": "uploaded",
+      "operation": "operations/8c8063b7-406f-46fd-b674-8e461139640d",
+      "assetId": 93658075348370,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Window_Thin_Flat1": {
+      "key": "village/Window_Thin_Flat1",
+      "pack": "village",
+      "name": "Window_Thin_Flat1",
+      "sha256": "56dc938b49449a6d91403f1ecdcdd4d6570bcc0555b37a846b00021d02bcfbc7",
+      "state": "uploaded",
+      "operation": "operations/1e6a4b47-8b7d-4402-9462-8b7bf9dc6b0e",
+      "assetId": 97410424410465,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Window_Thin_Round1": {
+      "key": "village/Window_Thin_Round1",
+      "pack": "village",
+      "name": "Window_Thin_Round1",
+      "sha256": "e8354e1910f5ffab6cda45ee1812bc90273855588c452940850a43de1dd31144",
+      "state": "uploaded",
+      "operation": "operations/334f1d62-7f27-4772-8ed4-60cca2dfb8a1",
+      "assetId": 92555589862549,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Window_Wide_Flat1": {
+      "key": "village/Window_Wide_Flat1",
+      "pack": "village",
+      "name": "Window_Wide_Flat1",
+      "sha256": "d6c74475757ad36f58ac13db4ac1cf345600151281f51d665b5802307c6346a6",
+      "state": "uploaded",
+      "operation": "operations/7ffcf43b-a046-4a94-9db4-4313086fa8c7",
+      "assetId": 91999314608591,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "village/Window_Wide_Round1": {
+      "key": "village/Window_Wide_Round1",
+      "pack": "village",
+      "name": "Window_Wide_Round1",
+      "sha256": "bd153fbaf57c6f1575efedc3725fac32b94d5e157eef10f345f29174e29e0fa7",
+      "state": "uploaded",
+      "operation": "operations/6ddc7ed0-af2c-4f65-90ca-eb8779a83f8c",
+      "assetId": 121631424291287,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Anvil": {
+      "key": "props/Anvil",
+      "pack": "props",
+      "name": "Anvil",
+      "sha256": "81871dd7b8947a619402fcb804d0f90bf20cede170846ed7f349442fd945e33e",
+      "state": "uploaded",
+      "operation": "operations/b63baa67-739a-4416-afc7-0dbc562d6c70",
+      "assetId": 104963894874374,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Anvil_Log": {
+      "key": "props/Anvil_Log",
+      "pack": "props",
+      "name": "Anvil_Log",
+      "sha256": "882fd34795c5915a87e15426de97773f9f4e263451e3478aaf4439dd454e879f",
+      "state": "uploaded",
+      "operation": "operations/4349c8d5-60aa-4017-bef3-7ba07162d76e",
+      "assetId": 80885905011230,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Axe_Bronze": {
+      "key": "props/Axe_Bronze",
+      "pack": "props",
+      "name": "Axe_Bronze",
+      "sha256": "74b36fa2d1f8d0d94a3dee0a4915c2fdba77da0c269d0389655cde5a81f0f109",
+      "state": "uploaded",
+      "operation": "operations/7de24f6b-df39-4ae6-b036-84beba2a52b6",
+      "assetId": 101361941973648,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Bag": {
+      "key": "props/Bag",
+      "pack": "props",
+      "name": "Bag",
+      "sha256": "69cab2ebd0b57d1f22ee1335f4d361d3f384a2ea911d4ce02534beef345f4aa6",
+      "state": "uploaded",
+      "operation": "operations/4e78d1e1-1a4e-4404-bc6b-bad87c3c05ee",
+      "assetId": 114877062203218,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Book_Stack_1": {
+      "key": "props/Book_Stack_1",
+      "pack": "props",
+      "name": "Book_Stack_1",
+      "sha256": "661524b7350383cb4240aff50505aea697b7c07ce1905037e04cc700f79442f8",
+      "state": "uploaded",
+      "operation": "operations/a1e6632d-7b4a-4d58-b040-209934ac9f37",
+      "assetId": 133255175065252,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Book_Stack_2": {
+      "key": "props/Book_Stack_2",
+      "pack": "props",
+      "name": "Book_Stack_2",
+      "sha256": "56df08fd15b0abcc507d6a6f47a6a81b99891c64e149d36e9c359f8b5352f76f",
+      "state": "uploaded",
+      "operation": "operations/58c3cb72-f748-4649-81c3-6696edcf9f32",
+      "assetId": 122336058078392,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Bookcase_2": {
+      "key": "props/Bookcase_2",
+      "pack": "props",
+      "name": "Bookcase_2",
+      "sha256": "3911062df422c7c703f4b59e5f6f7959fd1a8c9e7b39832dc648f43aa322975e",
+      "state": "uploaded",
+      "operation": "operations/79d8d613-4feb-4d39-9fa4-ee0fc09868fd",
+      "assetId": 130299963714849,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Bottle_1": {
+      "key": "props/Bottle_1",
+      "pack": "props",
+      "name": "Bottle_1",
+      "sha256": "d61491cc3cc5f9178d24272e7ff948376b30e593a0af95dc4a63a3291202916a",
+      "state": "uploaded",
+      "operation": "operations/dfeef8ff-cf5f-4974-99d5-34971face142",
+      "assetId": 101908855721381,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Bucket_Metal": {
+      "key": "props/Bucket_Metal",
+      "pack": "props",
+      "name": "Bucket_Metal",
+      "sha256": "38e2b36deee31c45a4313d0b24e42ca7eeb3c5fe1ca6cf6a907ce0f69720aed1",
+      "state": "uploaded",
+      "operation": "operations/5243f2bc-773c-47f7-bcfb-2230b473801e",
+      "assetId": 91241783763328,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Bucket_Wooden_1": {
+      "key": "props/Bucket_Wooden_1",
+      "pack": "props",
+      "name": "Bucket_Wooden_1",
+      "sha256": "8bcd8c02c2e52156c322018e5e8fa9a3d39e6dacce2c848fff0029e7f1bb8226",
+      "state": "uploaded",
+      "operation": "operations/dc3f072c-ea6c-42ad-8fd2-6e223ead52bc",
+      "assetId": 135433311298482,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Cabinet": {
+      "key": "props/Cabinet",
+      "pack": "props",
+      "name": "Cabinet",
+      "sha256": "0b68539962941e2cdaa1bbcda88e8bf747209e63bb38be5465aed65e2d1b089c",
+      "state": "uploaded",
+      "operation": "operations/c2fcb299-f486-4bac-b0f9-33435a758c0d",
+      "assetId": 125962490479661,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Cage_Small": {
+      "key": "props/Cage_Small",
+      "pack": "props",
+      "name": "Cage_Small",
+      "sha256": "57e9dfb79e67cd577a73ebcd3ad750da61e9be8adb16c0ec48a117085387a315",
+      "state": "uploaded",
+      "operation": "operations/4658f463-8d1f-4ad0-b83a-d3f121cb26c3",
+      "assetId": 134541922508588,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/CandleStick": {
+      "key": "props/CandleStick",
+      "pack": "props",
+      "name": "CandleStick",
+      "sha256": "56a911c8bcd5f3cabde5c7884072c0dc7df342ca3774fc0f700ecd5081fb77fc",
+      "state": "uploaded",
+      "operation": "operations/d82f75dc-020c-4b9f-bd20-ca38b8f5f835",
+      "assetId": 135376191384942,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/CandleStick_Stand": {
+      "key": "props/CandleStick_Stand",
+      "pack": "props",
+      "name": "CandleStick_Stand",
+      "sha256": "739b66731b0f46ed9dad6cd8b7bbd7e1c2c77f80af075bb855ea7a1ab85073f4",
+      "state": "uploaded",
+      "operation": "operations/43389d7f-bf00-43e0-b4e1-0ff18bda8527",
+      "assetId": 95796069071886,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/CandleStick_Triple": {
+      "key": "props/CandleStick_Triple",
+      "pack": "props",
+      "name": "CandleStick_Triple",
+      "sha256": "012d94b5e772c921d3ad12caee9ad5462255eece8627c6b5de2bf4ad23e8f202",
+      "state": "uploaded",
+      "operation": "operations/1809fde5-aac0-405b-a658-f641cf391405",
+      "assetId": 137218394137109,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Candle_1": {
+      "key": "props/Candle_1",
+      "pack": "props",
+      "name": "Candle_1",
+      "sha256": "45b830364eb8aa491ef877b10422d51fae7ca8f880d741ef49cfa3943becc5c5",
+      "state": "uploaded",
+      "operation": "operations/b52438d6-3add-4a25-85b9-07afa069a984",
+      "assetId": 136259699925846,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Candle_2": {
+      "key": "props/Candle_2",
+      "pack": "props",
+      "name": "Candle_2",
+      "sha256": "43366f0a70296f1e7565ed78bf7568ab09853f6efa35ca6e1f217ed7d4883ef9",
+      "state": "uploaded",
+      "operation": "operations/75c58b09-d033-49af-a05d-2d887f1e8eb0",
+      "assetId": 136946236215995,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Carrot": {
+      "key": "props/Carrot",
+      "pack": "props",
+      "name": "Carrot",
+      "sha256": "d991d9c47f1d60bc29d024395932452c42a3fd93460d029b305812aa5981a7fa",
+      "state": "uploaded",
+      "operation": "operations/5eebbb60-9d95-44d0-856b-43cc22a0bf4e",
+      "assetId": 79391849160657,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Cauldron": {
+      "key": "props/Cauldron",
+      "pack": "props",
+      "name": "Cauldron",
+      "sha256": "cb78bfab281273b6c1477ebfeccb8cdcfc9c0a1b212c08e8c3e434d32cb8c84a",
+      "state": "uploaded",
+      "operation": "operations/7fddfd9a-223d-4ca0-95d2-2cec2e9748aa",
+      "assetId": 93998157880251,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Chain_Coil": {
+      "key": "props/Chain_Coil",
+      "pack": "props",
+      "name": "Chain_Coil",
+      "sha256": "01522391548814115796a62f32b06c7d4ee543b87837ef8bdc3abd25583960af",
+      "state": "uploaded",
+      "operation": "operations/a5e2c36b-0c44-43ee-839a-2e9425778a6d",
+      "assetId": 135004601305957,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Chair_1": {
+      "key": "props/Chair_1",
+      "pack": "props",
+      "name": "Chair_1",
+      "sha256": "8a512e6594ad0ef8db26026ad4d3384b361e05976e057f600f6dd6414473a37f",
+      "state": "uploaded",
+      "operation": "operations/4481aea3-27cf-4416-b456-846fa27b6066",
+      "assetId": 110669086683975,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Chalice": {
+      "key": "props/Chalice",
+      "pack": "props",
+      "name": "Chalice",
+      "sha256": "5ce1b6bef116dcaa5597456b6ebd0501dc4fdd0cd2d4d1c0205992065d020b37",
+      "state": "uploaded",
+      "operation": "operations/71e36b7b-dd78-437d-849c-161069369784",
+      "assetId": 97923459969559,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Chandelier": {
+      "key": "props/Chandelier",
+      "pack": "props",
+      "name": "Chandelier",
+      "sha256": "7cc1c5b33b4b353e0e65be9b1af0088bfdfe55ae5b385ed99b7fe933d4fe8017",
+      "state": "uploaded",
+      "operation": "operations/ef89604e-b195-4643-be16-94342097a65e",
+      "assetId": 123156967039954,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Chest_Wood": {
+      "key": "props/Chest_Wood",
+      "pack": "props",
+      "name": "Chest_Wood",
+      "sha256": "4fd8d6c229d28f74a074b71b7190c269994136b1a56f7d6137f0c71f3339c12d",
+      "state": "uploaded",
+      "operation": "operations/e1a74201-a2a9-4bb3-a84e-1ab1adebc35d",
+      "assetId": 87319573086093,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Coin": {
+      "key": "props/Coin",
+      "pack": "props",
+      "name": "Coin",
+      "sha256": "6d3f9dca8b10545bc55af8be08038fb7bb698a4b1ad11dcde6577c9311e68d97",
+      "state": "uploaded",
+      "operation": "operations/cb40aaa1-d560-49b1-9f28-63b2566fb094",
+      "assetId": 81503573208966,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Coin_Pile": {
+      "key": "props/Coin_Pile",
+      "pack": "props",
+      "name": "Coin_Pile",
+      "sha256": "ae84e72eec958fa2055acdf93212e362baaee7f28982f75c9a1dc596c372e7a6",
+      "state": "uploaded",
+      "operation": "operations/22f71860-7a9d-43b9-bd1d-da902186bad7",
+      "assetId": 101257520607380,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Coin_Pile_2": {
+      "key": "props/Coin_Pile_2",
+      "pack": "props",
+      "name": "Coin_Pile_2",
+      "sha256": "52b1153cd8d4320412f905b112ab7ae29ff8deb7be879997f159c3dd9313e72e",
+      "state": "uploaded",
+      "operation": "operations/86e903fb-c74d-4c7d-80cc-1a1b73f35815",
+      "assetId": 100157415280457,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Crate_Metal": {
+      "key": "props/Crate_Metal",
+      "pack": "props",
+      "name": "Crate_Metal",
+      "sha256": "4a9caa9c9399095901b71b4b50e47cd38925000a05d87737f0d8bef57643ee09",
+      "state": "uploaded",
+      "operation": "operations/685dd823-e6f8-4ee2-9710-64eef7a7f26a",
+      "assetId": 78967781576793,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Crate_Wooden": {
+      "key": "props/Crate_Wooden",
+      "pack": "props",
+      "name": "Crate_Wooden",
+      "sha256": "f2ba80573ff9091a660f269de628fb566a25b335e36c678f35515b4652982cf6",
+      "state": "uploaded",
+      "operation": "operations/9ca67fe2-910e-40f3-b7e4-69d41362ff02",
+      "assetId": 117866790423717,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Dummy": {
+      "key": "props/Dummy",
+      "pack": "props",
+      "name": "Dummy",
+      "sha256": "09843d07a7726c79fa69093a2561413b01f09a1f960ad69817a63b426ce86b55",
+      "state": "uploaded",
+      "operation": "operations/b6caa43f-a2d4-441b-8bbc-16db96415ea6",
+      "assetId": 94963203232301,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/FarmCrate_Apple": {
+      "key": "props/FarmCrate_Apple",
+      "pack": "props",
+      "name": "FarmCrate_Apple",
+      "sha256": "9bde850cc94ef3bc916b805df837c8074cc6528970f2493fbcf902b6f55c6e34",
+      "state": "uploaded",
+      "operation": "operations/59234d3b-24fc-4f10-96fe-2554227f1b91",
+      "assetId": 104007344159541,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/FarmCrate_Carrot": {
+      "key": "props/FarmCrate_Carrot",
+      "pack": "props",
+      "name": "FarmCrate_Carrot",
+      "sha256": "871b8306bbdbef4921049436b8c6ae5cd5529ab4da1a93fada1242099dca281a",
+      "state": "uploaded",
+      "operation": "operations/d5d7fca0-25f0-4be8-a053-a7c34396b903",
+      "assetId": 123072635621310,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/FarmCrate_Empty": {
+      "key": "props/FarmCrate_Empty",
+      "pack": "props",
+      "name": "FarmCrate_Empty",
+      "sha256": "ba42338dcb426914eed833afdf43aeb246771604a0e9aac2ea0a3fde83f0f591",
+      "state": "uploaded",
+      "operation": "operations/aa57f22d-861e-497f-910c-b31fef5e1b4b",
+      "assetId": 125693798008639,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Key_Gold": {
+      "key": "props/Key_Gold",
+      "pack": "props",
+      "name": "Key_Gold",
+      "sha256": "d58cd157af873768348cbeeea36742377bf1e774a7b4088ab9d88fa6a4e9ebec",
+      "state": "uploaded",
+      "operation": "operations/de4dccdc-f3ae-45e9-bb6f-c981e29bdd53",
+      "assetId": 113266561674412,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Key_Metal": {
+      "key": "props/Key_Metal",
+      "pack": "props",
+      "name": "Key_Metal",
+      "sha256": "5ca574a521e94a9b3774a513247c9689d6b5ed44b950c3beeca99276e834f541",
+      "state": "uploaded",
+      "operation": "operations/6cac2576-2607-429f-b3bc-f23e2ba632c1",
+      "assetId": 78545574164571,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Lantern_Wall": {
+      "key": "props/Lantern_Wall",
+      "pack": "props",
+      "name": "Lantern_Wall",
+      "sha256": "dd7a27785c26d399fa0373ecff7ce075040b78ff701a598f24c06507fbf18921",
+      "state": "uploaded",
+      "operation": "operations/8b30752d-fe20-45ad-956a-67def960fe6a",
+      "assetId": 107490436049888,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Mug": {
+      "key": "props/Mug",
+      "pack": "props",
+      "name": "Mug",
+      "sha256": "03f7f37007977827a6876594b78db1153e601ea82bb33912a74deb2052fab0e6",
+      "state": "uploaded",
+      "operation": "operations/76ea6777-dd10-4ab8-8de7-839e4e3aeec0",
+      "assetId": 74234517671854,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Nightstand_Shelf": {
+      "key": "props/Nightstand_Shelf",
+      "pack": "props",
+      "name": "Nightstand_Shelf",
+      "sha256": "d489ceb6614d93454378e2a8503b0f54e7895ecb29d34114fc87e01d11dd0f29",
+      "state": "uploaded",
+      "operation": "operations/f815a886-a17f-4db6-8d24-84f5f97afea1",
+      "assetId": 129415757767096,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Peg_Rack": {
+      "key": "props/Peg_Rack",
+      "pack": "props",
+      "name": "Peg_Rack",
+      "sha256": "073a86d280a348e76c4b19dab0f17006b4b891b7a14602bb02f22be525c0b30f",
+      "state": "uploaded",
+      "operation": "operations/d9bb50f0-5da8-4c9b-adb1-c95e972521d8",
+      "assetId": 93543510839939,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Pickaxe_Bronze": {
+      "key": "props/Pickaxe_Bronze",
+      "pack": "props",
+      "name": "Pickaxe_Bronze",
+      "sha256": "c56b3d90bb385a9c412121b1aa05426e0bf291b0b8710916b8eb7ed15ee32d2e",
+      "state": "uploaded",
+      "operation": "operations/9c0d6a14-c569-40ec-8a94-232cce1e1519",
+      "assetId": 72898706232503,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Pot_1": {
+      "key": "props/Pot_1",
+      "pack": "props",
+      "name": "Pot_1",
+      "sha256": "b795582a834b4ae787160c6b683ceb23b16b72699f018a31bbd1fe7d825b0817",
+      "state": "uploaded",
+      "operation": "operations/30b89b46-5f0d-4451-b555-937ca66dcd65",
+      "assetId": 97625088921826,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Pot_1_Lid": {
+      "key": "props/Pot_1_Lid",
+      "pack": "props",
+      "name": "Pot_1_Lid",
+      "sha256": "e15b14325e0e0cf8079065023d24c7af86ec0979f6e02765162b0ddbfa45f4b7",
+      "state": "uploaded",
+      "operation": "operations/8994d902-885a-4d05-ab6f-c653a0256a9f",
+      "assetId": 83589530577605,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Potion_1": {
+      "key": "props/Potion_1",
+      "pack": "props",
+      "name": "Potion_1",
+      "sha256": "397e20948cceee88a3c4e51e5bccc4b67b315fac0aca3b9e597487bc52286580",
+      "state": "uploaded",
+      "operation": "operations/fe3cb132-c4c4-4286-9069-3a309d369c37",
+      "assetId": 81959545813148,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Potion_2": {
+      "key": "props/Potion_2",
+      "pack": "props",
+      "name": "Potion_2",
+      "sha256": "8b7483c29388a18ec4429d14dadddfcf2047400679b84114ac8bfe6ba0ff91ee",
+      "state": "uploaded",
+      "operation": "operations/dfc27911-0744-434f-a706-fb4e5121a282",
+      "assetId": 85876920946237,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Potion_4": {
+      "key": "props/Potion_4",
+      "pack": "props",
+      "name": "Potion_4",
+      "sha256": "62f53922db19e6383d9bdd95b06acdc8211f397bb6560d351479c5f893a6d3ab",
+      "state": "uploaded",
+      "operation": "operations/c369c2db-eb92-459b-812a-08f041aa8e4d",
+      "assetId": 91595002319924,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Pouch_Large": {
+      "key": "props/Pouch_Large",
+      "pack": "props",
+      "name": "Pouch_Large",
+      "sha256": "dd1dc57110a31dd82d863cfb74cb779a64904f514c377674991fd3c61863482b",
+      "state": "uploaded",
+      "operation": "operations/af1c495b-89cb-4657-8362-d855754d47c4",
+      "assetId": 85742893330214,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Rope_1": {
+      "key": "props/Rope_1",
+      "pack": "props",
+      "name": "Rope_1",
+      "sha256": "a56286d382c3d110a8beae7bc47780e59e924ae5beddfe7e02fe03a17602a0bd",
+      "state": "uploaded",
+      "operation": "operations/17b7faa4-92f4-44e1-8b5d-a22eff220a13",
+      "assetId": 117067196158951,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Rope_2": {
+      "key": "props/Rope_2",
+      "pack": "props",
+      "name": "Rope_2",
+      "sha256": "e3becbcd186fb2dc7c907cec652488f5a20fb486bb2e0b4fa7eb55a95900867e",
+      "state": "uploaded",
+      "operation": "operations/11b1cdb3-47d4-4e41-b59e-8888141b5279",
+      "assetId": 100954939944570,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Rope_3": {
+      "key": "props/Rope_3",
+      "pack": "props",
+      "name": "Rope_3",
+      "sha256": "5dbf0037fc16411fd5a9d3163c7c2d50f642d6bfee3f22de7a92ad370d0192a5",
+      "state": "uploaded",
+      "operation": "operations/4a3b1afc-66a7-4c15-b72d-43519e885f78",
+      "assetId": 123371496604961,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Scroll_1": {
+      "key": "props/Scroll_1",
+      "pack": "props",
+      "name": "Scroll_1",
+      "sha256": "0a87b2fdf6ceb3c46371964d95b00ff5caa90b50b81d2587a9d4b2142782f8f5",
+      "state": "uploaded",
+      "operation": "operations/695ea760-de00-45e3-b201-43bf75d4a845",
+      "assetId": 71187321091179,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Scroll_2": {
+      "key": "props/Scroll_2",
+      "pack": "props",
+      "name": "Scroll_2",
+      "sha256": "d3ff6842a2fcf30fc7b93017b5f3b54386be93f87e0d1e1ddce9c3e9f8de24e2",
+      "state": "uploaded",
+      "operation": "operations/68b2d7ac-c400-4c2d-9996-ee499adb59ec",
+      "assetId": 130179786462817,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Shelf_Arch": {
+      "key": "props/Shelf_Arch",
+      "pack": "props",
+      "name": "Shelf_Arch",
+      "sha256": "d5dc62652c750aeb893470d0a6d6dd9d994c21d096daf368e7fe87985240513b",
+      "state": "uploaded",
+      "operation": "operations/5c533264-c038-4d6f-9134-eb60b12ef8f9",
+      "assetId": 115973028951593,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Shelf_Simple": {
+      "key": "props/Shelf_Simple",
+      "pack": "props",
+      "name": "Shelf_Simple",
+      "sha256": "cb7cacc0e2f472f27243d46f23e8c428152c3379e8d2e6eda40df4b2a2f020ed",
+      "state": "uploaded",
+      "operation": "operations/f90aabe9-232c-430e-a703-02f483cbc4c8",
+      "assetId": 104897084714246,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Shelf_Small_Bottles": {
+      "key": "props/Shelf_Small_Bottles",
+      "pack": "props",
+      "name": "Shelf_Small_Bottles",
+      "sha256": "f683d9fa1763a7ea5dcc4a7d711d40cd91f10188c47e44becc86726ae37f8e63",
+      "state": "uploaded",
+      "operation": "operations/e373db99-875c-4568-a1c4-97e5ab1bf8de",
+      "assetId": 106601513506147,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Shield_Wooden": {
+      "key": "props/Shield_Wooden",
+      "pack": "props",
+      "name": "Shield_Wooden",
+      "sha256": "15e4352bbec67f6beff4965077c89538c6cc8ffc3b39eb44e107a2cf4cbf8708",
+      "state": "uploaded",
+      "operation": "operations/3b4238e6-9f7e-471f-b43f-edf0514b2db9",
+      "assetId": 121899718010078,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/SmallBottle": {
+      "key": "props/SmallBottle",
+      "pack": "props",
+      "name": "SmallBottle",
+      "sha256": "90ad13af0aefeb65191d5f66947eaeb4a24244b56a45fcb9b9310fbd00a22bb9",
+      "state": "uploaded",
+      "operation": "operations/972f9b2c-9c9e-477b-8e20-2643f0cf9019",
+      "assetId": 82767590872021,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/SmallBottles_1": {
+      "key": "props/SmallBottles_1",
+      "pack": "props",
+      "name": "SmallBottles_1",
+      "sha256": "3e80e8d1980c701df903460c8dc5495dc3c3058e80a8870b87e696189ee52c19",
+      "state": "uploaded",
+      "operation": "operations/3ccb7162-da3b-4cf7-8001-b28e3b688c62",
+      "assetId": 82247070810422,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Stall_Cart_Empty": {
+      "key": "props/Stall_Cart_Empty",
+      "pack": "props",
+      "name": "Stall_Cart_Empty",
+      "sha256": "5395bf142dbe9c989d1411e57a80ca1e43df454b8347f08014774a2adc2d7bfd",
+      "state": "uploaded",
+      "operation": "operations/12e0a04d-c02f-433c-a133-c7c4833145fe",
+      "assetId": 84530238293814,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Stall_Empty": {
+      "key": "props/Stall_Empty",
+      "pack": "props",
+      "name": "Stall_Empty",
+      "sha256": "d4db3acf233121a9fe6bd6d4056ea0bdfc8507b1a99f64309e3e27d5f5803026",
+      "state": "uploaded",
+      "operation": "operations/c58df87f-b8db-4819-bb2b-031e447262be",
+      "assetId": 96584614249794,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Stool": {
+      "key": "props/Stool",
+      "pack": "props",
+      "name": "Stool",
+      "sha256": "993524d0fe374373e20f0b81cfdb9a93dc6f790043509585954efbccc25ee28c",
+      "state": "uploaded",
+      "operation": "operations/35054724-643f-48da-aee4-ca920bf5e3ba",
+      "assetId": 135555562610132,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Sword_Bronze": {
+      "key": "props/Sword_Bronze",
+      "pack": "props",
+      "name": "Sword_Bronze",
+      "sha256": "6d35a3fcbf259e6b2218e15e9cb1fd9b8c96c1b7d5b1f68ea6266608945457b5",
+      "state": "uploaded",
+      "operation": "operations/072b72ff-95e6-475d-bd76-d5ba36ee8016",
+      "assetId": 86888998838913,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Table_Fork": {
+      "key": "props/Table_Fork",
+      "pack": "props",
+      "name": "Table_Fork",
+      "sha256": "f0772975105f60e8340a9ddc3982e32c0a1f6f8e7575ff13331ca502c00eb82f",
+      "state": "uploaded",
+      "operation": "operations/33b5f179-9e7c-4485-9b15-ddead741c9b7",
+      "assetId": 137852134135305,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Table_Knife": {
+      "key": "props/Table_Knife",
+      "pack": "props",
+      "name": "Table_Knife",
+      "sha256": "dcf9519fbf54ef3a89d1fba44d8a581f54b8711b346067c8339c859782451724",
+      "state": "uploaded",
+      "operation": "operations/d40b9a7c-d469-4e7f-8d9a-40eb56c5522b",
+      "assetId": 136786520255411,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Table_Large": {
+      "key": "props/Table_Large",
+      "pack": "props",
+      "name": "Table_Large",
+      "sha256": "d1ff6d15014933f85e791467bf1122f360df07a1d971ec3b5ce867edd5a09a61",
+      "state": "uploaded",
+      "operation": "operations/24f5e162-5466-4576-a576-b297ded16543",
+      "assetId": 124777642073099,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Table_Plate": {
+      "key": "props/Table_Plate",
+      "pack": "props",
+      "name": "Table_Plate",
+      "sha256": "21e931f6cb9d140131575562920f39a689d3a97c93ed3ee0b66e2556d57791d6",
+      "state": "uploaded",
+      "operation": "operations/6ea346f3-b03d-450b-ad73-c3a58c8eed57",
+      "assetId": 79126893390492,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Table_Spoon": {
+      "key": "props/Table_Spoon",
+      "pack": "props",
+      "name": "Table_Spoon",
+      "sha256": "0c6fcd017a116ab155d5e570ad3c679ec3a4677221ee3f29e7aef3eff8c76927",
+      "state": "uploaded",
+      "operation": "operations/8155c466-8ef5-4459-900c-026cf38d0932",
+      "assetId": 117109829160293,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Torch_Metal": {
+      "key": "props/Torch_Metal",
+      "pack": "props",
+      "name": "Torch_Metal",
+      "sha256": "0b29131a5f75a759176eb17aa75265fe1c588dd56e6e8ddeb6003587fbf83458",
+      "state": "uploaded",
+      "operation": "operations/2aab8de2-a0e5-4f0f-8bf9-dcaa784321a7",
+      "assetId": 140396566575105,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Vase_2": {
+      "key": "props/Vase_2",
+      "pack": "props",
+      "name": "Vase_2",
+      "sha256": "41dbb25da193614a77ea4b30500e444fbf68d14e41cb7072cdbbba37c661450b",
+      "state": "uploaded",
+      "operation": "operations/7e1ef037-8c58-466b-b4bb-95fc8694a835",
+      "assetId": 140532427118808,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Vase_4": {
+      "key": "props/Vase_4",
+      "pack": "props",
+      "name": "Vase_4",
+      "sha256": "2efeff69cab55b473817275c7c44dfd02f33ec0182dcb32c1deccdc57eb44dc3",
+      "state": "uploaded",
+      "operation": "operations/7e27dfa9-791c-4c8f-8cab-204e64aaacd7",
+      "assetId": 100303404138530,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Vase_Rubble_Medium": {
+      "key": "props/Vase_Rubble_Medium",
+      "pack": "props",
+      "name": "Vase_Rubble_Medium",
+      "sha256": "e95f90c5ff10855289277c0d227032f62fdfd8700a7070cc0f320739604cb9dc",
+      "state": "uploaded",
+      "operation": "operations/5f2a036b-d999-4e5e-8253-0df263d420a2",
+      "assetId": 121073323017772,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/WeaponStand": {
+      "key": "props/WeaponStand",
+      "pack": "props",
+      "name": "WeaponStand",
+      "sha256": "71bee8d6b2c9b84709d72498d0ab10ee26bb5c7cb8a2d26f3c82cb8fd6a7e6f5",
+      "state": "uploaded",
+      "operation": "operations/f03a2b41-5130-4f5b-bc73-af54cfacc0e5",
+      "assetId": 138647434091769,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Whetstone": {
+      "key": "props/Whetstone",
+      "pack": "props",
+      "name": "Whetstone",
+      "sha256": "c7c07a0ddf00b3f55d0e7e16b874ab14ab5cf054bc17b10fd3c448598a0b1d18",
+      "state": "uploaded",
+      "operation": "operations/04d66c1b-33e3-4e5a-9f69-2564e424a296",
+      "assetId": 75807681024881,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Workbench": {
+      "key": "props/Workbench",
+      "pack": "props",
+      "name": "Workbench",
+      "sha256": "de4fa961011cd65dbc798ad605f8882df05f3e9a4fcabb4b6c0827f80aae574e",
+      "state": "uploaded",
+      "operation": "operations/c4ff114c-6e2b-44f8-901b-1ab46e9de538",
+      "assetId": 131444359868437,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "props/Workbench_Drawers": {
+      "key": "props/Workbench_Drawers",
+      "pack": "props",
+      "name": "Workbench_Drawers",
+      "sha256": "c4657b2cdf87860ad1e6b3fbad61437851d0bee967b5f98d85194673798a9d07",
+      "state": "uploaded",
+      "operation": "operations/dba7571b-b2ec-44c7-bcfb-b7149789d4f9",
+      "assetId": 137796303555641,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Peasant_Arms": {
+      "key": "outfits/Female_Peasant_Arms",
+      "pack": "outfits",
+      "name": "Female_Peasant_Arms",
+      "sha256": "88f6d9a5ee4538d23b9ab1c5a12646cdc4afef6443ecb16076dd72e6131827b9",
+      "state": "uploaded",
+      "operation": "operations/cb36eca3-182e-46be-be4c-33cffde0fa0b",
+      "assetId": 90975861641954,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Peasant_Body": {
+      "key": "outfits/Female_Peasant_Body",
+      "pack": "outfits",
+      "name": "Female_Peasant_Body",
+      "sha256": "071b6a420b6fbf8899fb56348fc82a75ed42815b375d2e45d0c6921fb3edbfa9",
+      "state": "uploaded",
+      "operation": "operations/4c4cf7f5-2270-4fe4-ad16-52dd883fc015",
+      "assetId": 101143832449951,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Peasant_Feet": {
+      "key": "outfits/Female_Peasant_Feet",
+      "pack": "outfits",
+      "name": "Female_Peasant_Feet",
+      "sha256": "9c68d9b4076a9070b16da31c55e5b165676d6771e1d69db61650d833f8b098c9",
+      "state": "uploaded",
+      "operation": "operations/df52b005-905d-49d8-8176-24c20afc4ed3",
+      "assetId": 132872977998991,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Peasant_Legs": {
+      "key": "outfits/Female_Peasant_Legs",
+      "pack": "outfits",
+      "name": "Female_Peasant_Legs",
+      "sha256": "dfb61ca1f60b719c543a986e5667154a082a406294db15bc9db1b25192065a24",
+      "state": "uploaded",
+      "operation": "operations/02d855c3-3812-4ea5-89d1-8cbd5ad0733a",
+      "assetId": 70807775230058,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Ranger_Acc_Pauldrons": {
+      "key": "outfits/Female_Ranger_Acc_Pauldrons",
+      "pack": "outfits",
+      "name": "Female_Ranger_Acc_Pauldrons",
+      "sha256": "14a40ea7b6fd6e5814d8387fcac9395fd3c9e47a1cadff0c49bd005345695c4e",
+      "state": "uploaded",
+      "operation": "operations/2f0821a7-dab5-4346-9749-02d1ab07fc3d",
+      "assetId": 136969524914221,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Ranger_Arms": {
+      "key": "outfits/Female_Ranger_Arms",
+      "pack": "outfits",
+      "name": "Female_Ranger_Arms",
+      "sha256": "9cdf7e95059fdb863134b6021dd6e81a9644640a95e194a39a1e82270e19b155",
+      "state": "uploaded",
+      "operation": "operations/b753e78a-fb01-4d6a-b437-81a0a3fe95f3",
+      "assetId": 116075971666041,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Ranger_Body": {
+      "key": "outfits/Female_Ranger_Body",
+      "pack": "outfits",
+      "name": "Female_Ranger_Body",
+      "sha256": "7fc669c0bee435edcb70f4717abb0a08032f407b8b1d669f018f6a451b03497f",
+      "state": "uploaded",
+      "operation": "operations/b89687aa-7050-466b-99ed-50888a912a70",
+      "assetId": 140241613957558,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Ranger_Feet": {
+      "key": "outfits/Female_Ranger_Feet",
+      "pack": "outfits",
+      "name": "Female_Ranger_Feet",
+      "sha256": "1dfb1da4ca0c5690e18ed375ff5b546d8339c0e3e933caf582df0ba0bfdb0d74",
+      "state": "uploaded",
+      "operation": "operations/745eedcf-1d40-49eb-b40e-05f5555edb5e",
+      "assetId": 88145007544967,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Ranger_Head_Hood": {
+      "key": "outfits/Female_Ranger_Head_Hood",
+      "pack": "outfits",
+      "name": "Female_Ranger_Head_Hood",
+      "sha256": "d91ea2755546210e5ae70e497f3097686d0bdd74c1528a9b54481f949e8b4ee7",
+      "state": "uploaded",
+      "operation": "operations/43a07225-6374-4d7a-b165-1efe24537b30",
+      "assetId": 137031693285759,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Ranger_Legs": {
+      "key": "outfits/Female_Ranger_Legs",
+      "pack": "outfits",
+      "name": "Female_Ranger_Legs",
+      "sha256": "f6b09c9740c9aa9b8a2c79276c234eec9d1fca9b70ae7eeb3213969db1f282b6",
+      "state": "uploaded",
+      "operation": "operations/7f0721a5-e7f5-42ee-b3da-404b7efc7d43",
+      "assetId": 77214655465602,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Peasant_Arms": {
+      "key": "outfits/Male_Peasant_Arms",
+      "pack": "outfits",
+      "name": "Male_Peasant_Arms",
+      "sha256": "9247f6ef7d7d9067991865952408da48109cc01646e2d7dff18edd46f22a4c86",
+      "state": "uploaded",
+      "operation": "operations/f8b669cc-4ac6-4026-889b-a5b9e6726354",
+      "assetId": 100649753362603,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Peasant_Body": {
+      "key": "outfits/Male_Peasant_Body",
+      "pack": "outfits",
+      "name": "Male_Peasant_Body",
+      "sha256": "4b7e8073418b9901428a300a3b00404ba3af55da910df44d85c8cffffbeb6e7a",
+      "state": "uploaded",
+      "operation": "operations/0532eb29-0ca7-4329-8533-122100224ad6",
+      "assetId": 135753059463560,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Peasant_Feet": {
+      "key": "outfits/Male_Peasant_Feet",
+      "pack": "outfits",
+      "name": "Male_Peasant_Feet",
+      "sha256": "019eb5e6a8354a52099e35cfb9c383f39d5f3ff3e2822c5093137d84a4ac87fe",
+      "state": "uploaded",
+      "operation": "operations/2262e983-fc5a-4d70-87e6-4c06f55576fa",
+      "assetId": 105095486637072,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Peasant_Legs": {
+      "key": "outfits/Male_Peasant_Legs",
+      "pack": "outfits",
+      "name": "Male_Peasant_Legs",
+      "sha256": "b7019612dac0666676eaaff4063890deed43565a1a32b65e5bb10c38fdb15164",
+      "state": "uploaded",
+      "operation": "operations/8521cfb1-f3fa-4a6a-8a75-e90077c22057",
+      "assetId": 133114630693961,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Ranger_Acc_Pauldron": {
+      "key": "outfits/Male_Ranger_Acc_Pauldron",
+      "pack": "outfits",
+      "name": "Male_Ranger_Acc_Pauldron",
+      "sha256": "c148526d2adf00e1ccc7e9e49b8a6902c788b7fb6d929ca412c2479847f45d4a",
+      "state": "uploaded",
+      "operation": "operations/4e2e52ec-14f7-44b0-afd2-81806a24260a",
+      "assetId": 111542105131231,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Ranger_Arms": {
+      "key": "outfits/Male_Ranger_Arms",
+      "pack": "outfits",
+      "name": "Male_Ranger_Arms",
+      "sha256": "5bcdbea8f6fa9e7fe2508919a9d1f08998b42bc3959609b4d7670a72f0b18e39",
+      "state": "uploaded",
+      "operation": "operations/122ad597-75d0-492c-a378-10d8b27f94a6",
+      "assetId": 88628017799158,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Ranger_Body": {
+      "key": "outfits/Male_Ranger_Body",
+      "pack": "outfits",
+      "name": "Male_Ranger_Body",
+      "sha256": "715f38922192bc13f9e35a05cc678a9122f174337aa309409f954248c0ec1804",
+      "state": "uploaded",
+      "operation": "operations/c781eca7-ed8e-4688-ab90-4cff7221b8ad",
+      "assetId": 136359639372676,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Ranger_Feet_Boots": {
+      "key": "outfits/Male_Ranger_Feet_Boots",
+      "pack": "outfits",
+      "name": "Male_Ranger_Feet_Boots",
+      "sha256": "2dad52dba2cc9e121ab52d689716a1882fb3c09cf9e5a3f5d8ab2373f9735e4c",
+      "state": "uploaded",
+      "operation": "operations/4877c306-58f9-4ecb-8173-053759cbae95",
+      "assetId": 84986778673160,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Ranger_Head_Hood": {
+      "key": "outfits/Male_Ranger_Head_Hood",
+      "pack": "outfits",
+      "name": "Male_Ranger_Head_Hood",
+      "sha256": "0953bfc2b894a24c11cb0ea2e8cb934c0974b86afeec7cfb777d88b357a8520a",
+      "state": "uploaded",
+      "operation": "operations/dc01c501-b7b7-4987-85c1-6db9a5fe46d9",
+      "assetId": 95535389841514,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Ranger_Legs": {
+      "key": "outfits/Male_Ranger_Legs",
+      "pack": "outfits",
+      "name": "Male_Ranger_Legs",
+      "sha256": "657e4571da81281184511701b3c54e61b102898e5532187c4d9e561fd7ebcafb",
+      "state": "uploaded",
+      "operation": "operations/bf8d3d20-e895-4ca7-9ad2-b2d37961299c",
+      "assetId": 105384631033718,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Peasant": {
+      "key": "outfits/Female_Peasant",
+      "pack": "outfits",
+      "name": "Female_Peasant",
+      "sha256": "f7e26afdd89bb3e4fa5baca11c373fe53425c7d134728ea3a48a7298109d2d1b",
+      "state": "uploaded",
+      "operation": "operations/24d0832a-b2e5-4e74-af5d-0d9da082a8cb",
+      "assetId": 116667970166491,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Female_Ranger": {
+      "key": "outfits/Female_Ranger",
+      "pack": "outfits",
+      "name": "Female_Ranger",
+      "sha256": "5714023cc00fba73ac9621c5cf1522e6fd0690b55ed24ee759acdec211e90228",
+      "state": "uploaded",
+      "operation": "operations/bb1913bf-988f-4d17-9624-219af041cad2",
+      "assetId": 89945566117956,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Peasant": {
+      "key": "outfits/Male_Peasant",
+      "pack": "outfits",
+      "name": "Male_Peasant",
+      "sha256": "5cee7b9fa4820796a46b199f5b35bdccdc7dc3c21f09057198a655e05507a68f",
+      "state": "uploaded",
+      "operation": "operations/2cc56e4c-90d2-4b5f-9892-c80504143d8b",
+      "assetId": 130598905631386,
+      "moderation": {
+        "moderationState": "Approved"
+      }
+    },
+    "outfits/Male_Ranger": {
+      "key": "outfits/Male_Ranger",
+      "pack": "outfits",
+      "name": "Male_Ranger",
+      "sha256": "61612f26481f724d42000cebfa178fd6313982880f33a1ff80e5f150e4e854f0",
+      "state": "uploaded",
+      "operation": "operations/bc4a8fb2-2408-40d7-9581-c9a285cffa81",
+      "assetId": 83968016360124,
+      "moderation": {
+        "moderationState": "Approved"
+      }
     }
   },
   "rejectedRequests": [
