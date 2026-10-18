@@ -1,8 +1,13 @@
 """Bounded read-only publication preflight. No uploads, retries, or scope changes."""
-import hashlib,json,os,pathlib,urllib.request,urllib.error,urllib.parse
+import hashlib,json,os,pathlib,urllib.request,urllib.error,urllib.parse,gzip,io
 out=pathlib.Path('preflight-results');out.mkdir(exist_ok=True)
 report={'reads':[],'published':False,'uploaded':False}
 def save(): (out/'receipt.json').write_text(json.dumps(report,indent=2)+'\n')
+def decompress(data):
+    if data.startswith(b'\x1f\x8b'):
+        with gzip.GzipFile(fileobj=io.BytesIO(data)) as f: data=f.read(32*1024*1024+1)
+    assert len(data)<=32*1024*1024,'Decompressed asset exceeds bounded size'
+    return data
 def read_asset(asset_id,label):
     key=os.environ.get('ROBLOX_ASSET_API_KEY','')
     assert key,'Existing asset key unavailable'
@@ -12,6 +17,7 @@ def read_asset(asset_id,label):
         with urllib.request.urlopen(req,timeout=30) as r: data=r.read(32*1024*1024+1); typ=r.headers.get('Content-Type','')
     except urllib.error.HTTPError as e:
         report['reads'].append({'assetId':asset_id,'label':label,'status':e.code,'result':'Denied or unavailable; stopped without retry or alternate route'});save();raise SystemExit(f'{label}: HTTP {e.code}; preflight stopped')
+    data=decompress(data)
     if 'json' in typ or data.lstrip().startswith(b'{'):
         obj=json.loads(data); location=obj.get('location')
         if not location and obj.get('locations'): location=obj['locations'][0].get('location')
@@ -24,6 +30,9 @@ def read_asset(asset_id,label):
             with urllib.request.urlopen(location,timeout=30) as r: data=r.read(32*1024*1024+1)
         except urllib.error.HTTPError as e:
             report['reads'].append({'assetId':asset_id,'label':label,'status':e.code,'result':'Delivery denied; stopped'});save();raise SystemExit(f'{label}: delivery HTTP {e.code}')
+    data=decompress(data)
+    if not (data.startswith(b'<roblox') or b'<roblox' in data[:100]):
+        report['reads'].append({'assetId':asset_id,'label':label,'status':200,'result':'Unrecognized serialization','first16hex':data[:16].hex(),'bytes':len(data)});save()
     assert len(data)<=32*1024*1024,'Asset exceeds bounded download size'
     assert data.startswith(b'<roblox') or b'<roblox' in data[:100], 'Unrecognized Roblox serialization'
     (out/(label+'.rbxm')).write_bytes(data)
