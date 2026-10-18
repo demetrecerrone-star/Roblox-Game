@@ -4,10 +4,10 @@ ROOT=pathlib.Path('.');OUT=ROOT/'publication-results';OUT.mkdir(exist_ok=True)
 request=json.loads((ROOT/'release/request.json').read_text())
 assert request['placeId']==5233405723 and request['universeId']==1831369670
 assert request['approvedBackupSha256']=='f7a1c4a349aeb84de09245b39d38575bb56eee3559d31d1292896f6d9b11bef7'
-place=ROOT/'release/Runewake-World-Checkpoint.rbxlx';content=place.read_bytes()
+place=ROOT/'release/Runewake-World-Checkpoint.rbxl';content=place.read_bytes()
 assert hashlib.sha256(content).hexdigest()==request['placeSha256'],'Release file changed after review'
 assert 100_000<len(content)<32*1024*1024
-xml=ET.fromstring(content);assert xml.tag=='roblox'
+assert request['placeFormat']=='binary' and content.startswith(b'<roblox!\x89\xff\r\n\x1a\n'),'Invalid binary header'
 receipt={'published':False,'placeId':5233405723,'releaseSha256':request['placeSha256']}
 def save(): (OUT/'receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
 def unpack(data):
@@ -36,7 +36,7 @@ if os.environ.get('PUBLISH_MODE')!='publish':
 assert os.environ.get('BACKUP_ARTIFACT_SAVED')=='true','Backup must be uploaded before publishing'
 publish_key=os.environ.get('ROBLOX_API_KEY');assert publish_key,'Existing publish key unavailable'
 url='https://apis.roblox.com/universes/v1/1831369670/places/5233405723/versions?versionType=Published'
-req=urllib.request.Request(url,data=content,headers={'x-api-key':publish_key,'Content-Type':'application/xml'},method='POST')
+req=urllib.request.Request(url,data=content,headers={'x-api-key':publish_key,'Content-Type':'application/octet-stream'},method='POST')
 # Never automatically retry POST: an uncertain response requires status review.
 try:
  with urllib.request.urlopen(req,timeout=90) as r:response=json.load(r);status=r.status
