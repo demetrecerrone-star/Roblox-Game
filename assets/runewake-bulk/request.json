@@ -1,31 +1,527 @@
 {
-  "phase": "npcs3",
-  "archive": "assets/npc/Runewake_Animated_NPCs_v0.3.zip",
-  "archiveSha256": "78e5a76e0866e2262ab26e194456e8a759623153554c9e625ed1b73c30182b53",
+  "phase": "remaining-noncharacters65",
+  "archive": "assets/runewake-bulk/remaining-inputs.zip",
+  "archiveSha256": "d1f0ec659c66e65d3d106ef6f2c47635967c3c7e0b697f863aecaaf79ca345a2",
   "assets": [
     {
-      "key": "npcs/mira_threadlight",
-      "pack": "npcs",
-      "name": "Mira Threadlight",
-      "file": "asset-stage/npcs/Mira_Threadlight_Dressed_Animated.glb",
-      "archiveMember": "Mira_Threadlight_Dressed_Animated.glb",
-      "sha256": "b72a03f4b51dccec82b91fbc4d058829c0561994f1f7f6d08e2317264dd1138e"
+      "key": "weapons/Arrow",
+      "pack": "weapons",
+      "name": "Weapons Arrow",
+      "file": "asset-stage/weapons/Arrow.glb",
+      "archiveMember": "weapons/Arrow.glb",
+      "sha256": "897d9407520f92c2b1073ae56b119aa3464a6366000c4b70bfea0bb6134b3ef7"
     },
     {
-      "key": "npcs/orren_kilnhand",
-      "pack": "npcs",
-      "name": "Orren Kilnhand",
-      "file": "asset-stage/npcs/Orren_Kilnhand_Dressed_Animated.glb",
-      "archiveMember": "Orren_Kilnhand_Dressed_Animated.glb",
-      "sha256": "40408c3f3d2b31c52d441762a12cc430d9ab70b1cf342c5f1e3f27c08c39c41e"
+      "key": "weapons/Axe",
+      "pack": "weapons",
+      "name": "Weapons Axe",
+      "file": "asset-stage/weapons/Axe.glb",
+      "archiveMember": "weapons/Axe.glb",
+      "sha256": "249d6335b98cc7f159a8aa01004f8eac67eaa0e66f03a06fbdf2bd18fb4acc88"
     },
     {
-      "key": "npcs/pip_wicks",
-      "pack": "npcs",
-      "name": "Pip Wicks",
-      "file": "asset-stage/npcs/Pip_Wicks_Dressed_Animated.glb",
-      "archiveMember": "Pip_Wicks_Dressed_Animated.glb",
-      "sha256": "3c40bc32a1d86b546f3654da99ea7c7105808f072eb748b5dfd89d03e1771927"
+      "key": "weapons/Axe_Double",
+      "pack": "weapons",
+      "name": "Weapons Axe Double",
+      "file": "asset-stage/weapons/Axe_Double.glb",
+      "archiveMember": "weapons/Axe_Double.glb",
+      "sha256": "306ee1f072b9c1a6b7f8efef06b74bfa6deb90fa47dd3cdc3def8a21292c2d85"
+    },
+    {
+      "key": "weapons/Axe_Small",
+      "pack": "weapons",
+      "name": "Weapons Axe Small",
+      "file": "asset-stage/weapons/Axe_Small.glb",
+      "archiveMember": "weapons/Axe_Small.glb",
+      "sha256": "f3c0bfd6a859da131cc159e3b96fd192c598265c4865b5e5c391ba8817670770"
+    },
+    {
+      "key": "weapons/Bow_Evil",
+      "pack": "weapons",
+      "name": "Weapons Bow Evil",
+      "file": "asset-stage/weapons/Bow_Evil.glb",
+      "archiveMember": "weapons/Bow_Evil.glb",
+      "sha256": "b019d98ee3e73c93686463c154b48d7cbb24baca8cf283a2b05747b1e11d5b20"
+    },
+    {
+      "key": "weapons/Bow_Golden",
+      "pack": "weapons",
+      "name": "Weapons Bow Golden",
+      "file": "asset-stage/weapons/Bow_Golden.glb",
+      "archiveMember": "weapons/Bow_Golden.glb",
+      "sha256": "ef6b23cc3d8862819fb67b826e840f262566b061e5c4d67709b78adea06788b9"
+    },
+    {
+      "key": "weapons/Bow_Wooden",
+      "pack": "weapons",
+      "name": "Weapons Bow Wooden",
+      "file": "asset-stage/weapons/Bow_Wooden.glb",
+      "archiveMember": "weapons/Bow_Wooden.glb",
+      "sha256": "cdfb71b57ffe5b4daedaaccdb62c475ee68e90b79880f208935af5c0e61d1d74"
+    },
+    {
+      "key": "weapons/Bow_Wooden2",
+      "pack": "weapons",
+      "name": "Weapons Bow Wooden2",
+      "file": "asset-stage/weapons/Bow_Wooden2.glb",
+      "archiveMember": "weapons/Bow_Wooden2.glb",
+      "sha256": "bfe0c89b94aa1d581eae79f3148b5e85e4b5605e244987956bb881568f2bec54"
+    },
+    {
+      "key": "weapons/Claymore",
+      "pack": "weapons",
+      "name": "Weapons Claymore",
+      "file": "asset-stage/weapons/Claymore.glb",
+      "archiveMember": "weapons/Claymore.glb",
+      "sha256": "776ee912536c48764c5608a2ff4a3bf0f11e6abe501d0db1172f1ac91e481526"
+    },
+    {
+      "key": "weapons/Dagger",
+      "pack": "weapons",
+      "name": "Weapons Dagger",
+      "file": "asset-stage/weapons/Dagger.glb",
+      "archiveMember": "weapons/Dagger.glb",
+      "sha256": "7fb2ed46fd27da636276152dc7d683ba92728d2db0ce653c9ccb6dc5a5ad771e"
+    },
+    {
+      "key": "weapons/Dagger_2",
+      "pack": "weapons",
+      "name": "Weapons Dagger 2",
+      "file": "asset-stage/weapons/Dagger_2.glb",
+      "archiveMember": "weapons/Dagger_2.glb",
+      "sha256": "0d3d11279fe12e529403170928bb68d2b9421bf34eb1978a39cfb57fb4bb4dc2"
+    },
+    {
+      "key": "weapons/Hammer_Double",
+      "pack": "weapons",
+      "name": "Weapons Hammer Double",
+      "file": "asset-stage/weapons/Hammer_Double.glb",
+      "archiveMember": "weapons/Hammer_Double.glb",
+      "sha256": "4356a7cad48fd59fb08afe6fe18c965b9dbd7824db532daec434ebdeac180e00"
+    },
+    {
+      "key": "weapons/Hammer_Small",
+      "pack": "weapons",
+      "name": "Weapons Hammer Small",
+      "file": "asset-stage/weapons/Hammer_Small.glb",
+      "archiveMember": "weapons/Hammer_Small.glb",
+      "sha256": "80ac74cdfc620ac4db0c1895df0a716dc319fad297eb12b776b8ba356a5eb7bf"
+    },
+    {
+      "key": "weapons/Scythe",
+      "pack": "weapons",
+      "name": "Weapons Scythe",
+      "file": "asset-stage/weapons/Scythe.glb",
+      "archiveMember": "weapons/Scythe.glb",
+      "sha256": "a9b9f96cdab64252db273c620ad2025358d2332d5ee30fb1bec8f5d89dfe8dfc"
+    },
+    {
+      "key": "weapons/Shield_Celtic_Golden",
+      "pack": "weapons",
+      "name": "Weapons Shield Celtic Golden",
+      "file": "asset-stage/weapons/Shield_Celtic_Golden.glb",
+      "archiveMember": "weapons/Shield_Celtic_Golden.glb",
+      "sha256": "6b2a8e140a385e270161bb50a2f0aae9e9ef44d47bb01a28a3e365af97312419"
+    },
+    {
+      "key": "weapons/Shield_Heater",
+      "pack": "weapons",
+      "name": "Weapons Shield Heater",
+      "file": "asset-stage/weapons/Shield_Heater.glb",
+      "archiveMember": "weapons/Shield_Heater.glb",
+      "sha256": "79a83a3da23f227937244e8069e77bf8f5428828431d8a139e5b82f8c914c254"
+    },
+    {
+      "key": "weapons/Shield_Heater_2",
+      "pack": "weapons",
+      "name": "Weapons Shield Heater 2",
+      "file": "asset-stage/weapons/Shield_Heater_2.glb",
+      "archiveMember": "weapons/Shield_Heater_2.glb",
+      "sha256": "5a2143422a09427d5ec0c49979c768520a84c10533098e4a5d5ffeed2548b253"
+    },
+    {
+      "key": "weapons/Shield_Round",
+      "pack": "weapons",
+      "name": "Weapons Shield Round",
+      "file": "asset-stage/weapons/Shield_Round.glb",
+      "archiveMember": "weapons/Shield_Round.glb",
+      "sha256": "f0182b8bf6ab5ecc2885826e9a3e4967d0ce18527e2ca49d121baa815c162a6b"
+    },
+    {
+      "key": "weapons/Shield_Round_2",
+      "pack": "weapons",
+      "name": "Weapons Shield Round 2",
+      "file": "asset-stage/weapons/Shield_Round_2.glb",
+      "archiveMember": "weapons/Shield_Round_2.glb",
+      "sha256": "3587d3f8cfc8d2da99dc4a009e546efe3eabaaf2b573fd7d84f3a562016d0bc4"
+    },
+    {
+      "key": "weapons/Spear",
+      "pack": "weapons",
+      "name": "Weapons Spear",
+      "file": "asset-stage/weapons/Spear.glb",
+      "archiveMember": "weapons/Spear.glb",
+      "sha256": "84c7b4580b0ff241a747a09f8a1ad4a4a8de05c24af8c35d78325a30df52334e"
+    },
+    {
+      "key": "weapons/Sword",
+      "pack": "weapons",
+      "name": "Weapons Sword",
+      "file": "asset-stage/weapons/Sword.glb",
+      "archiveMember": "weapons/Sword.glb",
+      "sha256": "6df35376f792f3484b6cc0f2ac5ca3b5ef539d04fe31df65d9b65ea9639ab402"
+    },
+    {
+      "key": "weapons/Sword_2",
+      "pack": "weapons",
+      "name": "Weapons Sword 2",
+      "file": "asset-stage/weapons/Sword_2.glb",
+      "archiveMember": "weapons/Sword_2.glb",
+      "sha256": "d34d7e770c982fd697533181004594bcb901ecad4f3f04ddce298ebb91ee6493"
+    },
+    {
+      "key": "weapons/Sword_Big",
+      "pack": "weapons",
+      "name": "Weapons Sword Big",
+      "file": "asset-stage/weapons/Sword_Big.glb",
+      "archiveMember": "weapons/Sword_Big.glb",
+      "sha256": "439bc83e8ef36b0d3ff21efdf40f60d496ddf9533340eaea2ffbad1f5152c260"
+    },
+    {
+      "key": "weapons/Sword_Golden",
+      "pack": "weapons",
+      "name": "Weapons Sword Golden",
+      "file": "asset-stage/weapons/Sword_Golden.glb",
+      "archiveMember": "weapons/Sword_Golden.glb",
+      "sha256": "0d07b36abcfc716cee854138e91ba380c04d14937c66c9317844b294ff4e6157"
+    },
+    {
+      "key": "dungeon/Barrel",
+      "pack": "dungeon",
+      "name": "Dungeon Barrel",
+      "file": "asset-stage/dungeon/Barrel.glb",
+      "archiveMember": "dungeon/Barrel.glb",
+      "sha256": "5fe75b9541021d64b0786e3ab9d3049a4628925272a71b6efca11260f189d9d6"
+    },
+    {
+      "key": "dungeon/Bars",
+      "pack": "dungeon",
+      "name": "Dungeon Bars",
+      "file": "asset-stage/dungeon/Bars.glb",
+      "archiveMember": "dungeon/Bars.glb",
+      "sha256": "31e5a8801bbb4ccf75767cf1c87608c261c8a83a2bcc678b066edd01c3b675a9"
+    },
+    {
+      "key": "dungeon/Bones",
+      "pack": "dungeon",
+      "name": "Dungeon Bones",
+      "file": "asset-stage/dungeon/Bones.glb",
+      "archiveMember": "dungeon/Bones.glb",
+      "sha256": "c3e9328539b8fc1ea641cda3d2992225626f221342de714f921962b521ee7c6c"
+    },
+    {
+      "key": "dungeon/Bones2",
+      "pack": "dungeon",
+      "name": "Dungeon Bones2",
+      "file": "asset-stage/dungeon/Bones2.glb",
+      "archiveMember": "dungeon/Bones2.glb",
+      "sha256": "2377d00a41a626d7de1683aea7eb48b17d9c0b8d03263df126b2dfa85768515e"
+    },
+    {
+      "key": "dungeon/Book2",
+      "pack": "dungeon",
+      "name": "Dungeon Book2",
+      "file": "asset-stage/dungeon/Book2.glb",
+      "archiveMember": "dungeon/Book2.glb",
+      "sha256": "3726319068f3b74bda4ffb474019dd390e7c659efd066d7f3a8b5d29aea2da3c"
+    },
+    {
+      "key": "dungeon/Book3",
+      "pack": "dungeon",
+      "name": "Dungeon Book3",
+      "file": "asset-stage/dungeon/Book3.glb",
+      "archiveMember": "dungeon/Book3.glb",
+      "sha256": "ee874a924a52c57e72429ade3b22459e71d601955cdb4c87c1377f6e5c4de913"
+    },
+    {
+      "key": "dungeon/Book_Open",
+      "pack": "dungeon",
+      "name": "Dungeon Book Open",
+      "file": "asset-stage/dungeon/Book_Open.glb",
+      "archiveMember": "dungeon/Book_Open.glb",
+      "sha256": "1404da82326cc28888fdd84247ed73773228f1ef88202ff50f88af85794925e1"
+    },
+    {
+      "key": "dungeon/Candelabrum",
+      "pack": "dungeon",
+      "name": "Dungeon Candelabrum",
+      "file": "asset-stage/dungeon/Candelabrum.glb",
+      "archiveMember": "dungeon/Candelabrum.glb",
+      "sha256": "e0a59a9c1d3f55fc7aee3a89bcce36176f96e49d4c0ee8e076575ddaf7a2ad38"
+    },
+    {
+      "key": "dungeon/Candelabrum_tall",
+      "pack": "dungeon",
+      "name": "Dungeon Candelabrum tall",
+      "file": "asset-stage/dungeon/Candelabrum_tall.glb",
+      "archiveMember": "dungeon/Candelabrum_tall.glb",
+      "sha256": "280059a94af5a560d775c8e9837bdea0ebd176addde1509c19530b6700e0e237"
+    },
+    {
+      "key": "dungeon/Candle",
+      "pack": "dungeon",
+      "name": "Dungeon Candle",
+      "file": "asset-stage/dungeon/Candle.glb",
+      "archiveMember": "dungeon/Candle.glb",
+      "sha256": "f0941d863ea8d96c388714e101910f9032d2a7d6edba5e7727dbdd5af0cda65d"
+    },
+    {
+      "key": "dungeon/Carpet",
+      "pack": "dungeon",
+      "name": "Dungeon Carpet",
+      "file": "asset-stage/dungeon/Carpet.glb",
+      "archiveMember": "dungeon/Carpet.glb",
+      "sha256": "689d1e16348dd852ba1c08f6b048f4db49deffa7389cfec8e361aee5de427d5b"
+    },
+    {
+      "key": "dungeon/Chest",
+      "pack": "dungeon",
+      "name": "Dungeon Chest",
+      "file": "asset-stage/dungeon/Chest.glb",
+      "archiveMember": "dungeon/Chest.glb",
+      "sha256": "808dd18f1de04583a01b81f373ca1a1ddf56235e506654b0949999faeb46873d"
+    },
+    {
+      "key": "dungeon/Chest_gold",
+      "pack": "dungeon",
+      "name": "Dungeon Chest gold",
+      "file": "asset-stage/dungeon/Chest_gold.glb",
+      "archiveMember": "dungeon/Chest_gold.glb",
+      "sha256": "5107f818f04a0b14b3c81c499567343d21e16ebff5059a9d2ce0ce27ddf72c57"
+    },
+    {
+      "key": "dungeon/Column",
+      "pack": "dungeon",
+      "name": "Dungeon Column",
+      "file": "asset-stage/dungeon/Column.glb",
+      "archiveMember": "dungeon/Column.glb",
+      "sha256": "4f7ad30b77880366b64044dadea7bcb378d78a7629ce6e42920f5b993d8ed310"
+    },
+    {
+      "key": "dungeon/Column_Broken",
+      "pack": "dungeon",
+      "name": "Dungeon Column Broken",
+      "file": "asset-stage/dungeon/Column_Broken.glb",
+      "archiveMember": "dungeon/Column_Broken.glb",
+      "sha256": "e4c101c5030785434f6fea2acfb3a252313e63e17c6df4fbe8980d24e9222c11"
+    },
+    {
+      "key": "dungeon/Column_Broken2",
+      "pack": "dungeon",
+      "name": "Dungeon Column Broken2",
+      "file": "asset-stage/dungeon/Column_Broken2.glb",
+      "archiveMember": "dungeon/Column_Broken2.glb",
+      "sha256": "33192751dbe6fb50081c7e1de21817f55df2b871f62220e5272c0bcf1673b942"
+    },
+    {
+      "key": "dungeon/Entrance",
+      "pack": "dungeon",
+      "name": "Dungeon Entrance",
+      "file": "asset-stage/dungeon/Entrance.glb",
+      "archiveMember": "dungeon/Entrance.glb",
+      "sha256": "cd1f2e7a5de1f4e580184ca5598db891d9310bee74459a42dc5e9a386eb0f929"
+    },
+    {
+      "key": "dungeon/Entrance2",
+      "pack": "dungeon",
+      "name": "Dungeon Entrance2",
+      "file": "asset-stage/dungeon/Entrance2.glb",
+      "archiveMember": "dungeon/Entrance2.glb",
+      "sha256": "c652a06d98146e81213535b7fc2e8fc5f167e5f0ef0f2cafea47ceb8cb51dd16"
+    },
+    {
+      "key": "dungeon/ModularColumn_bottom",
+      "pack": "dungeon",
+      "name": "Dungeon ModularColumn bottom",
+      "file": "asset-stage/dungeon/ModularColumn_bottom.glb",
+      "archiveMember": "dungeon/ModularColumn_bottom.glb",
+      "sha256": "b25f28b668ca24410ac0c7d789b5de155040a19d0e56a04be8a6c187cbb41960"
+    },
+    {
+      "key": "dungeon/ModularColumn_middle",
+      "pack": "dungeon",
+      "name": "Dungeon ModularColumn middle",
+      "file": "asset-stage/dungeon/ModularColumn_middle.glb",
+      "archiveMember": "dungeon/ModularColumn_middle.glb",
+      "sha256": "5f7d2f2a772b08e915fcf97b063783ce6c7f452712181bea76defe0fc042c803"
+    },
+    {
+      "key": "dungeon/ModularColumn_top",
+      "pack": "dungeon",
+      "name": "Dungeon ModularColumn top",
+      "file": "asset-stage/dungeon/ModularColumn_top.glb",
+      "archiveMember": "dungeon/ModularColumn_top.glb",
+      "sha256": "351e47996cae68f9d54a3bcce271c36e676c30c378f8fbb126df17faedcbc959"
+    },
+    {
+      "key": "dungeon/ModularFloor",
+      "pack": "dungeon",
+      "name": "Dungeon ModularFloor",
+      "file": "asset-stage/dungeon/ModularFloor.glb",
+      "archiveMember": "dungeon/ModularFloor.glb",
+      "sha256": "cd823e4f1cea3c03831aef790c772e0687d7f62fbe9f910c9c770125f013aef3"
+    },
+    {
+      "key": "dungeon/ModularStoneWall",
+      "pack": "dungeon",
+      "name": "Dungeon ModularStoneWall",
+      "file": "asset-stage/dungeon/ModularStoneWall.glb",
+      "archiveMember": "dungeon/ModularStoneWall.glb",
+      "sha256": "b58af53cc69d2268fda53b70fe8aef1e7bbff7758a56105b3e3c0e985521dd17"
+    },
+    {
+      "key": "dungeon/ModularStoneWall_EntranceTop",
+      "pack": "dungeon",
+      "name": "Dungeon ModularStoneWall EntranceTop",
+      "file": "asset-stage/dungeon/ModularStoneWall_EntranceTop.glb",
+      "archiveMember": "dungeon/ModularStoneWall_EntranceTop.glb",
+      "sha256": "c091e7665050f5b7b1705e83b420e6017b84975285fb298747c9e4c3c1e52886"
+    },
+    {
+      "key": "dungeon/ModularStoneWall_top",
+      "pack": "dungeon",
+      "name": "Dungeon ModularStoneWall top",
+      "file": "asset-stage/dungeon/ModularStoneWall_top.glb",
+      "archiveMember": "dungeon/ModularStoneWall_top.glb",
+      "sha256": "8050d31d8fa56200cd3ca9ce68ff7aa4b017972531b77700025b94dd67bcc5d6"
+    },
+    {
+      "key": "dungeon/Potion",
+      "pack": "dungeon",
+      "name": "Dungeon Potion",
+      "file": "asset-stage/dungeon/Potion.glb",
+      "archiveMember": "dungeon/Potion.glb",
+      "sha256": "490af568dc4f4f8cf453a15077860f28b771bb1c1b407ec1bcaeb80da5860324"
+    },
+    {
+      "key": "dungeon/Potion2",
+      "pack": "dungeon",
+      "name": "Dungeon Potion2",
+      "file": "asset-stage/dungeon/Potion2.glb",
+      "archiveMember": "dungeon/Potion2.glb",
+      "sha256": "b09a5010a1b43481b846dac002fd6a94db8657eba249eb5d8dbcd368a49b46fe"
+    },
+    {
+      "key": "dungeon/Potion3",
+      "pack": "dungeon",
+      "name": "Dungeon Potion3",
+      "file": "asset-stage/dungeon/Potion3.glb",
+      "archiveMember": "dungeon/Potion3.glb",
+      "sha256": "fa462c734804d0ee72e71b834e9d595506b0bb91f1971ea162f22d8914fdd905"
+    },
+    {
+      "key": "dungeon/Potion4",
+      "pack": "dungeon",
+      "name": "Dungeon Potion4",
+      "file": "asset-stage/dungeon/Potion4.glb",
+      "archiveMember": "dungeon/Potion4.glb",
+      "sha256": "52b9b3167efcdd42776955342b9de04a9c99a4ae870131458abac12cde0cf2bf"
+    },
+    {
+      "key": "dungeon/Potion5",
+      "pack": "dungeon",
+      "name": "Dungeon Potion5",
+      "file": "asset-stage/dungeon/Potion5.glb",
+      "archiveMember": "dungeon/Potion5.glb",
+      "sha256": "9ba97129e4059a14761ad433dcca9c0ea0317ecba043593cb72015c5e63869fd"
+    },
+    {
+      "key": "dungeon/Potion6",
+      "pack": "dungeon",
+      "name": "Dungeon Potion6",
+      "file": "asset-stage/dungeon/Potion6.glb",
+      "archiveMember": "dungeon/Potion6.glb",
+      "sha256": "4e52b03a4b1c4e29f9cd5bda8a3afe0e902c2204296e4fb351e59fee9110356a"
+    },
+    {
+      "key": "dungeon/Rock1",
+      "pack": "dungeon",
+      "name": "Dungeon Rock1",
+      "file": "asset-stage/dungeon/Rock1.glb",
+      "archiveMember": "dungeon/Rock1.glb",
+      "sha256": "d77e02b639a7433f5ae67834b25584af013e8cef22d8c522cf4177510fc18c69"
+    },
+    {
+      "key": "dungeon/Rock2",
+      "pack": "dungeon",
+      "name": "Dungeon Rock2",
+      "file": "asset-stage/dungeon/Rock2.glb",
+      "archiveMember": "dungeon/Rock2.glb",
+      "sha256": "6ffc141e45b657add31527e34a384374f5baa4758134679c6b2c99be7a6b578e"
+    },
+    {
+      "key": "dungeon/Rock3",
+      "pack": "dungeon",
+      "name": "Dungeon Rock3",
+      "file": "asset-stage/dungeon/Rock3.glb",
+      "archiveMember": "dungeon/Rock3.glb",
+      "sha256": "dab4385b1ebc638c7a28d43cdf91cf6d18ffdf6b515a74b59995ba7807e58bb5"
+    },
+    {
+      "key": "dungeon/Rock4",
+      "pack": "dungeon",
+      "name": "Dungeon Rock4",
+      "file": "asset-stage/dungeon/Rock4.glb",
+      "archiveMember": "dungeon/Rock4.glb",
+      "sha256": "6d941903166091f3c5b41444fd8d974eeb7cbc84c7db11af04dc9ef52a8a6d34"
+    },
+    {
+      "key": "dungeon/Rock5",
+      "pack": "dungeon",
+      "name": "Dungeon Rock5",
+      "file": "asset-stage/dungeon/Rock5.glb",
+      "archiveMember": "dungeon/Rock5.glb",
+      "sha256": "106db8604262799c2159e21f2ce07a2736360ec90242cc696b7eaf300d82cdcc"
+    },
+    {
+      "key": "dungeon/Stairs",
+      "pack": "dungeon",
+      "name": "Dungeon Stairs",
+      "file": "asset-stage/dungeon/Stairs.glb",
+      "archiveMember": "dungeon/Stairs.glb",
+      "sha256": "3fbae058e5373cf8b2a69ec1e933cd46e3e623e7981c4668f5fb0f163ed7b2ee"
+    },
+    {
+      "key": "dungeon/Torch",
+      "pack": "dungeon",
+      "name": "Dungeon Torch",
+      "file": "asset-stage/dungeon/Torch.glb",
+      "archiveMember": "dungeon/Torch.glb",
+      "sha256": "515cf29fa38f155ea1be48762bb59edf98f56501d2889057e1000aa688efaa3c"
+    },
+    {
+      "key": "dungeon/Torch_wall",
+      "pack": "dungeon",
+      "name": "Dungeon Torch wall",
+      "file": "asset-stage/dungeon/Torch_wall.glb",
+      "archiveMember": "dungeon/Torch_wall.glb",
+      "sha256": "f86c45ce789c41377ad1b29c2b091f8c4ea1ff01e1c6545f216d27a6cc3914a5"
+    },
+    {
+      "key": "dungeon/WallRocks",
+      "pack": "dungeon",
+      "name": "Dungeon WallRocks",
+      "file": "asset-stage/dungeon/WallRocks.glb",
+      "archiveMember": "dungeon/WallRocks.glb",
+      "sha256": "f5d38e50c099bcd543d718f5c3fe14fd7513e25cff26c4204ba1bed31e0e7923"
+    },
+    {
+      "key": "dungeon/Window",
+      "pack": "dungeon",
+      "name": "Dungeon Window",
+      "file": "asset-stage/dungeon/Window.glb",
+      "archiveMember": "dungeon/Window.glb",
+      "sha256": "5d59a16460732bf5d8d76dacaac6601cf5e73acd59f265ae6e9e29e43f2a88cf"
     }
   ]
 }
