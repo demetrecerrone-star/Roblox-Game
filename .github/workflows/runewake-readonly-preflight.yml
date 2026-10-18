@@ -1,0 +1,30 @@
+name: Read-only Runewake publication preflight
+on:
+  push:
+    branches: [runewake-publication-preflight-20261018]
+    paths: [scripts/check_runewake_delivery.py]
+permissions:
+  contents: read
+concurrency:
+  group: runewake-readonly-publication-preflight
+  cancel-in-progress: false
+jobs:
+  read-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Read eligible model and existing place only
+        env:
+          ROBLOX_ASSET_API_KEY: ${{ secrets.ROBLOX_ASSET_API_KEY }}
+        run: python3 scripts/check_runewake_delivery.py
+      - name: Preserve backup and read receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: runewake-readonly-publication-preflight
+          path: preflight-results/
+          if-no-files-found: error
+          retention-days: 90
